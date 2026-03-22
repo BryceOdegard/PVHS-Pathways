@@ -1,0 +1,144 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+
+      # ── UI LABELS ──────────────────────────────────────────
+      - name: "ui_en"
+        label: "🇺🇸 Page Labels (English)"
+        file: "content.json"
+        fields:
+          - label: "English Labels"
+            name: "ui"
+            widget: "object"
+            fields:
+              - label: "English"
+                name: "en"
+                widget: "object"
+                fields:
+                  - {label: "Site Eyebrow (top of hero)", name: "hero_label", widget: "string"}
+                  - {label: "Hero Line 1", name: "hero_line1", widget: "string"}
+                  - {label: "Hero Line 2 (gradient)", name: "hero_line2", widget: "string"}
+                  - {label: "Hero Subtitle", name: "hero_sub", widget: "text"}
+                  - {label: "Footer Brand Name", name: "footer_brand", widget: "string"}
+                  - {label: "Footer Tagline", name: "footer_note", widget: "string"}
+              - label: "Spanish"
+                name: "es"
+                widget: "object"
+                fields:
+                  - {label: "Site Eyebrow (top of hero)", name: "hero_label", widget: "string"}
+                  - {label: "Hero Line 1", name: "hero_line1", widget: "string"}
+                  - {label: "Hero Line 2 (gradient)", name: "hero_line2", widget: "string"}
+                  - {label: "Hero Subtitle", name: "hero_sub", widget: "text"}
+                  - {label: "Footer Brand Name", name: "footer_brand", widget: "string"}
+                  - {label: "Footer Tagline", name: "footer_note", widget: "string"}
+          - label: "Sequences (do not edit here)"
+            name: "sequences"
+            widget: "hidden"
+          - label: "Quiz (do not edit here)"
+            name: "quiz"
+            widget: "hidden"
+
+  # ── SEQUENCES ──────────────────────────────────────────────
+  - name: "sequences"
+    label: "📚 Career Sequences"
+    folder: "_sequences"
+    create: false
+    slug: "{{id}}"
+    extension: "json"
+    format: "json"
+    files:
+      - name: "construction"
+        label: "01 — Building Construction Technology"
+        file: "content.json"
+        fields:
+          - label: "All Content"
+            name: "sequences"
+            widget: "list"
+            collapsed: false
+            fields:
+              - {label: "ID (do not change)", name: "id", widget: "string"}
+              - {label: "Number", name: "num", widget: "string"}
+              - {label: "Icon (emoji)", name: "icon", widget: "string"}
+              - {label: "Accent Color", name: "color", widget: "color"}
+              - label: "English Content"
+                name: "en"
+                widget: "object"
+                fields:
+                  - {label: "Program Title", name: "title", widget: "string"}
+                  - {label: "Tag (short category label)", name: "tag", widget: "string"}
+                  - {label: "Description", name: "desc", widget: "text"}
+                  - label: "Courses"
+                    name: "courses"
+                    widget: "list"
+                    field: {label: "Course Name", name: "course", widget: "string"}
+                  - label: "Post-Secondary Pathways"
+                    name: "postsec"
+                    widget: "list"
+                    fields:
+                      - {label: "Type (e.g. Community College)", name: "type", widget: "string"}
+                      - {label: "Program/Credential Name", name: "name", widget: "string"}
+                      - {label: "Description", name: "note", widget: "text"}
+                      - {label: "Link URL (optional)", name: "url", widget: "string", required: false}
+                  - label: "Career Opportunities"
+                    name: "careers"
+                    widget: "list"
+                    fields:
+                      - {label: "Job Title", name: "title", widget: "string"}
+                      - {label: "Median Salary", name: "salary", widget: "string"}
+                      - {label: "Job Growth (e.g. +8%)", name: "outlook", widget: "string"}
+                      - {label: "Description", name: "desc", widget: "text"}
+                  - label: "Financial Aid & Scholarships"
+                    name: "financial"
+                    widget: "list"
+                    fields:
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Description", name: "note", widget: "text"}
+                      - {label: "Link URL (optional)", name: "url", widget: "string", required: false}
+              - label: "Spanish Content"
+                name: "es"
+                widget: "object"
+                fields:
+                  - {label: "Program Title", name: "title", widget: "string"}
+                  - {label: "Tag (short category label)", name: "tag", widget: "string"}
+                  - {label: "Description", name: "desc", widget: "text"}
+                  - label: "Courses"
+                    name: "courses"
+                    widget: "list"
+                    field: {label: "Course Name", name: "course", widget: "string"}
+                  - label: "Post-Secondary Pathways"
+                    name: "postsec"
+                    widget: "list"
+                    fields:
+                      - {label: "Type", name: "type", widget: "string"}
+                      - {label: "Program/Credential Name", name: "name", widget: "string"}
+                      - {label: "Description", name: "note", widget: "text"}
+                      - {label: "Link URL (optional)", name: "url", widget: "string", required: false}
+                  - label: "Career Opportunities"
+                    name: "careers"
+                    widget: "list"
+                    fields:
+                      - {label: "Job Title", name: "title", widget: "string"}
+                      - {label: "Median Salary", name: "salary", widget: "string"}
+                      - {label: "Job Growth", name: "outlook", widget: "string"}
+                      - {label: "Description", name: "desc", widget: "text"}
+                  - label: "Financial Aid & Scholarships"
+                    name: "financial"
+                    widget: "list"
+                    fields:
+                      - {label: "Name", name: "name", widget: "string"}
+                      - {label: "Description", name: "note", widget: "text"}
+                      - {label: "Link URL (optional)", name: "url", widget: "string", required: false}
+          - label: "UI (do not edit here)"
+            name: "ui"
+            widget: "hidden"
+          - label: "Quiz (do not edit here)"
+            name: "quiz"
+            widget: "hidden"

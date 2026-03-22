@@ -1,0 +1,562 @@
+{
+  "ui": {
+    "en": {
+      "hero_label": "Career & Technical Education",
+      "hero_line1": "Chart Your",
+      "hero_line2": "Path Forward",
+      "hero_sub": "Eight career sequences. Real-world skills. Industry-recognized credentials. Choose the program that matches your passion and build the future you want.",
+      "explore": "Explore",
+      "courses_label": "Sequence Courses",
+      "quiz_eyebrow": "Find Your Path",
+      "quiz_h2": "Which Sequence<br>Is Right for You?",
+      "quiz_sub": "Answer 5 quick questions and we'll match you to the program that fits your strengths and interests.",
+      "quiz_btn": "See My Match",
+      "result_eyebrow": "Your Best Match",
+      "result_cta": "Explore This Program →",
+      "retry": "Retake Quiz",
+      "back": "All Programs",
+      "footer_brand": "CTE Programs",
+      "footer_note": "Career & Technical Education — Preparing Students for Tomorrow",
+      "nav": ["Building Construction","Automotive","Teaching & Training","Early Childhood","Computer Science","Cybersecurity","Culinary Arts","Theatre Tech"],
+      "d_courses_eyebrow": "Sequence Courses",
+      "d_courses_title": "Program Courses",
+      "d_postsec_eyebrow": "Continue Your Education",
+      "d_postsec_title": "Post-Secondary Pathways",
+      "d_careers_eyebrow": "Where You'll Go",
+      "d_careers_title": "Career Opportunities",
+      "d_fin_eyebrow": "Paying for Your Future",
+      "d_fin_title": "Financial Aid & Scholarships",
+      "outlook_label": "Job Growth",
+      "course_prefix": "Course"
+    },
+    "es": {
+      "hero_label": "Educación Técnica y Vocacional",
+      "hero_line1": "Traza Tu",
+      "hero_line2": "Camino al Futuro",
+      "hero_sub": "Ocho secuencias de carrera. Habilidades del mundo real. Credenciales reconocidas por la industria. Elige el programa que se adapte a tu pasión y construye el futuro que deseas.",
+      "explore": "Explorar",
+      "courses_label": "Cursos de la Secuencia",
+      "quiz_eyebrow": "Encuentra Tu Camino",
+      "quiz_h2": "¿Qué Secuencia<br>Es Para Ti?",
+      "quiz_sub": "Responde 5 preguntas rápidas y te conectaremos con el programa que mejor se adapta a tus fortalezas e intereses.",
+      "quiz_btn": "Ver Mi Resultado",
+      "result_eyebrow": "Tu Mejor Opción",
+      "result_cta": "Explorar Este Programa →",
+      "retry": "Repetir la Prueba",
+      "back": "Todos los Programas",
+      "footer_brand": "Programas CTE",
+      "footer_note": "Educación Técnica y Vocacional — Preparando Estudiantes para el Mañana",
+      "nav": ["Construcción","Automotriz","Enseñanza","Primera Infancia","Ciencias Comp.","Ciberseguridad","Artes Culinarias","Teatro Técnico"],
+      "d_courses_eyebrow": "Cursos de la Secuencia",
+      "d_courses_title": "Cursos del Programa",
+      "d_postsec_eyebrow": "Continúa Tu Educación",
+      "d_postsec_title": "Opciones Postsecundarias",
+      "d_careers_eyebrow": "Tu Futuro Profesional",
+      "d_careers_title": "Oportunidades de Carrera",
+      "d_fin_eyebrow": "Pagando Tu Futuro",
+      "d_fin_title": "Ayuda Financiera y Becas",
+      "outlook_label": "Crecimiento Laboral",
+      "course_prefix": "Curso"
+    }
+  },
+  "sequences": [
+    {
+      "id": "construction",
+      "num": "01",
+      "icon": "🏗️",
+      "color": "#f59e0b",
+      "en": {
+        "title": "Building Construction Technology",
+        "tag": "Trades",
+        "desc": "From blueprint to build — students learn the foundational skills of the construction industry, including carpentry, framing, and project management, while earning certifications recognized by local contractors and builders.",
+        "courses": ["Introduction to Construction Technology","Building Trades Fundamentals","Carpentry & Framing","Construction Project Management"],
+        "postsec": [
+          {"type": "Community College", "name": "AAS in Construction Management", "note": "2-year degree available at regional community colleges; leads directly to supervisory and site management roles.", "url": ""},
+          {"type": "University", "name": "BS in Construction Management", "note": "4-year degree at state universities; opens doors to engineering, estimating, and project management careers.", "url": ""},
+          {"type": "Industry Credential", "name": "NCCER Certification", "note": "Nationally recognized stackable credentials in carpentry, electrical, plumbing & more — earned in modules.", "url": "https://www.nccer.org"},
+          {"type": "Apprenticeship", "name": "Registered Apprenticeship (UBC / ABC)", "note": "Earn while you learn — union and open-shop programs pay $18–28/hr while you complete 3–4 years of training.", "url": ""}
+        ],
+        "careers": [
+          {"title": "Carpenter", "salary": "$56,000", "outlook": "+2%", "desc": "Construct, install, and repair structures and fixtures made from wood and other materials."},
+          {"title": "Construction Manager", "salary": "$101,000", "outlook": "+11%", "desc": "Plan, coordinate, budget, and supervise construction projects from groundbreaking to final inspection."},
+          {"title": "Cost Estimator", "salary": "$66,000", "outlook": "+3%", "desc": "Calculate the total cost of materials, labor, and overhead for projects and bids."},
+          {"title": "Building Inspector", "salary": "$63,000", "outlook": "+2%", "desc": "Examine structures to ensure compliance with building codes, zoning, and safety standards."}
+        ],
+        "financial": [
+          {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students enrolled in accredited programs. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
+          {"name": "WIOA Workforce Training Grants", "note": "Workforce Innovation & Opportunity Act funds can cover tuition and tools for eligible adults and dislocated workers through local workforce boards.", "url": ""},
+          {"name": "ABC & AGC Scholarships", "note": "The Associated Builders and Contractors and Associated General Contractors award merit-based scholarships to construction students annually.", "url": ""},
+          {"name": "Apprenticeship Wages", "note": "Registered apprenticeships pay starting wages of $18–28/hr — you earn a salary while you train and graduate with zero tuition debt.", "url": ""}
+        ]
+      },
+      "es": {
+        "title": "Tecnología de Construcción",
+        "tag": "Oficios",
+        "desc": "Del plano a la obra — los estudiantes aprenden habilidades fundamentales de la industria de la construcción, incluyendo carpintería, estructuras y gestión de proyectos, mientras obtienen certificaciones reconocidas por contratistas locales.",
+        "courses": ["Introducción a la Tecnología de Construcción","Fundamentos de Oficios de Construcción","Carpintería y Estructuras","Gestión de Proyectos de Construcción"],
+        "postsec": [
+          {"type": "Colegio Comunitario", "name": "AAS en Gestión de la Construcción", "note": "Título de 2 años disponible en colegios comunitarios regionales; conduce directamente a roles de supervisión en obra.", "url": ""},
+          {"type": "Universidad", "name": "BS en Gestión de la Construcción", "note": "Título de 4 años en universidades estatales; abre puertas a carreras en ingeniería, estimación y gestión de proyectos.", "url": ""},
+          {"type": "Credencial Industrial", "name": "Certificación NCCER", "note": "Credenciales apilables reconocidas nacionalmente en carpintería, electricidad, plomería y más.", "url": "https://www.nccer.org"},
+          {"type": "Aprendizaje", "name": "Aprendizaje Registrado (UBC / ABC)", "note": "Gana mientras aprendes — los programas sindicales y abiertos pagan $18–28/hr durante 3–4 años de capacitación.", "url": ""}
+        ],
+        "careers": [
+          {"title": "Carpintero/a", "salary": "$56,000", "outlook": "+2%", "desc": "Construye, instala y repara estructuras y accesorios de madera y otros materiales."},
+          {"title": "Gerente de Construcción", "salary": "$101,000", "outlook": "+11%", "desc": "Planifica, coordina, presupuesta y supervisa proyectos de construcción de principio a fin."},
+          {"title": "Estimador de Costos", "salary": "$66,000", "outlook": "+3%", "desc": "Calcula el costo total de materiales, mano de obra y costos generales para proyectos y licitaciones."},
+          {"title": "Inspector de Edificios", "salary": "$63,000", "outlook": "+2%", "desc": "Examina estructuras para verificar cumplimiento con códigos de construcción y normas de seguridad."}
+        ],
+        "financial": [
+          {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
+          {"name": "Becas WIOA para Capacitación", "note": "Los fondos de WIOA pueden cubrir matrícula y herramientas para adultos elegibles y trabajadores desplazados.", "url": ""},
+          {"name": "Becas ABC y AGC", "note": "Associated Builders and Contractors y Associated General Contractors otorgan becas por mérito a estudiantes de construcción anualmente.", "url": ""},
+          {"name": "Salario de Aprendiz", "note": "Los aprendizajes registrados pagan $18–28/hr desde el inicio — ganas mientras aprendes, sin deuda de matrícula.", "url": ""}
+        ]
+      }
+    },
+    {
+      "id": "automotive",
+      "num": "02",
+      "icon": "🔧",
+      "color": "#3b82f6",
+      "en": {
+        "title": "Automotive Technology",
+        "tag": "Technology",
+        "desc": "Get hands-on under the hood. Students develop diagnostic, repair, and maintenance expertise aligned with ASE certification standards — preparing for high-demand careers in the automotive service industry.",
+        "courses": ["Auto Technology Fundamentals","Engine Systems & Repair","Electrical & Brake Systems","Advanced Diagnostics"],
+        "postsec": [
+          {"type": "Community College", "name": "AAS in Automotive Technology", "note": "NATEF-accredited 2-year program with fully equipped labs; the most common pathway to ASE certification.", "url": ""},
+          {"type": "Technical School", "name": "Lincoln Tech / Universal Technical Institute", "note": "Accelerated 12–18 month programs with manufacturer-sponsored training tracks and direct dealership placement.", "url": ""},
+          {"type": "Manufacturer Program", "name": "GM ASEP / Ford FACT / Toyota T-TEN", "note": "OEM-sponsored programs at community colleges — students earn while training and graduate directly into dealership jobs.", "url": ""},
+          {"type": "Industry Credential", "name": "ASE Certification (8+ Areas)", "note": "The national gold standard for automotive professionals; certifications cover engine repair, brakes, electrical, HVAC, and more.", "url": "https://www.ase.com"}
+        ],
+        "careers": [
+          {"title": "Automotive Technician", "salary": "$46,000", "outlook": "+6%", "desc": "Diagnose and repair mechanical and electronic vehicle systems at dealerships, independent shops, or fleet services."},
+          {"title": "Service Advisor", "salary": "$50,000", "outlook": "+5%", "desc": "Serve as the bridge between customers and the service department, estimating costs and coordinating repairs."},
+          {"title": "Master Technician", "salary": "$72,000+", "outlook": "+6%", "desc": "Holding all ASE certifications, master techs tackle the most complex diagnostic and repair challenges in the shop."},
+          {"title": "Shop Foreman / Service Manager", "salary": "$65,000", "outlook": "+4%", "desc": "Lead a team of technicians, manage workflow, maintain quality standards, and oversee shop operations."}
+        ],
+        "financial": [
+          {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
+          {"name": "ASE Education Foundation Scholarships", "note": "Annual scholarships specifically for students enrolled in NATEF-accredited automotive programs across the country.", "url": "https://www.aseeducationfoundation.org"},
+          {"name": "Manufacturer Dealer Sponsorships", "note": "GM, Ford, Honda, and Toyota partner with dealerships to sponsor student tuition in exchange for a post-graduation commitment to work there.", "url": ""},
+          {"name": "WIOA Workforce Training Grants", "note": "Career and technical training grants are available through local workforce development boards for eligible students.", "url": ""}
+        ]
+      },
+      "es": {
+        "title": "Tecnología Automotriz",
+        "tag": "Tecnología",
+        "desc": "Trabaja directamente con los vehículos. Los estudiantes desarrollan experiencia en diagnóstico, reparación y mantenimiento alineada con los estándares de certificación ASE, preparándose para carreras de alta demanda en la industria de servicio automotriz.",
+        "courses": ["Fundamentos de Tecnología Automotriz","Sistemas de Motor y Reparación","Sistemas Eléctricos y de Frenos","Diagnóstico Avanzado"],
+        "postsec": [
+          {"type": "Colegio Comunitario", "name": "AAS en Tecnología Automotriz", "note": "Programa de 2 años acreditado por NATEF con laboratorios completamente equipados; el camino más común hacia la certificación ASE.", "url": ""},
+          {"type": "Escuela Técnica", "name": "Lincoln Tech / Universal Technical Institute", "note": "Programas acelerados de 12–18 meses con pistas de capacitación patrocinadas por fabricantes y colocación directa en concesionarias.", "url": ""},
+          {"type": "Programa de Fabricante", "name": "GM ASEP / Ford FACT / Toyota T-TEN", "note": "Programas patrocinados por fabricantes en colegios comunitarios — los estudiantes ganan mientras se capacitan.", "url": ""},
+          {"type": "Credencial Industrial", "name": "Certificación ASE (más de 8 áreas)", "note": "El estándar nacional de oro para profesionales automotrices; las certificaciones cubren motor, frenos, eléctrico, HVAC y más.", "url": "https://www.ase.com"}
+        ],
+        "careers": [
+          {"title": "Técnico Automotriz", "salary": "$46,000", "outlook": "+6%", "desc": "Diagnostica y repara sistemas mecánicos y electrónicos en concesionarias, talleres independientes o flotas."},
+          {"title": "Asesor de Servicios", "salary": "$50,000", "outlook": "+5%", "desc": "Sirve de enlace entre los clientes y el departamento de servicio, estimando costos y coordinando reparaciones."},
+          {"title": "Técnico Maestro", "salary": "$72,000+", "outlook": "+6%", "desc": "Con todas las certificaciones ASE, los técnicos maestros abordan los desafíos de diagnóstico y reparación más complejos."},
+          {"title": "Capataz / Gerente de Servicios", "salary": "$65,000", "outlook": "+4%", "desc": "Dirige un equipo de técnicos, gestiona el flujo de trabajo y supervisa las operaciones del taller."}
+        ],
+        "financial": [
+          {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
+          {"name": "Becas de la Fundación Educativa ASE", "note": "Becas anuales específicamente para estudiantes inscritos en programas automotrices acreditados por NATEF en todo el país.", "url": "https://www.aseeducationfoundation.org"},
+          {"name": "Patrocinios de Concesionarias", "note": "GM, Ford, Honda y Toyota se asocian con concesionarias para patrocinar la matrícula de estudiantes a cambio de un compromiso laboral post-graduación.", "url": ""},
+          {"name": "Becas WIOA para Capacitación", "note": "Las becas de capacitación técnica y vocacional están disponibles a través de las juntas locales de desarrollo de la fuerza laboral.", "url": ""}
+        ]
+      }
+    },
+    {
+      "id": "education",
+      "num": "03",
+      "icon": "📚",
+      "color": "#10b981",
+      "en": {
+        "title": "Teaching and Training",
+        "tag": "Education",
+        "desc": "Discover the art and science of teaching. Students explore learning theory, classroom management, and curriculum design while gaining real experience in local school placements — the first step toward a rewarding career in education.",
+        "courses": ["Introduction to Education","Learning Theory & Development","Instructional Methods","Student Teaching Practicum"],
+        "postsec": [
+          {"type": "University", "name": "BS in Education (Elementary / Secondary)", "note": "4-year degree with state teacher licensure; required for public school teaching positions in most states.", "url": ""},
+          {"type": "University", "name": "Master of Arts in Teaching (MAT)", "note": "Graduate-level credential that increases earning potential and opens doors to curriculum leadership and administration.", "url": ""},
+          {"type": "Alternative Certification", "name": "Teach For America / TNTP", "note": "Alternative pathways into high-need school districts; participants earn a full teaching salary from day one.", "url": "https://www.teachforamerica.org"},
+          {"type": "Professional Training", "name": "Corporate Trainer / Workforce Instructor", "note": "AA or BS in HR, Education, or Communications; increasingly in-demand roles in healthcare, tech, and business.", "url": ""}
+        ],
+        "careers": [
+          {"title": "Classroom Teacher (K–12)", "salary": "$61,000", "outlook": "+4%", "desc": "Educate and inspire students in public or private school settings across all grade levels and subject areas."},
+          {"title": "Instructional Coordinator", "salary": "$63,000", "outlook": "+2%", "desc": "Develop curriculum and instructional materials, and train teaching staff on implementation strategies."},
+          {"title": "Corporate Trainer", "salary": "$62,000", "outlook": "+6%", "desc": "Design and facilitate professional development, onboarding, and skills training programs for businesses."},
+          {"title": "School Administrator", "salary": "$98,000", "outlook": "+4%", "desc": "Lead school operations as a principal, assistant principal, or district-level administrator."}
+        ],
+        "financial": [
+          {"name": "TEACH Grant", "note": "Up to $4,000/year for students who commit to teaching in high-need subjects or low-income schools for four years after graduation.", "url": "https://studentaid.gov/understand-aid/types/grants/teach"},
+          {"name": "Teacher Loan Forgiveness", "note": "Up to $17,500 in federal student loan forgiveness after 5 consecutive years of teaching in qualifying Title I schools.", "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/teacher"},
+          {"name": "\"Grow Your Own\" State Scholarships", "note": "Many states offer scholarships for students who commit to teaching in the state after graduation — check your state's Department of Education.", "url": ""},
+          {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+        ]
+      },
+      "es": {
+        "title": "Enseñanza y Capacitación",
+        "tag": "Educación",
+        "desc": "Descubre el arte y la ciencia de enseñar. Los estudiantes exploran la teoría del aprendizaje, la gestión del aula y el diseño curricular mientras ganan experiencia real en escuelas locales — el primer paso hacia una carrera gratificante en educación.",
+        "courses": ["Introducción a la Educación","Teoría del Aprendizaje y Desarrollo","Métodos de Instrucción","Práctica Docente"],
+        "postsec": [
+          {"type": "Universidad", "name": "BS en Educación (Primaria / Secundaria)", "note": "Título de 4 años con licencia docente estatal; requerido para posiciones de enseñanza en escuelas públicas en la mayoría de los estados.", "url": ""},
+          {"type": "Universidad", "name": "Maestría en Artes en la Enseñanza (MAT)", "note": "Credencial de posgrado que aumenta el potencial de ingresos y abre puertas al liderazgo curricular y administrativo.", "url": ""},
+          {"type": "Certificación Alternativa", "name": "Teach For America / TNTP", "note": "Caminos alternativos hacia distritos de alta necesidad; los participantes ganan un salario docente completo desde el primer día.", "url": "https://www.teachforamerica.org"},
+          {"type": "Capacitación Profesional", "name": "Capacitador Corporativo / Instructor Laboral", "note": "AA o BS en RRHH, Educación o Comunicaciones; roles cada vez más demandados en salud, tecnología y negocios.", "url": ""}
+        ],
+        "careers": [
+          {"title": "Maestro/a de Aula (K–12)", "salary": "$61,000", "outlook": "+4%", "desc": "Educa e inspira a los estudiantes en escuelas públicas o privadas en todos los niveles y áreas temáticas."},
+          {"title": "Coordinador Instruccional", "salary": "$63,000", "outlook": "+2%", "desc": "Desarrolla currículos y materiales educativos, y capacita al personal docente en estrategias de implementación."},
+          {"title": "Capacitador Corporativo", "salary": "$62,000", "outlook": "+6%", "desc": "Diseña y facilita programas de desarrollo profesional, orientación y capacitación de habilidades para empresas."},
+          {"title": "Administrador Escolar", "salary": "$98,000", "outlook": "+4%", "desc": "Dirige las operaciones escolares como director, subdirector o administrador a nivel de distrito."}
+        ],
+        "financial": [
+          {"name": "Beca TEACH", "note": "Hasta $4,000/año para estudiantes que se comprometan a enseñar en materias de alta necesidad o escuelas de bajos ingresos durante cuatro años.", "url": "https://studentaid.gov/understand-aid/types/grants/teach"},
+          {"name": "Condonación de Préstamos para Maestros", "note": "Hasta $17,500 en condonación de préstamos federales tras 5 años consecutivos de enseñanza en escuelas Title I elegibles.", "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/teacher"},
+          {"name": "Becas Estatales \"Grow Your Own\"", "note": "Muchos estados ofrecen becas para estudiantes que se comprometan a enseñar en el estado después de graduarse — consulta el Departamento de Educación de tu estado.", "url": ""},
+          {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+        ]
+      }
+    },
+    {
+      "id": "earlychildhood",
+      "num": "04",
+      "icon": "🌱",
+      "color": "#f472b6",
+      "en": {
+        "title": "Early Childhood",
+        "tag": "Human Services",
+        "desc": "Explore child development from birth through age eight. Students learn to create nurturing, developmentally appropriate learning environments and graduate with credentials aligned to careers in childcare, preschool, and early intervention.",
+        "courses": ["Child Growth & Development","Family & Community Relations","Curriculum for Young Children","Early Childhood Practicum"],
+        "postsec": [
+          {"type": "Industry Credential", "name": "Child Development Associate (CDA)", "note": "The most widely recognized credential in early childhood education; can be earned during or after completing this sequence.", "url": "https://www.cdacouncil.org"},
+          {"type": "Community College", "name": "AAS in Early Childhood Education", "note": "2-year degree that qualifies graduates to serve as lead teachers in licensed childcare centers and preschools.", "url": ""},
+          {"type": "University", "name": "BS in Child Development / Early Childhood Education", "note": "4-year degree for students pursuing preschool director, school counselor, or child life specialist roles.", "url": ""},
+          {"type": "Specialized Certification", "name": "Early Intervention Specialist", "note": "State-issued credential for working with infants and toddlers (ages 0–3) who have developmental delays or disabilities.", "url": ""}
+        ],
+        "careers": [
+          {"title": "Preschool Teacher", "salary": "$33,000", "outlook": "+15%", "desc": "Plan and implement developmentally appropriate activities for children ages 3–5 in preschool or Head Start programs."},
+          {"title": "Childcare Center Director", "salary": "$50,000", "outlook": "+7%", "desc": "Manage the operations, staff, curriculum, and licensing compliance of a childcare facility."},
+          {"title": "Kindergarten Teacher", "salary": "$60,000", "outlook": "+4%", "desc": "Teach foundational literacy, numeracy, and social skills to students in K-level classrooms."},
+          {"title": "Child Life Specialist", "salary": "$52,000", "outlook": "+10%", "desc": "Support children and families in hospital or clinical settings using therapeutic play-based approaches."}
+        ],
+        "financial": [
+          {"name": "T.E.A.C.H. Early Childhood Scholarship", "note": "Covers tuition, books, and travel for childcare workers pursuing ECE credentials — often includes a paid completion bonus from the employer.", "url": "https://teachecnationalcenter.org"},
+          {"name": "CDA Scholarship Program", "note": "The Council for Professional Recognition offers financial assistance specifically toward the CDA credential for qualifying candidates.", "url": "https://www.cdacouncil.org"},
+          {"name": "Head Start / Early Head Start Training Grants", "note": "Head Start grantees receive dedicated funds for staff professional development and continuing education.", "url": "https://www.acf.hhs.gov/ohs"},
+          {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+        ]
+      },
+      "es": {
+        "title": "Primera Infancia",
+        "tag": "Servicios Humanos",
+        "desc": "Explora el desarrollo infantil desde el nacimiento hasta los ocho años. Los estudiantes aprenden a crear entornos de aprendizaje nutritivos y apropiados para el desarrollo, graduándose con credenciales para carreras en cuidado infantil, preescolar e intervención temprana.",
+        "courses": ["Crecimiento y Desarrollo Infantil","Relaciones Familiares y Comunitarias","Currículo para Niños Pequeños","Práctica de Primera Infancia"],
+        "postsec": [
+          {"type": "Credencial Industrial", "name": "Asociado de Desarrollo Infantil (CDA)", "note": "La credencial más reconocida en educación de primera infancia; puede obtenerse durante o después de completar esta secuencia.", "url": "https://www.cdacouncil.org"},
+          {"type": "Colegio Comunitario", "name": "AAS en Educación de Primera Infancia", "note": "Título de 2 años que califica a los graduados para ser maestros principales en centros de cuidado infantil con licencia.", "url": ""},
+          {"type": "Universidad", "name": "BS en Desarrollo Infantil / Educación de Primera Infancia", "note": "Título de 4 años para estudiantes que buscan ser directores de preescolar, consejeros escolares o especialistas en vida infantil.", "url": ""},
+          {"type": "Certificación Especializada", "name": "Especialista en Intervención Temprana", "note": "Credencial estatal para trabajar con bebés y niños pequeños (0–3 años) con retrasos o discapacidades del desarrollo.", "url": ""}
+        ],
+        "careers": [
+          {"title": "Maestra de Preescolar", "salary": "$33,000", "outlook": "+15%", "desc": "Planifica e implementa actividades apropiadas para el desarrollo de niños de 3 a 5 años en preescolar o programas Head Start."},
+          {"title": "Director/a de Centro de Cuidado Infantil", "salary": "$50,000", "outlook": "+7%", "desc": "Gestiona las operaciones, el personal, el currículo y el cumplimiento de licencias de una guardería."},
+          {"title": "Maestra de Jardín de Infantes", "salary": "$60,000", "outlook": "+4%", "desc": "Enseña alfabetización, numeración y habilidades sociales fundamentales a estudiantes de nivel K."},
+          {"title": "Especialista en Vida Infantil", "salary": "$52,000", "outlook": "+10%", "desc": "Apoya a niños y familias en entornos hospitalarios o clínicos usando enfoques terapéuticos basados en el juego."}
+        ],
+        "financial": [
+          {"name": "Beca T.E.A.C.H. de Primera Infancia", "note": "Cubre matrícula, libros y transporte para trabajadores de cuidado infantil que buscan credenciales ECE, a menudo con bonificación al completar.", "url": "https://teachecnationalcenter.org"},
+          {"name": "Programa de Becas CDA", "note": "El Consejo para el Reconocimiento Profesional ofrece asistencia financiera específicamente para la credencial CDA.", "url": "https://www.cdacouncil.org"},
+          {"name": "Becas de Capacitación Head Start", "note": "Los beneficiarios de Head Start reciben fondos dedicados para el desarrollo profesional y educación continua del personal.", "url": "https://www.acf.hhs.gov/ohs"},
+          {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+        ]
+      }
+    },
+    {
+      "id": "cs",
+      "num": "05",
+      "icon": "💻",
+      "color": "#a3e635",
+      "en": {
+        "title": "Computer Science",
+        "tag": "Technology",
+        "desc": "Think, code, create. Students build proficiency in programming, data structures, and software development through project-based learning — with pathways into web development, app design, and computer engineering.",
+        "courses": ["Foundations of Computer Science","Programming Fundamentals","Data Structures & Algorithms","Software Development & Capstone"],
+        "postsec": [
+          {"type": "University", "name": "BS in Computer Science", "note": "4-year degree with one of the highest return-on-investment profiles available; strong placement in tech, finance, healthcare, and more.", "url": ""},
+          {"type": "Community College", "name": "AAS in Information Technology", "note": "Affordable 2-year pathway to entry-level developer or IT analyst roles; credits often transfer to a 4-year university.", "url": ""},
+          {"type": "Bootcamp", "name": "Coding Bootcamp (App Academy, Flatiron, etc.)", "note": "Intensive 12–24 week programs focused on job-ready skills; many offer income share agreements with no upfront cost.", "url": ""},
+          {"type": "Online University", "name": "WGU — Western Governors University", "note": "Competency-based online CS and IT degrees that let you accelerate through material you already know, at lower cost.", "url": "https://www.wgu.edu"}
+        ],
+        "careers": [
+          {"title": "Software Developer", "salary": "$124,000", "outlook": "+25%", "desc": "Design and build software applications, websites, and systems for businesses and consumers across every industry."},
+          {"title": "Web Developer", "salary": "$78,000", "outlook": "+16%", "desc": "Build and maintain websites and web applications using front-end and back-end technologies and frameworks."},
+          {"title": "Systems Analyst", "salary": "$99,000", "outlook": "+9%", "desc": "Analyze and redesign IT systems to improve performance, security, and alignment with organizational needs."},
+          {"title": "IT Manager", "salary": "$169,000", "outlook": "+15%", "desc": "Plan, direct, and coordinate an organization's entire computer-related activities, systems, and infrastructure."}
+        ],
+        "financial": [
+          {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
+          {"name": "Google / Microsoft / Cisco Scholarships", "note": "Major tech companies offer annual merit and diversity-based scholarships for students pursuing CS and IT degrees.", "url": ""},
+          {"name": "NCWIT Aspirations in Computing Award", "note": "National recognition and scholarship for students who identify as women or non-binary pursuing computing careers.", "url": "https://www.ncwit.org/programs/aspirations-computing"},
+          {"name": "Income Share Agreements (ISAs)", "note": "Many coding bootcamps charge $0 upfront — you repay tuition as a percentage of your salary only after landing a qualifying job.", "url": ""}
+        ]
+      },
+      "es": {
+        "title": "Ciencias de la Computación",
+        "tag": "Tecnología",
+        "desc": "Piensa, programa, crea. Los estudiantes desarrollan competencia en programación, estructuras de datos y desarrollo de software a través del aprendizaje basado en proyectos, con caminos hacia el desarrollo web, diseño de aplicaciones e ingeniería informática.",
+        "courses": ["Fundamentos de las Ciencias de la Computación","Fundamentos de Programación","Estructuras de Datos y Algoritmos","Desarrollo de Software y Proyecto Final"],
+        "postsec": [
+          {"type": "Universidad", "name": "BS en Ciencias de la Computación", "note": "Título de 4 años con uno de los perfiles de retorno de inversión más altos; fuerte colocación en tecnología, finanzas, salud y más.", "url": ""},
+          {"type": "Colegio Comunitario", "name": "AAS en Tecnología de la Información", "note": "Camino asequible de 2 años hacia roles de desarrollador o analista de TI de nivel inicial; los créditos a menudo se transfieren a una universidad de 4 años.", "url": ""},
+          {"type": "Bootcamp", "name": "Bootcamp de Programación (App Academy, Flatiron, etc.)", "note": "Programas intensivos de 12–24 semanas enfocados en habilidades listas para el trabajo; muchos ofrecen acuerdos de participación en ingresos sin costo inicial.", "url": ""},
+          {"type": "Universidad en Línea", "name": "WGU — Western Governors University", "note": "Títulos de CS y TI en línea basados en competencias que permiten avanzar más rápido a menor costo.", "url": "https://www.wgu.edu"}
+        ],
+        "careers": [
+          {"title": "Desarrollador/a de Software", "salary": "$124,000", "outlook": "+25%", "desc": "Diseña y construye aplicaciones de software, sitios web y sistemas para empresas y consumidores en todos los sectores."},
+          {"title": "Desarrollador/a Web", "salary": "$78,000", "outlook": "+16%", "desc": "Construye y mantiene sitios web y aplicaciones web usando tecnologías y frameworks de front-end y back-end."},
+          {"title": "Analista de Sistemas", "salary": "$99,000", "outlook": "+9%", "desc": "Analiza y rediseña sistemas de TI para mejorar el rendimiento, la seguridad y la alineación con las necesidades organizacionales."},
+          {"title": "Gerente de TI", "salary": "$169,000", "outlook": "+15%", "desc": "Planifica, dirige y coordina todas las actividades informáticas, los sistemas y la infraestructura de una organización."}
+        ],
+        "financial": [
+          {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
+          {"name": "Becas Google / Microsoft / Cisco", "note": "Las principales empresas tecnológicas ofrecen becas anuales por mérito y diversidad para estudiantes de CS y TI.", "url": ""},
+          {"name": "Premio NCWIT Aspirations in Computing", "note": "Reconocimiento nacional y beca para estudiantes que se identifican como mujeres o no binarios que buscan carreras en computación.", "url": "https://www.ncwit.org/programs/aspirations-computing"},
+          {"name": "Acuerdos de Participación en Ingresos (ISAs)", "note": "Muchos bootcamps cobran $0 por adelantado — reembolsas la matrícula como porcentaje de tu salario solo después de conseguir trabajo.", "url": ""}
+        ]
+      }
+    },
+    {
+      "id": "cyber",
+      "num": "06",
+      "icon": "🛡️",
+      "color": "#ef4444",
+      "en": {
+        "title": "Cybersecurity",
+        "tag": "Security",
+        "desc": "Defend the digital world. Students learn network security, ethical hacking, and incident response — preparing for CompTIA Security+ certification and careers in one of the fastest-growing sectors in technology.",
+        "courses": ["Networking Fundamentals","Cybersecurity Principles","Ethical Hacking & Penetration Testing","Security Operations & Response"],
+        "postsec": [
+          {"type": "University", "name": "BS in Cybersecurity / Information Assurance", "note": "NSA/DHS-designated CAE programs offer top-tier education with strong federal, defense, and private sector placement.", "url": ""},
+          {"type": "Community College", "name": "AAS in Network Security", "note": "Affordable 2-year pathway to security analyst and network admin roles; pairs naturally with CompTIA certifications.", "url": ""},
+          {"type": "Industry Credential", "name": "CompTIA A+ / Network+ / Security+", "note": "The essential certification trifecta for the field — widely required for all entry-level cybersecurity positions.", "url": "https://www.comptia.org"},
+          {"type": "Advanced Credential", "name": "EC-Council CEH / SANS GIAC", "note": "Certified Ethical Hacker and GIAC certifications are the industry standard for penetration testing and red team roles.", "url": ""}
+        ],
+        "careers": [
+          {"title": "Information Security Analyst", "salary": "$112,000", "outlook": "+32%", "desc": "Monitor organizational systems for security breaches, investigate incidents, and implement protective measures."},
+          {"title": "Penetration Tester", "salary": "$98,000", "outlook": "+35%", "desc": "Ethically hack systems and networks to find vulnerabilities before malicious actors can exploit them."},
+          {"title": "SOC Analyst", "salary": "$65,000", "outlook": "+32%", "desc": "Staff security operations centers monitoring networks, analyzing alerts, and responding to threats in real time."},
+          {"title": "Chief Information Security Officer", "salary": "$180,000+", "outlook": "+15%", "desc": "Lead an organization's entire information security strategy, policy, and program at the executive level."}
+        ],
+        "financial": [
+          {"name": "CyberCorps: Scholarship for Service", "note": "Full tuition + a living stipend from the NSA/NSF for students who commit to federal government cybersecurity roles after graduation.", "url": "https://www.sfs.opm.gov"},
+          {"name": "(ISC)² Scholarship Program", "note": "The world's largest cybersecurity organization awards scholarships to students pursuing security degrees and professional certifications.", "url": "https://www.isc2.org/scholarships"},
+          {"name": "DoD SkillBridge / Hiring Our Heroes", "note": "Military-connected students can access cyber training programs and direct hiring pathways into DoD and federal agencies.", "url": ""},
+          {"name": "WIOA & State Workforce Grants", "note": "Cybersecurity is a priority field for workforce development funding — contact your local workforce board to find available grants.", "url": ""}
+        ]
+      },
+      "es": {
+        "title": "Ciberseguridad",
+        "tag": "Seguridad",
+        "desc": "Defiende el mundo digital. Los estudiantes aprenden seguridad de redes, hacking ético y respuesta a incidentes, preparándose para la certificación CompTIA Security+ y carreras en uno de los sectores de más rápido crecimiento en tecnología.",
+        "courses": ["Fundamentos de Redes","Principios de Ciberseguridad","Hacking Ético y Pruebas de Penetración","Operaciones de Seguridad y Respuesta"],
+        "postsec": [
+          {"type": "Universidad", "name": "BS en Ciberseguridad / Seguridad de la Información", "note": "Los programas CAE designados por NSA/DHS ofrecen educación de primer nivel con fuerte colocación en el sector federal y privado.", "url": ""},
+          {"type": "Colegio Comunitario", "name": "AAS en Seguridad de Redes", "note": "Camino asequible de 2 años hacia roles de analista de seguridad y administrador de redes; combina con certificaciones CompTIA.", "url": ""},
+          {"type": "Credencial Industrial", "name": "CompTIA A+ / Network+ / Security+", "note": "La trifecta de certificaciones esenciales para el campo — ampliamente requerida para todos los puestos de ciberseguridad de nivel inicial.", "url": "https://www.comptia.org"},
+          {"type": "Credencial Avanzada", "name": "EC-Council CEH / SANS GIAC", "note": "El Hacker Ético Certificado y las certificaciones GIAC son el estándar de la industria para roles de pruebas de penetración.", "url": ""}
+        ],
+        "careers": [
+          {"title": "Analista de Seguridad de la Información", "salary": "$112,000", "outlook": "+32%", "desc": "Monitorea los sistemas organizacionales en busca de brechas de seguridad, investiga incidentes e implementa medidas de protección."},
+          {"title": "Probador de Penetración", "salary": "$98,000", "outlook": "+35%", "desc": "Hackea éticamente sistemas y redes para encontrar vulnerabilidades antes de que actores maliciosos puedan explotarlas."},
+          {"title": "Analista SOC", "salary": "$65,000", "outlook": "+32%", "desc": "Trabaja en centros de operaciones de seguridad, monitoreando redes, analizando alertas y respondiendo a amenazas en tiempo real."},
+          {"title": "Director de Seguridad de la Información (CISO)", "salary": "$180,000+", "outlook": "+15%", "desc": "Dirige toda la estrategia, política y programa de seguridad de la información de una organización a nivel ejecutivo."}
+        ],
+        "financial": [
+          {"name": "CyberCorps: Beca de Servicio", "note": "Matrícula completa + estipendio de vida de NSA/NSF para estudiantes que se comprometan a roles de ciberseguridad en el gobierno federal.", "url": "https://www.sfs.opm.gov"},
+          {"name": "Programa de Becas (ISC)²", "note": "La organización de ciberseguridad más grande del mundo otorga becas a estudiantes que buscan títulos y certificaciones de seguridad.", "url": "https://www.isc2.org/scholarships"},
+          {"name": "DoD SkillBridge / Hiring Our Heroes", "note": "Estudiantes conectados con los militares pueden acceder a programas de capacitación en ciberseguridad y vías de contratación directa.", "url": ""},
+          {"name": "WIOA y Becas Estatales", "note": "La ciberseguridad es un campo prioritario para el financiamiento del desarrollo de la fuerza laboral — contacta tu junta local de fuerza laboral.", "url": ""}
+        ]
+      }
+    },
+    {
+      "id": "culinary",
+      "num": "07",
+      "icon": "👨‍🍳",
+      "color": "#fb923c",
+      "en": {
+        "title": "Culinary Arts",
+        "tag": "Hospitality",
+        "desc": "From mise en place to plated masterpiece. Students develop culinary technique, food science knowledge, and kitchen management skills in our professional lab kitchen — with industry mentorship and ServSafe certification.",
+        "courses": ["Culinary Foundations","Global Cuisines & Techniques","Baking & Pastry Arts","Restaurant Operations & Management"],
+        "postsec": [
+          {"type": "Culinary Institute", "name": "CIA / Johnson & Wales / Auguste Escoffier", "note": "Highly respected culinary degrees with intense hands-on training; strong industry networks and alumni placement programs.", "url": ""},
+          {"type": "Community College", "name": "AAS in Culinary Arts", "note": "More affordable 2-year programs at regional community colleges with professional kitchen labs and local industry partnerships.", "url": ""},
+          {"type": "Industry Credential", "name": "ServSafe Manager Certification", "note": "Required for food service management roles in most states; can be earned during this sequence.", "url": "https://www.servsafe.com"},
+          {"type": "Industry Credential", "name": "ACF Certification (CC, CPC, CEC)", "note": "American Culinary Federation certifications from Certified Cook through Executive Chef — the professional ladder for culinary careers.", "url": "https://www.acfchefs.org"}
+        ],
+        "careers": [
+          {"title": "Chef / Head Cook", "salary": "$55,000", "outlook": "+9%", "desc": "Direct kitchen operations, develop menus, and lead culinary teams in restaurants, hotels, or catering operations."},
+          {"title": "Food Service Manager", "salary": "$61,000", "outlook": "+7%", "desc": "Oversee daily operations of restaurants, cafeterias, hotels, or institutional food service programs."},
+          {"title": "Pastry Chef / Baker", "salary": "$42,000", "outlook": "+8%", "desc": "Specialize in breads, pastries, desserts, and confections for restaurants, hotels, bakeries, or private clients."},
+          {"title": "Private / Personal Chef", "salary": "$65,000+", "outlook": "+9%", "desc": "Prepare customized meals for private households, corporate executives, yachts, or exclusive venues."}
+        ],
+        "financial": [
+          {"name": "James Beard Foundation Scholarship", "note": "One of the most prestigious culinary scholarships in the US — awarded to students enrolled in accredited culinary programs.", "url": "https://www.jamesbeard.org/scholarships"},
+          {"name": "ACF Scholarship Program", "note": "The American Culinary Federation awards scholarships annually to student members pursuing culinary education and credentials.", "url": "https://www.acfchefs.org"},
+          {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
+          {"name": "National Restaurant Association Educational Foundation", "note": "The NRAEF and WIOA provide workforce training funding specifically for students entering foodservice careers.", "url": "https://www.nraef.org"}
+        ]
+      },
+      "es": {
+        "title": "Artes Culinarias",
+        "tag": "Hospitalidad",
+        "desc": "De la mise en place a la obra maestra en el plato. Los estudiantes desarrollan técnica culinaria, conocimiento de ciencias de los alimentos y habilidades de gestión de cocina en nuestra cocina de laboratorio profesional, con tutoría de la industria y certificación ServSafe.",
+        "courses": ["Fundamentos Culinarios","Cocinas Globales y Técnicas","Arte de la Panadería y Pastelería","Operaciones y Gestión de Restaurantes"],
+        "postsec": [
+          {"type": "Instituto Culinario", "name": "CIA / Johnson & Wales / Auguste Escoffier", "note": "Títulos culinarios muy respetados con capacitación práctica intensa; sólidas redes en la industria y programas de colocación de egresados.", "url": ""},
+          {"type": "Colegio Comunitario", "name": "AAS en Artes Culinarias", "note": "Programas de 2 años más asequibles en colegios comunitarios regionales con laboratorios de cocina profesional y asociaciones con la industria local.", "url": ""},
+          {"type": "Credencial Industrial", "name": "Certificación ServSafe Manager", "note": "Requerida para roles de gestión en servicios de alimentos en la mayoría de los estados; puede obtenerse durante esta secuencia.", "url": "https://www.servsafe.com"},
+          {"type": "Credencial Industrial", "name": "Certificación ACF (CC, CPC, CEC)", "note": "Certificaciones de la Federación Culinaria Americana desde Cocinero Certificado hasta Chef Ejecutivo — la escalera profesional culinaria.", "url": "https://www.acfchefs.org"}
+        ],
+        "careers": [
+          {"title": "Chef / Cocinero/a Principal", "salary": "$55,000", "outlook": "+9%", "desc": "Dirige operaciones de cocina, desarrolla menús y lidera equipos culinarios en restaurantes, hoteles o catering."},
+          {"title": "Gerente de Servicios de Alimentos", "salary": "$61,000", "outlook": "+7%", "desc": "Supervisa las operaciones diarias de restaurantes, cafeterías, hoteles o programas institucionales de alimentos."},
+          {"title": "Chef de Pastelería / Panadero/a", "salary": "$42,000", "outlook": "+8%", "desc": "Se especializa en panes, pasteles, postres y confitería para restaurantes, hoteles, panaderías o clientes privados."},
+          {"title": "Chef Privado/a", "salary": "$65,000+", "outlook": "+9%", "desc": "Prepara comidas personalizadas para hogares privados, ejecutivos corporativos, yates o lugares exclusivos."}
+        ],
+        "financial": [
+          {"name": "Beca de la Fundación James Beard", "note": "Una de las becas culinarias más prestigiosas en EE. UU. — otorgada a estudiantes inscritos en programas culinarios acreditados.", "url": "https://www.jamesbeard.org/scholarships"},
+          {"name": "Programa de Becas ACF", "note": "La Federación Culinaria Americana otorga becas anualmente a estudiantes miembros que buscan educación y credenciales culinarias.", "url": "https://www.acfchefs.org"},
+          {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
+          {"name": "Fundación Educativa de la Asociación Nacional de Restaurantes", "note": "La NRAEF y WIOA proporcionan financiamiento de capacitación laboral específicamente para estudiantes que ingresan a carreras en servicios de alimentos.", "url": "https://www.nraef.org"}
+        ]
+      }
+    },
+    {
+      "id": "theatre",
+      "num": "08",
+      "icon": "🎭",
+      "color": "#a78bfa",
+      "en": {
+        "title": "Theatre Technology",
+        "tag": "Arts & Media",
+        "desc": "The magic behind the curtain. Students master lighting design, sound engineering, scenic construction, and stage management — skills that translate to careers in live events, film production, and entertainment technology.",
+        "courses": ["Introduction to Theatre Technology","Lighting & Sound Design","Scenic Design & Construction","Stage Management & Production"],
+        "postsec": [
+          {"type": "University", "name": "BFA in Theatre Technology / Design", "note": "Intensive 4-year conservatory-style program with concentrations in lighting, scenic, costume, or sound design.", "url": ""},
+          {"type": "Community College", "name": "AAS in Technical Theatre", "note": "2-year pathway to entry-level production, event, and venue technician roles; prepares students for IATSE membership.", "url": ""},
+          {"type": "Industry Certification", "name": "ETCP — Entertainment Technician Certification", "note": "Industry-recognized credential for riggers and electricians working in entertainment venues, arenas, and touring productions.", "url": "https://etcp.esta.org"},
+          {"type": "Trade Union", "name": "IATSE Apprenticeship (Stage Local)", "note": "The International Alliance of Theatrical Stage Employees offers structured apprenticeships in major regional markets.", "url": "https://www.iatse.net"}
+        ],
+        "careers": [
+          {"title": "Lighting Designer", "salary": "$55,000", "outlook": "+8%", "desc": "Create and execute lighting designs for theatrical productions, concerts, corporate events, and touring shows."},
+          {"title": "Sound Engineer", "salary": "$57,000", "outlook": "+6%", "desc": "Record, mix, and reinforce audio for live performances, broadcasts, recording sessions, and events."},
+          {"title": "Scenic Designer / Carpenter", "salary": "$45,000", "outlook": "+5%", "desc": "Design and build sets, props, and physical environments for theatrical productions, film, and television."},
+          {"title": "Production / Event Manager", "salary": "$70,000", "outlook": "+8%", "desc": "Coordinate all technical and logistical elements of a production, event, or venue — the creative project manager."}
+        ],
+        "financial": [
+          {"name": "USITT Scholarships", "note": "The United States Institute for Theatre Technology awards multiple annual scholarships to students in accredited technical theatre and design programs.", "url": "https://www.usitt.org"},
+          {"name": "IATSE Scholarship Program", "note": "The International Alliance of Theatrical Stage Employees offers scholarships to members and their dependents pursuing entertainment careers.", "url": "https://www.iatse.net"},
+          {"name": "State Arts Council Grants", "note": "Most state arts councils offer grants and scholarships for students pursuing careers in the performing arts, production, and technical theatre.", "url": ""},
+          {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+        ]
+      },
+      "es": {
+        "title": "Tecnología Teatral",
+        "tag": "Artes y Medios",
+        "desc": "La magia detrás del telón. Los estudiantes dominan el diseño de iluminación, la ingeniería de sonido, la construcción de escenarios y la gestión de escenas, con habilidades que se traducen en carreras en eventos en vivo, producción cinematográfica y tecnología del entretenimiento.",
+        "courses": ["Introducción a la Tecnología Teatral","Diseño de Iluminación y Sonido","Diseño y Construcción Escénica","Gestión de Escena y Producción"],
+        "postsec": [
+          {"type": "Universidad", "name": "BFA en Tecnología / Diseño Teatral", "note": "Programa intensivo de 4 años estilo conservatorio con concentraciones en iluminación, escenografía, vestuario o diseño de sonido.", "url": ""},
+          {"type": "Colegio Comunitario", "name": "AAS en Teatro Técnico", "note": "Camino de 2 años hacia roles de técnico de producción, eventos y lugares de nivel inicial; prepara a los estudiantes para la membresía IATSE.", "url": ""},
+          {"type": "Certificación Industrial", "name": "ETCP — Certificación de Técnico de Entretenimiento", "note": "Credencial reconocida por la industria para aparejadores y electricistas que trabajan en recintos, arenas y producciones de gira.", "url": "https://etcp.esta.org"},
+          {"type": "Sindicato", "name": "Aprendizaje IATSE (Local Teatral)", "note": "La Alianza Internacional de Empleados de Escenarios Teatrales ofrece aprendizajes estructurados en los principales mercados regionales.", "url": "https://www.iatse.net"}
+        ],
+        "careers": [
+          {"title": "Diseñador/a de Iluminación", "salary": "$55,000", "outlook": "+8%", "desc": "Crea y ejecuta diseños de iluminación para producciones teatrales, conciertos, eventos corporativos y espectáculos de gira."},
+          {"title": "Ingeniero/a de Sonido", "salary": "$57,000", "outlook": "+6%", "desc": "Graba, mezcla y refuerza audio para actuaciones en vivo, transmisiones, sesiones de grabación y eventos."},
+          {"title": "Diseñador/a Escénico / Carpintero/a", "salary": "$45,000", "outlook": "+5%", "desc": "Diseña y construye sets, accesorios y entornos físicos para producciones teatrales, cine y televisión."},
+          {"title": "Gerente de Producción / Eventos", "salary": "$70,000", "outlook": "+8%", "desc": "Coordina todos los elementos técnicos y logísticos de una producción, evento o lugar — el gerente de proyecto creativo."}
+        ],
+        "financial": [
+          {"name": "Becas USITT", "note": "El Instituto de los Estados Unidos para la Tecnología Teatral otorga múltiples becas anuales a estudiantes en programas acreditados de teatro técnico y diseño.", "url": "https://www.usitt.org"},
+          {"name": "Programa de Becas IATSE", "note": "La Alianza Internacional de Empleados de Escenarios Teatrales ofrece becas a miembros y sus dependientes que buscan carreras en entretenimiento.", "url": "https://www.iatse.net"},
+          {"name": "Becas de Consejos Estatales de Arte", "note": "La mayoría de los consejos estatales de arte ofrecen becas para estudiantes que buscan carreras en artes escénicas, producción y teatro técnico.", "url": ""},
+          {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+        ]
+      }
+    }
+  ],
+  "quiz": {
+    "en": [
+      { "q": "What kind of work environment appeals to you most?", "opts": [
+        {"t": "Physical & hands-on — building, making, or fixing things", "s": {"construction":2,"automotive":2,"culinary":1}},
+        {"t": "A classroom or care setting — nurturing and guiding others", "s": {"education":2,"earlychildhood":2}},
+        {"t": "A computer workstation — solving technical problems", "s": {"cs":2,"cyber":2}},
+        {"t": "A kitchen, studio, or stage — creative spaces", "s": {"culinary":2,"theatre":2}}
+      ]},
+      { "q": "Which activity sounds most exciting to you?", "opts": [
+        {"t": "Framing a house, repairing an engine, or building something tangible", "s": {"construction":3,"automotive":3}},
+        {"t": "Teaching a lesson or creating a caring learning environment for a child", "s": {"education":2,"earlychildhood":3}},
+        {"t": "Writing code, securing a network, or solving a logic puzzle", "s": {"cs":2,"cyber":3}},
+        {"t": "Designing a menu, crafting a dish, or rigging stage lights", "s": {"culinary":2,"theatre":3}}
+      ]},
+      { "q": "How would your friends describe you?", "opts": [
+        {"t": "Practical and mechanical — I love figuring out how things work", "s": {"automotive":2,"construction":2}},
+        {"t": "Patient and nurturing — I love being there for others", "s": {"education":1,"earlychildhood":3}},
+        {"t": "Analytical and systematic — I love diagnosing and solving problems", "s": {"cs":2,"cyber":2,"automotive":1}},
+        {"t": "Creative and expressive — I love making things people experience", "s": {"culinary":2,"theatre":2}}
+      ]},
+      { "q": "What outcome matters most to you after completing this sequence?", "opts": [
+        {"t": "A skilled trade or technical career with immediate strong earnings", "s": {"construction":2,"automotive":2,"culinary":1}},
+        {"t": "A college degree and a professional career in a growing field", "s": {"education":1,"cs":2,"cyber":2}},
+        {"t": "A career that directly involves working with and shaping young people", "s": {"earlychildhood":3,"education":2}},
+        {"t": "A creative or performance-industry career doing something I love", "s": {"theatre":3,"culinary":1}}
+      ]},
+      { "q": "Which challenge sounds most appealing to you right now?", "opts": [
+        {"t": "Diagnosing why an engine won't start or a structure isn't level", "s": {"automotive":3,"construction":2}},
+        {"t": "Debugging faulty code or stopping a network intrusion in progress", "s": {"cs":2,"cyber":3}},
+        {"t": "Designing the perfect lesson plan or developmentally appropriate activity", "s": {"education":3,"earlychildhood":2}},
+        {"t": "Perfecting a signature recipe or nailing a complex lighting cue", "s": {"culinary":3,"theatre":3}}
+      ]}
+    ],
+    "es": [
+      { "q": "¿Qué tipo de ambiente de trabajo te atrae más?", "opts": [
+        {"t": "Físico y práctico — construir, hacer o arreglar cosas", "s": {"construction":2,"automotive":2,"culinary":1}},
+        {"t": "Un aula o centro de cuidado — guiar y nutrir a otros", "s": {"education":2,"earlychildhood":2}},
+        {"t": "Una estación de trabajo — resolver problemas técnicos", "s": {"cs":2,"cyber":2}},
+        {"t": "Una cocina, estudio o escenario — espacios creativos", "s": {"culinary":2,"theatre":2}}
+      ]},
+      { "q": "¿Cuál actividad te parece más emocionante?", "opts": [
+        {"t": "Construir una casa, reparar un motor o hacer algo tangible", "s": {"construction":3,"automotive":3}},
+        {"t": "Dar una clase o crear un entorno de cuidado amoroso para un niño", "s": {"education":2,"earlychildhood":3}},
+        {"t": "Escribir código, proteger una red o resolver un rompecabezas lógico", "s": {"cs":2,"cyber":3}},
+        {"t": "Diseñar un menú, crear un plato o instalar luces de escenario", "s": {"culinary":2,"theatre":3}}
+      ]},
+      { "q": "¿Cómo te describirían tus amigos?", "opts": [
+        {"t": "Práctico y mecánico — me encanta descubrir cómo funcionan las cosas", "s": {"automotive":2,"construction":2}},
+        {"t": "Paciente y protector — me encanta estar ahí para los demás", "s": {"education":1,"earlychildhood":3}},
+        {"t": "Analítico y sistemático — me encanta diagnosticar y resolver problemas", "s": {"cs":2,"cyber":2,"automotive":1}},
+        {"t": "Creativo y expresivo — me encanta hacer cosas que la gente experimente", "s": {"culinary":2,"theatre":2}}
+      ]},
+      { "q": "¿Qué resultado te importa más al completar esta secuencia?", "opts": [
+        {"t": "Una carrera técnica con ingresos inmediatos y sólidos", "s": {"construction":2,"automotive":2,"culinary":1}},
+        {"t": "Un título universitario y una carrera profesional en un campo en crecimiento", "s": {"education":1,"cs":2,"cyber":2}},
+        {"t": "Una carrera que involucre directamente trabajar y guiar a los jóvenes", "s": {"earlychildhood":3,"education":2}},
+        {"t": "Una carrera creativa o en la industria del entretenimiento que me apasione", "s": {"theatre":3,"culinary":1}}
+      ]},
+      { "q": "¿Cuál desafío te parece más atractivo ahora mismo?", "opts": [
+        {"t": "Diagnosticar por qué un motor no arranca o una estructura no está nivelada", "s": {"automotive":3,"construction":2}},
+        {"t": "Depurar código defectuoso o detener una intrusión de red en curso", "s": {"cs":2,"cyber":3}},
+        {"t": "Diseñar el plan de lección perfecto o una actividad apropiada para el desarrollo", "s": {"education":3,"earlychildhood":2}},
+        {"t": "Perfeccionar una receta exclusiva o lograr una señal de iluminación compleja", "s": {"culinary":3,"theatre":3}}
+      ]}
+    ]
+  }
+}
