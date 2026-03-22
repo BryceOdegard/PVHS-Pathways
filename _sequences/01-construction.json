@@ -8,48 +8,168 @@
     "title": "Building Construction Technology",
     "tag": "Trades",
     "desc": "From blueprint to build — students learn the foundational skills of the construction industry, including carpentry, framing, and project management, while earning certifications recognized by local contractors and builders.",
-    "courses": ["Introduction to Construction Technology","Building Trades Fundamentals","Carpentry & Framing","Construction Project Management"],
+    "courses": [
+      "Building Construction Technology I",
+      "Building Construction Technology II"
+    ],
     "postsec": [
-      {"type": "Community College", "name": "AAS in Construction Management", "note": "2-year degree available at regional community colleges; leads directly to supervisory and site management roles.", "url": ""},
-      {"type": "University", "name": "BS in Construction Management", "note": "4-year degree at state universities; opens doors to engineering, estimating, and project management careers.", "url": ""},
-      {"type": "Industry Credential", "name": "NCCER Certification", "note": "Nationally recognized stackable credentials in carpentry, electrical, plumbing & more — earned in modules.", "url": "https://www.nccer.org"},
-      {"type": "Apprenticeship", "name": "Registered Apprenticeship (UBC / ABC)", "note": "Earn while you learn — union and open-shop programs pay $18–28/hr while you complete 3–4 years of training.", "url": ""}
+      {
+        "type": "Community College",
+        "name": "AAS in Construction Management",
+        "note": "2-year degree available at regional community colleges; leads directly to supervisory and site management roles.",
+        "url": ""
+      },
+      {
+        "type": "University",
+        "name": "BS in Construction Management",
+        "note": "4-year degree at state universities; opens doors to engineering, estimating, and project management careers.",
+        "url": ""
+      },
+      {
+        "type": "Industry Credential",
+        "name": "NCCER Certification",
+        "note": "Nationally recognized stackable credentials in carpentry, electrical, plumbing & more — earned in modules.",
+        "url": "https://www.nccer.org"
+      },
+      {
+        "type": "Apprenticeship",
+        "name": "Registered Apprenticeship (UBC / ABC)",
+        "note": "Earn while you learn — union and open-shop programs pay $18–28/hr while you complete 3–4 years of training.",
+        "url": "https://www.abcnevada.org/apprenticeship/"
+      }
     ],
     "careers": [
-      {"title": "Carpenter", "salary": "$56,000", "outlook": "+2%", "desc": "Construct, install, and repair structures and fixtures made from wood and other materials."},
-      {"title": "Construction Manager", "salary": "$101,000", "outlook": "+11%", "desc": "Plan, coordinate, budget, and supervise construction projects from groundbreaking to final inspection."},
-      {"title": "Cost Estimator", "salary": "$66,000", "outlook": "+3%", "desc": "Calculate the total cost of materials, labor, and overhead for projects and bids."},
-      {"title": "Building Inspector", "salary": "$63,000", "outlook": "+2%", "desc": "Examine structures to ensure compliance with building codes, zoning, and safety standards."}
+      {
+        "title": "Carpenter",
+        "salary": "$56,000",
+        "outlook": "+2%",
+        "desc": "Construct, install, and repair structures and fixtures made from wood and other materials."
+      },
+      {
+        "title": "Construction Manager",
+        "salary": "$101,000",
+        "outlook": "+11%",
+        "desc": "Plan, coordinate, budget, and supervise construction projects from groundbreaking to final inspection."
+      },
+      {
+        "title": "Cost Estimator",
+        "salary": "$66,000",
+        "outlook": "+3%",
+        "desc": "Calculate the total cost of materials, labor, and overhead for projects and bids."
+      },
+      {
+        "title": "Building Inspector",
+        "salary": "$63,000",
+        "outlook": "+2%",
+        "desc": "Examine structures to ensure compliance with building codes, zoning, and safety standards."
+      }
     ],
     "financial": [
-      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students enrolled in accredited programs. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "WIOA Workforce Training Grants", "note": "Workforce Innovation & Opportunity Act funds can cover tuition and tools for eligible adults and dislocated workers through local workforce boards.", "url": ""},
-      {"name": "ABC & AGC Scholarships", "note": "The Associated Builders and Contractors and Associated General Contractors award merit-based scholarships to construction students annually.", "url": ""},
-      {"name": "Apprenticeship Wages", "note": "Registered apprenticeships pay starting wages of $18–28/hr — you earn a salary while you train and graduate with zero tuition debt.", "url": ""}
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year for eligible students enrolled in accredited programs. Apply via FAFSA at studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "WIOA Workforce Training Grants",
+        "note": "Workforce Innovation & Opportunity Act funds can cover tuition and tools for eligible adults and dislocated workers through local workforce boards.",
+        "url": "https://nyecc.org/workforce-development/"
+      },
+      {
+        "name": "ABC & AGC Scholarships",
+        "note": "The Associated Builders and Contractors and Associated General Contractors award merit-based scholarships to construction students annually.",
+        "url": "https://www.agc.org/learn/education-and-research-foundation/scholarship-program"
+      },
+      {
+        "name": "Apprenticeship Wages",
+        "note": "Registered apprenticeships pay starting wages of $18–28/hr — you earn a salary while you train and graduate with zero tuition debt.",
+        "url": "https://www.abcnevada.org/apprenticeship/"
+      }
     ]
   },
   "es": {
     "title": "Tecnología de Construcción",
     "tag": "Oficios",
     "desc": "Del plano a la obra — los estudiantes aprenden habilidades fundamentales de la industria de la construcción, incluyendo carpintería, estructuras y gestión de proyectos.",
-    "courses": ["Introducción a la Tecnología de Construcción","Fundamentos de Oficios de Construcción","Carpintería y Estructuras","Gestión de Proyectos de Construcción"],
+    "courses": [
+      "Introducción a la Tecnología de Construcción",
+      "Fundamentos de Oficios de Construcción",
+      "Carpintería y Estructuras",
+      "Gestión de Proyectos de Construcción"
+    ],
     "postsec": [
-      {"type": "Colegio Comunitario", "name": "AAS en Gestión de la Construcción", "note": "Título de 2 años disponible en colegios comunitarios regionales; conduce directamente a roles de supervisión en obra.", "url": ""},
-      {"type": "Universidad", "name": "BS en Gestión de la Construcción", "note": "Título de 4 años en universidades estatales; abre puertas a carreras en ingeniería, estimación y gestión de proyectos.", "url": ""},
-      {"type": "Credencial Industrial", "name": "Certificación NCCER", "note": "Credenciales apilables reconocidas nacionalmente en carpintería, electricidad, plomería y más.", "url": "https://www.nccer.org"},
-      {"type": "Aprendizaje", "name": "Aprendizaje Registrado (UBC / ABC)", "note": "Gana mientras aprendes — los programas pagan $18–28/hr durante 3–4 años de capacitación.", "url": ""}
+      {
+        "type": "Colegio Comunitario",
+        "name": "AAS en Gestión de la Construcción",
+        "note": "Título de 2 años disponible en colegios comunitarios regionales; conduce directamente a roles de supervisión en obra.",
+        "url": ""
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Gestión de la Construcción",
+        "note": "Título de 4 años en universidades estatales; abre puertas a carreras en ingeniería, estimación y gestión de proyectos.",
+        "url": ""
+      },
+      {
+        "type": "Credencial Industrial",
+        "name": "Certificación NCCER",
+        "note": "Credenciales apilables reconocidas nacionalmente en carpintería, electricidad, plomería y más.",
+        "url": "https://www.nccer.org"
+      },
+      {
+        "type": "Aprendizaje",
+        "name": "Aprendizaje Registrado (UBC / ABC)",
+        "note": "Gana mientras aprendes — los programas pagan $18–28/hr durante 3–4 años de capacitación.",
+        "url": ""
+      }
     ],
     "careers": [
-      {"title": "Carpintero/a", "salary": "$56,000", "outlook": "+2%", "desc": "Construye, instala y repara estructuras y accesorios de madera y otros materiales."},
-      {"title": "Gerente de Construcción", "salary": "$101,000", "outlook": "+11%", "desc": "Planifica, coordina, presupuesta y supervisa proyectos de construcción de principio a fin."},
-      {"title": "Estimador de Costos", "salary": "$66,000", "outlook": "+3%", "desc": "Calcula el costo total de materiales, mano de obra y costos generales para proyectos y licitaciones."},
-      {"title": "Inspector de Edificios", "salary": "$63,000", "outlook": "+2%", "desc": "Examina estructuras para verificar cumplimiento con códigos de construcción y normas de seguridad."}
+      {
+        "title": "Carpintero/a",
+        "salary": "$56,000",
+        "outlook": "+2%",
+        "desc": "Construye, instala y repara estructuras y accesorios de madera y otros materiales."
+      },
+      {
+        "title": "Gerente de Construcción",
+        "salary": "$101,000",
+        "outlook": "+11%",
+        "desc": "Planifica, coordina, presupuesta y supervisa proyectos de construcción de principio a fin."
+      },
+      {
+        "title": "Estimador de Costos",
+        "salary": "$66,000",
+        "outlook": "+3%",
+        "desc": "Calcula el costo total de materiales, mano de obra y costos generales para proyectos y licitaciones."
+      },
+      {
+        "title": "Inspector de Edificios",
+        "salary": "$63,000",
+        "outlook": "+2%",
+        "desc": "Examina estructuras para verificar cumplimiento con códigos de construcción y normas de seguridad."
+      }
     ],
     "financial": [
-      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "Becas WIOA para Capacitación", "note": "Los fondos de WIOA pueden cubrir matrícula y herramientas para adultos elegibles y trabajadores desplazados.", "url": ""},
-      {"name": "Becas ABC y AGC", "note": "Associated Builders and Contractors y Associated General Contractors otorgan becas por mérito anualmente.", "url": ""},
-      {"name": "Salario de Aprendiz", "note": "Los aprendizajes registrados pagan $18–28/hr desde el inicio — ganas mientras aprendes, sin deuda de matrícula.", "url": ""}
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Becas WIOA para Capacitación",
+        "note": "Los fondos de WIOA pueden cubrir matrícula y herramientas para adultos elegibles y trabajadores desplazados.",
+        "url": ""
+      },
+      {
+        "name": "Becas ABC y AGC",
+        "note": "Associated Builders and Contractors y Associated General Contractors otorgan becas por mérito anualmente.",
+        "url": ""
+      },
+      {
+        "name": "Salario de Aprendiz",
+        "note": "Los aprendizajes registrados pagan $18–28/hr desde el inicio — ganas mientras aprendes, sin deuda de matrícula.",
+        "url": ""
+      }
     ]
   }
 }
