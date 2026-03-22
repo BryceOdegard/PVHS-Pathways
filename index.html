@@ -10,101 +10,39 @@
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <style>
 :root {
-  --bg: #0f0f0f; --surface: #181818; --surface2: #222;
-  --border: #2e2e2e; --text: #e8e4dc; --muted: #888;
+  --bg:#0f0f0f;--surface:#181818;--border:#2e2e2e;--text:#e8e4dc;--muted:#888;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;font-weight:300;overflow-x:hidden}
 
-/* ── LOADING ── */
-#loading{
-  position:fixed;inset:0;background:var(--bg);z-index:9999;
-  display:flex;align-items:center;justify-content:center;
-  transition:opacity .4s;
-}
+#loading{position:fixed;inset:0;background:var(--bg);z-index:9999;display:flex;align-items:center;justify-content:center;transition:opacity .4s}
 #loading.done{opacity:0;pointer-events:none}
-.loading-inner{text-align:center}
-.loading-bar{
-  width:180px;height:2px;background:var(--border);border-radius:1px;
-  margin:.8rem auto 0;overflow:hidden;
-}
-.loading-fill{
-  height:100%;width:0;background:#a3e635;border-radius:1px;
-  animation:loadFill 1.2s ease forwards;
-}
+.loading-label{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.2em;color:var(--muted);text-align:center}
+.loading-bar{width:180px;height:2px;background:var(--border);border-radius:1px;margin:.8rem auto 0;overflow:hidden}
+.loading-fill{height:100%;width:0;background:#a3e635;border-radius:1px;animation:loadFill 1.4s ease forwards}
 @keyframes loadFill{to{width:100%}}
-.loading-label{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.2em;color:var(--muted)}
 
-/* ── LANG TOGGLE ── */
-.lang-btn{
-  position:fixed;top:1rem;right:1.5rem;z-index:9999;
-  display:flex;align-items:center;gap:.45rem;
-  background:var(--surface);border:1px solid var(--border);border-radius:3px;
-  padding:.4rem .85rem;cursor:pointer;
-  font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.15em;
-  color:var(--muted);transition:all .2s;
-}
+.lang-btn{position:fixed;top:1rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.45rem;background:var(--surface);border:1px solid var(--border);border-radius:3px;padding:.4rem .85rem;cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.15em;color:var(--muted);transition:all .2s}
 .lang-btn:hover{color:var(--text);border-color:#555}
-.lang-dot{width:7px;height:7px;border-radius:50%;background:#a3e635;transition:background .3s}
+.lang-dot{width:7px;height:7px;border-radius:50%;background:#a3e635}
 
-/* ── HERO ── */
-.hero{
-  min-height:100vh;display:grid;place-items:center;text-align:center;
-  padding:6rem 2rem 4rem;position:relative;overflow:hidden;
-}
-.hero::before{
-  content:'';position:absolute;inset:0;
-  background:
-    radial-gradient(ellipse 60% 50% at 20% 60%,rgba(245,158,11,.09) 0%,transparent 60%),
-    radial-gradient(ellipse 50% 40% at 80% 30%,rgba(59,130,246,.09) 0%,transparent 60%),
-    radial-gradient(ellipse 40% 50% at 60% 80%,rgba(167,139,250,.07) 0%,transparent 60%);
-  pointer-events:none;
-}
-.hero-label{
-  font-family:'JetBrains Mono',monospace;font-size:.75rem;letter-spacing:.25em;
-  text-transform:uppercase;color:var(--muted);margin-bottom:1.5rem;
-  opacity:0;animation:fadeUp .6s .2s forwards;
-}
-.hero h1{
-  font-family:'Bebas Neue',sans-serif;font-size:clamp(4rem,14vw,11rem);
-  line-height:.9;letter-spacing:.02em;margin-bottom:1.5rem;
-  opacity:0;animation:fadeUp .7s .35s forwards;
-}
-.hero-gradient{
-  display:block;
-  background:linear-gradient(135deg,#f59e0b,#3b82f6,#a78bfa);
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-}
-.hero-sub{
-  font-size:1.15rem;color:var(--muted);max-width:540px;line-height:1.7;
-  opacity:0;animation:fadeUp .7s .5s forwards;
-}
-.hero-scroll{
-  position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);
-  display:flex;flex-direction:column;align-items:center;gap:.5rem;
-  opacity:0;animation:fadeUp .7s .8s forwards;
-}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:6rem 2rem 4rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 20% 60%,rgba(245,158,11,.09),transparent 60%),radial-gradient(ellipse 50% 40% at 80% 30%,rgba(59,130,246,.09),transparent 60%),radial-gradient(ellipse 40% 50% at 60% 80%,rgba(167,139,250,.07),transparent 60%);pointer-events:none}
+.hero-label{font-family:'JetBrains Mono',monospace;font-size:.75rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-bottom:1.5rem;opacity:0;animation:fadeUp .6s .2s forwards}
+.hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(4rem,14vw,11rem);line-height:.9;letter-spacing:.02em;margin-bottom:1.5rem;opacity:0;animation:fadeUp .7s .35s forwards}
+.hero-gradient{display:block;background:linear-gradient(135deg,#f59e0b,#3b82f6,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:1.15rem;color:var(--muted);max-width:540px;line-height:1.7;opacity:0;animation:fadeUp .7s .5s forwards}
+.hero-scroll{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:0;animation:fadeUp .7s .8s forwards}
 .hero-scroll span{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
 .scroll-line{width:1px;height:48px;background:linear-gradient(to bottom,var(--muted),transparent);animation:scrollPulse 2s 1.5s infinite}
 
-/* ── STICKY NAV ── */
-.seq-nav{
-  position:sticky;top:0;z-index:100;
-  background:rgba(15,15,15,.93);backdrop-filter:blur(16px);
-  border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:none;
-}
+.seq-nav{position:sticky;top:0;z-index:100;background:rgba(15,15,15,.93);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:none}
 .seq-nav::-webkit-scrollbar{display:none}
 .seq-nav ul{display:flex;list-style:none;min-width:max-content;padding:0 2rem}
-.seq-nav a{
-  display:block;padding:1rem 1.1rem;
-  font-family:'JetBrains Mono',monospace;font-size:.66rem;letter-spacing:.12em;
-  text-transform:uppercase;text-decoration:none;color:var(--muted);
-  white-space:nowrap;transition:color .2s;border-bottom:2px solid transparent;margin-bottom:-1px;
-}
+.seq-nav a{display:block;padding:1rem 1.1rem;font-family:'JetBrains Mono',monospace;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--muted);white-space:nowrap;transition:color .2s;border-bottom:2px solid transparent;margin-bottom:-1px}
 .seq-nav a:hover,.seq-nav a.active{color:var(--text)}
 
-/* ── SEQUENCE SECTIONS ── */
 .sequence{border-bottom:1px solid var(--border);position:relative;overflow:hidden}
 .seq-header{display:grid;grid-template-columns:1fr 1fr;min-height:54vh}
 @media(max-width:768px){.seq-header{grid-template-columns:1fr}.seq-accent-panel{min-height:200px}}
@@ -114,36 +52,19 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;font
 .seq-title-link{text-decoration:none;cursor:pointer;display:inline-block}
 .seq-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.5rem,5vw,5rem);line-height:.95;letter-spacing:.02em;margin-bottom:.3rem;transition:opacity .2s}
 .seq-title-link:hover .seq-title{opacity:.8}
-.seq-explore-hint{
-  font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.15em;
-  opacity:0;transform:translateX(-10px);transition:opacity .25s,transform .25s;
-  margin-bottom:1.2rem;display:inline-block;
-}
+.seq-explore-hint{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.15em;opacity:0;transform:translateX(-10px);transition:opacity .25s,transform .25s;margin-bottom:1.2rem;display:inline-block}
 .seq-title-link:hover .seq-explore-hint{opacity:1;transform:translateX(0)}
 .seq-desc{font-size:.97rem;line-height:1.78;color:#b0aa9f;max-width:420px;margin-bottom:2.2rem}
 .seq-courses-label{font-family:'JetBrains Mono',monospace;font-size:.63rem;letter-spacing:.2em;text-transform:uppercase;margin-bottom:.9rem}
 .course-list{list-style:none;display:flex;flex-direction:column;gap:.45rem}
 .course-item{display:flex;align-items:center;gap:.7rem;font-size:.9rem;color:#c8c2b8}
 .seq-accent-panel{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
-.seq-tag{
-  position:absolute;top:2rem;right:2rem;
-  font-family:'JetBrains Mono',monospace;font-size:.63rem;letter-spacing:.15em;
-  text-transform:uppercase;padding:.35rem .7rem;border-radius:2px;
-  border:1px solid currentColor;opacity:.65;
-}
+.seq-tag{position:absolute;top:2rem;right:2rem;font-family:'JetBrains Mono',monospace;font-size:.63rem;letter-spacing:.15em;text-transform:uppercase;padding:.35rem .7rem;border-radius:2px;border:1px solid currentColor;opacity:.65}
 .sequence:nth-child(even) .seq-header{direction:rtl}
 .sequence:nth-child(even) .seq-header>*{direction:ltr}
 
-/* ── QUIZ ── */
-.quiz-section{
-  padding:6rem 2rem;border-bottom:1px solid var(--border);
-  background:var(--surface);position:relative;overflow:hidden;
-}
-.quiz-section::before{
-  content:'';position:absolute;inset:0;
-  background:radial-gradient(ellipse 70% 60% at 50% 50%,rgba(163,230,53,.035),transparent);
-  pointer-events:none;
-}
+.quiz-section{padding:6rem 2rem;border-bottom:1px solid var(--border);background:var(--surface);position:relative;overflow:hidden}
+.quiz-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 50%,rgba(163,230,53,.035),transparent);pointer-events:none}
 .quiz-inner{max-width:720px;margin:0 auto}
 .quiz-header{text-align:center;margin-bottom:3rem}
 .quiz-eyebrow{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:.9rem}
@@ -154,84 +75,40 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;font
 .quiz-q-num{font-family:'JetBrains Mono',monospace;font-size:.63rem;letter-spacing:.2em;color:#a3e635;margin-bottom:.4rem}
 .quiz-q-text{font-size:1rem;font-weight:600;margin-bottom:1.1rem;line-height:1.4}
 .quiz-opts{display:flex;flex-direction:column;gap:.5rem}
-.quiz-opt{
-  display:flex;align-items:center;gap:.8rem;padding:.7rem .95rem;
-  border-radius:3px;border:1px solid var(--border);cursor:pointer;
-  transition:all .2s;font-size:.9rem;color:#c8c2b8;user-select:none;
-}
+.quiz-opt{display:flex;align-items:center;gap:.8rem;padding:.7rem .95rem;border-radius:3px;border:1px solid var(--border);cursor:pointer;transition:all .2s;font-size:.9rem;color:#c8c2b8;user-select:none}
 .quiz-opt:hover{border-color:#555;color:var(--text)}
 .quiz-opt.sel{border-color:#a3e635;background:rgba(163,230,53,.07);color:var(--text)}
-.radio-dot{
-  width:14px;height:14px;border-radius:50%;border:2px solid #555;
-  flex-shrink:0;transition:all .2s;display:grid;place-items:center;
-}
+.radio-dot{width:14px;height:14px;border-radius:50%;border:2px solid #555;flex-shrink:0;transition:all .2s;display:grid;place-items:center}
 .quiz-opt.sel .radio-dot{border-color:#a3e635;background:#a3e635}
 .quiz-opt.sel .radio-dot::after{content:'';width:4px;height:4px;border-radius:50%;background:var(--bg)}
-.quiz-submit-btn{
-  margin-top:2rem;width:100%;padding:.95rem 2rem;
-  background:#a3e635;color:var(--bg);border:none;border-radius:3px;
-  font-family:'JetBrains Mono',monospace;font-size:.75rem;letter-spacing:.15em;
-  text-transform:uppercase;cursor:pointer;font-weight:700;transition:opacity .2s;
-}
+.quiz-submit-btn{margin-top:2rem;width:100%;padding:.95rem 2rem;background:#a3e635;color:var(--bg);border:none;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;font-weight:700;transition:opacity .2s}
 .quiz-submit-btn:hover{opacity:.85}
 .quiz-submit-btn:disabled{opacity:.35;cursor:not-allowed}
-.quiz-result{
-  display:none;text-align:center;padding:3rem 2rem;
-  background:var(--bg);border:1px solid var(--border);border-radius:4px;margin-top:1.5rem;
-}
+.quiz-result{display:none;text-align:center;padding:3rem 2rem;background:var(--bg);border:1px solid var(--border);border-radius:4px;margin-top:1.5rem}
 .quiz-result.show{display:block}
 .result-eyebrow{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:.8rem}
 .result-name{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.5rem,7vw,5rem);line-height:.95;margin-bottom:1rem}
 .result-blurb{color:#b0aa9f;font-size:.95rem;line-height:1.7;max-width:440px;margin:0 auto 2rem}
-.result-explore{
-  display:inline-block;padding:.75rem 2rem;border-radius:3px;
-  font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.15em;
-  text-transform:uppercase;cursor:pointer;border:none;font-weight:700;
-  transition:opacity .2s;margin:.4rem;
-}
+.result-explore{display:inline-block;padding:.75rem 2rem;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;border:none;font-weight:700;transition:opacity .2s;margin:.4rem}
 .result-explore:hover{opacity:.8}
-.result-retry{
-  display:inline-block;padding:.75rem 2rem;border-radius:3px;
-  font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.15em;
-  text-transform:uppercase;cursor:pointer;border:1px solid var(--border);
-  background:transparent;color:var(--muted);transition:all .2s;margin:.4rem;
-}
+.result-retry{display:inline-block;padding:.75rem 2rem;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;border:1px solid var(--border);background:transparent;color:var(--muted);transition:all .2s;margin:.4rem}
 .result-retry:hover{color:var(--text);border-color:#555}
 
-/* ── FOOTER ── */
-footer{
-  padding:3.5rem 4rem;display:flex;align-items:center;
-  justify-content:space-between;flex-wrap:wrap;gap:2rem;
-  border-top:1px solid var(--border);
-}
+footer{padding:3.5rem 4rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:2rem;border-top:1px solid var(--border)}
 .footer-brand{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:.08em;color:var(--muted)}
 .footer-note{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:var(--muted);letter-spacing:.1em}
 @media(max-width:600px){footer{padding:3rem 1.5rem}}
 
-/* ── DETAIL VIEW ── */
 #view-detail{display:none}
-.back-bar{
-  display:flex;align-items:center;gap:.6rem;
-  padding:.85rem 2rem;background:rgba(15,15,15,.95);
-  border-bottom:1px solid var(--border);cursor:pointer;
-  font-family:'JetBrains Mono',monospace;font-size:.63rem;letter-spacing:.2em;
-  text-transform:uppercase;color:var(--muted);transition:color .2s;
-  position:sticky;top:0;z-index:200;backdrop-filter:blur(12px);
-}
+.back-bar{display:flex;align-items:center;gap:.6rem;padding:.85rem 2rem;background:rgba(15,15,15,.95);border-bottom:1px solid var(--border);cursor:pointer;font-family:'JetBrains Mono',monospace;font-size:.63rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);transition:color .2s;position:sticky;top:0;z-index:200;backdrop-filter:blur(12px)}
 .back-bar:hover{color:var(--text)}
-.detail-hero{
-  padding:5rem 4rem 4rem;position:relative;overflow:hidden;
-  border-bottom:1px solid var(--border);min-height:44vh;display:flex;align-items:center;
-}
+.detail-hero{padding:5rem 4rem 4rem;position:relative;overflow:hidden;border-bottom:1px solid var(--border);min-height:44vh;display:flex;align-items:center}
 @media(max-width:768px){.detail-hero{padding:4rem 1.5rem 3rem;min-height:auto}}
 .detail-hero-text{max-width:700px;position:relative;z-index:1}
 .detail-d-num{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.2em;color:var(--muted);margin-bottom:.9rem}
 .detail-d-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(3.5rem,10vw,8rem);line-height:.9;letter-spacing:.02em;margin-bottom:1.4rem}
 .detail-d-desc{font-size:1.05rem;line-height:1.78;color:#b0aa9f;max-width:540px}
-.detail-icon-float{
-  position:absolute;right:4rem;top:50%;transform:translateY(-50%);
-  font-size:13rem;opacity:.08;user-select:none;pointer-events:none;
-}
+.detail-icon-float{position:absolute;right:4rem;top:50%;transform:translateY(-50%);font-size:13rem;opacity:.08;user-select:none;pointer-events:none}
 @media(max-width:900px){.detail-icon-float{display:none}}
 .detail-body{padding:0 4rem 6rem;max-width:1100px;margin:0 auto}
 @media(max-width:768px){.detail-body{padding:0 1.5rem 4rem}}
@@ -239,54 +116,33 @@ footer{
 .detail-sec-eyebrow{font-family:'JetBrains Mono',monospace;font-size:.63rem;letter-spacing:.25em;text-transform:uppercase;margin-bottom:.7rem}
 .detail-sec-title{font-family:'Bebas Neue',sans-serif;font-size:2.6rem;letter-spacing:.03em;color:var(--text);margin-bottom:2rem}
 .courses-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:.9rem}
-.course-card{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:4px;padding:1.4rem 1.5rem;border-top-width:3px;transition:border-color .2s;
-}
+.course-card{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:1.4rem 1.5rem;border-top-width:3px;transition:border-color .2s}
 .course-card:hover{border-bottom-color:#555}
 .course-card-num{font-family:'JetBrains Mono',monospace;font-size:.58rem;letter-spacing:.2em;color:var(--muted);margin-bottom:.4rem}
 .course-card-name{font-size:.95rem;font-weight:600;line-height:1.35}
 .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
-.info-card{
-  background:var(--surface);border:1px solid var(--border);border-radius:4px;
-  padding:1.5rem;transition:border-color .2s;
-}
+.info-card{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:1.5rem;transition:border-color .2s}
 .info-card:hover{border-color:#4a4a4a}
 .info-card-type{font-family:'JetBrains Mono',monospace;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:.4rem}
 .info-card-name{font-size:1rem;font-weight:600;margin-bottom:.45rem;line-height:1.3}
 .info-card-note{font-size:.84rem;color:#b0aa9f;line-height:1.6;margin-bottom:.6rem}
-.info-card-link{
-  font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.1em;
-  text-decoration:none;opacity:.7;transition:opacity .2s;display:inline-block;
-}
+.info-card-link{font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.1em;text-decoration:none;opacity:.7;transition:opacity .2s;display:inline-block}
 .info-card-link:hover{opacity:1}
-.career-card{
-  background:var(--surface);border:1px solid var(--border);border-radius:4px;
-  padding:1.5rem;transition:border-color .2s;
-  display:grid;grid-template-columns:1fr auto;gap:.35rem 1rem;align-items:start;
-}
+.career-card{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:1.5rem;transition:border-color .2s;display:grid;grid-template-columns:1fr auto;gap:.35rem 1rem;align-items:start}
 .career-card:hover{border-color:#4a4a4a}
 .career-card-title{font-size:1rem;font-weight:600}
 .career-card-salary{font-family:'JetBrains Mono',monospace;font-size:.85rem;text-align:right;white-space:nowrap}
 .career-card-outlook{font-family:'JetBrains Mono',monospace;font-size:.63rem;color:#a3e635;text-align:right}
 .career-card-desc{font-size:.84rem;color:#b0aa9f;line-height:1.55;grid-column:1/-1}
 .fin-list{display:flex;flex-direction:column;gap:.9rem}
-.fin-item{
-  background:var(--surface);border:1px solid var(--border);border-radius:4px;
-  padding:1.4rem 1.75rem;display:flex;align-items:flex-start;gap:1.25rem;
-  transition:border-color .2s;
-}
+.fin-item{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:1.4rem 1.75rem;display:flex;align-items:flex-start;gap:1.25rem;transition:border-color .2s}
 .fin-item:hover{border-color:#4a4a4a}
 .fin-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;margin-top:.38rem}
 .fin-name{font-size:.98rem;font-weight:600;margin-bottom:.25rem}
 .fin-note{font-size:.85rem;color:#b0aa9f;line-height:1.6;margin-bottom:.5rem}
-.fin-link{
-  font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.1em;
-  text-decoration:none;opacity:.7;transition:opacity .2s;display:inline-block;
-}
+.fin-link{font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.1em;text-decoration:none;opacity:.7;transition:opacity .2s;display:inline-block}
 .fin-link:hover{opacity:1}
 
-/* ── ANIMATIONS ── */
 @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
 @keyframes scrollPulse{0%,100%{opacity:.4;transform:scaleY(1)}50%{opacity:1;transform:scaleY(1.2)}}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
@@ -295,29 +151,23 @@ footer{
 </head>
 <body>
 
-<!-- Loading screen -->
 <div id="loading">
-  <div class="loading-inner">
+  <div>
     <div class="loading-label">Loading</div>
     <div class="loading-bar"><div class="loading-fill"></div></div>
   </div>
 </div>
 
-<!-- Language toggle -->
 <button class="lang-btn" id="lang-btn" onclick="toggleLang()">
   <span class="lang-dot"></span>
   <span id="lang-label">ES</span>
 </button>
 
-<!-- HOME VIEW -->
 <div id="view-home">
   <section class="hero">
     <div>
       <p class="hero-label" id="hero-label"></p>
-      <h1>
-        <span id="hero-line1"></span><br>
-        <span class="hero-gradient" id="hero-line2"></span>
-      </h1>
+      <h1><span id="hero-line1"></span><br><span class="hero-gradient" id="hero-line2"></span></h1>
       <p class="hero-sub" id="hero-sub"></p>
     </div>
     <div class="hero-scroll">
@@ -325,10 +175,8 @@ footer{
       <div class="scroll-line"></div>
     </div>
   </section>
-
   <nav class="seq-nav"><ul id="nav-list"></ul></nav>
   <div id="seq-container"></div>
-
   <section class="quiz-section" id="quiz">
     <div class="quiz-inner">
       <div class="quiz-header">
@@ -347,14 +195,12 @@ footer{
       </div>
     </div>
   </section>
-
   <footer>
     <div class="footer-brand" id="footer-brand"></div>
     <div class="footer-note" id="footer-note"></div>
   </footer>
 </div>
 
-<!-- DETAIL VIEW -->
 <div id="view-detail">
   <div class="back-bar" id="back-bar">← <span id="back-label"></span></div>
   <div id="detail-content"></div>
@@ -365,82 +211,155 @@ footer{
 </div>
 
 <script>
-// ══════════════════════════════════════════════════════════════
-// STATE
-// ══════════════════════════════════════════════════════════════
+// ─── STATE ───────────────────────────────────────────────────
 let lang = 'en';
 let currentDetailId = null;
 let quizAnswers = {};
-let CONTENT = null; // loaded from content.json
+let UI = null;
+let SEQ = [];
 
-// ══════════════════════════════════════════════════════════════
-// LOAD CONTENT
-// ══════════════════════════════════════════════════════════════
+// Hard-coded quiz (not CMS-editable — keeps config simple)
+const QUIZ = {
+  en:[
+    {q:"What kind of work environment appeals to you most?",opts:[
+      {t:"Physical & hands-on — building, making, or fixing things",s:{construction:2,automotive:2,culinary:1}},
+      {t:"A classroom or care setting — nurturing and guiding others",s:{education:2,earlychildhood:2}},
+      {t:"A computer workstation — solving technical problems",s:{cs:2,cyber:2}},
+      {t:"A kitchen, studio, or stage — creative spaces",s:{culinary:2,theatre:2}}
+    ]},
+    {q:"Which activity sounds most exciting to you?",opts:[
+      {t:"Framing a house, repairing an engine, or building something tangible",s:{construction:3,automotive:3}},
+      {t:"Teaching a lesson or creating a caring learning environment for a child",s:{education:2,earlychildhood:3}},
+      {t:"Writing code, securing a network, or solving a logic puzzle",s:{cs:2,cyber:3}},
+      {t:"Designing a menu, crafting a dish, or rigging stage lights",s:{culinary:2,theatre:3}}
+    ]},
+    {q:"How would your friends describe you?",opts:[
+      {t:"Practical and mechanical — I love figuring out how things work",s:{automotive:2,construction:2}},
+      {t:"Patient and nurturing — I love being there for others",s:{education:1,earlychildhood:3}},
+      {t:"Analytical and systematic — I love diagnosing and solving problems",s:{cs:2,cyber:2,automotive:1}},
+      {t:"Creative and expressive — I love making things people experience",s:{culinary:2,theatre:2}}
+    ]},
+    {q:"What outcome matters most to you after completing this sequence?",opts:[
+      {t:"A skilled trade or technical career with immediate strong earnings",s:{construction:2,automotive:2,culinary:1}},
+      {t:"A college degree and a professional career in a growing field",s:{education:1,cs:2,cyber:2}},
+      {t:"A career that directly involves working with and shaping young people",s:{earlychildhood:3,education:2}},
+      {t:"A creative or performance-industry career doing something I love",s:{theatre:3,culinary:1}}
+    ]},
+    {q:"Which challenge sounds most appealing to you right now?",opts:[
+      {t:"Diagnosing why an engine won't start or a structure isn't level",s:{automotive:3,construction:2}},
+      {t:"Debugging faulty code or stopping a network intrusion in progress",s:{cs:2,cyber:3}},
+      {t:"Designing the perfect lesson plan or developmentally appropriate activity",s:{education:3,earlychildhood:2}},
+      {t:"Perfecting a signature recipe or nailing a complex lighting cue",s:{culinary:3,theatre:3}}
+    ]}
+  ],
+  es:[
+    {q:"¿Qué tipo de ambiente de trabajo te atrae más?",opts:[
+      {t:"Físico y práctico — construir, hacer o arreglar cosas",s:{construction:2,automotive:2,culinary:1}},
+      {t:"Un aula o centro de cuidado — guiar y nutrir a otros",s:{education:2,earlychildhood:2}},
+      {t:"Una estación de trabajo — resolver problemas técnicos",s:{cs:2,cyber:2}},
+      {t:"Una cocina, estudio o escenario — espacios creativos",s:{culinary:2,theatre:2}}
+    ]},
+    {q:"¿Cuál actividad te parece más emocionante?",opts:[
+      {t:"Construir una casa, reparar un motor o hacer algo tangible",s:{construction:3,automotive:3}},
+      {t:"Dar una clase o crear un entorno de cuidado amoroso para un niño",s:{education:2,earlychildhood:3}},
+      {t:"Escribir código, proteger una red o resolver un rompecabezas lógico",s:{cs:2,cyber:3}},
+      {t:"Diseñar un menú, crear un plato o instalar luces de escenario",s:{culinary:2,theatre:3}}
+    ]},
+    {q:"¿Cómo te describirían tus amigos?",opts:[
+      {t:"Práctico y mecánico — me encanta descubrir cómo funcionan las cosas",s:{automotive:2,construction:2}},
+      {t:"Paciente y protector — me encanta estar ahí para los demás",s:{education:1,earlychildhood:3}},
+      {t:"Analítico y sistemático — me encanta diagnosticar y resolver problemas",s:{cs:2,cyber:2,automotive:1}},
+      {t:"Creativo y expresivo — me encanta hacer cosas que la gente experimente",s:{culinary:2,theatre:2}}
+    ]},
+    {q:"¿Qué resultado te importa más al completar esta secuencia?",opts:[
+      {t:"Una carrera técnica con ingresos inmediatos y sólidos",s:{construction:2,automotive:2,culinary:1}},
+      {t:"Un título universitario y una carrera profesional en un campo en crecimiento",s:{education:1,cs:2,cyber:2}},
+      {t:"Una carrera que involucre directamente trabajar y guiar a los jóvenes",s:{earlychildhood:3,education:2}},
+      {t:"Una carrera creativa o en la industria del entretenimiento que me apasione",s:{theatre:3,culinary:1}}
+    ]},
+    {q:"¿Cuál desafío te parece más atractivo ahora mismo?",opts:[
+      {t:"Diagnosticar por qué un motor no arranca o una estructura no está nivelada",s:{automotive:3,construction:2}},
+      {t:"Depurar código defectuoso o detener una intrusión de red en curso",s:{cs:2,cyber:3}},
+      {t:"Diseñar el plan de lección perfecto o una actividad apropiada para el desarrollo",s:{education:3,earlychildhood:2}},
+      {t:"Perfeccionar una receta exclusiva o lograr una señal de iluminación compleja",s:{culinary:3,theatre:3}}
+    ]}
+  ]
+};
+
+// ─── LOAD CONTENT ────────────────────────────────────────────
 async function loadContent() {
-  const res = await fetch('content.json?v=' + Date.now());
-  CONTENT = await res.json();
+  const SEQUENCE_FILES = [
+    '_sequences/01-construction.json',
+    '_sequences/02-automotive.json',
+    '_sequences/03-education.json',
+    '_sequences/04-earlychildhood.json',
+    '_sequences/05-cs.json',
+    '_sequences/06-cyber.json',
+    '_sequences/07-culinary.json',
+    '_sequences/08-theatre.json',
+  ];
+  const bust = '?v=' + Date.now();
+  const [uiData, ...seqData] = await Promise.all([
+    fetch('_data/ui.json' + bust).then(r => r.json()),
+    ...SEQUENCE_FILES.map(f => fetch(f + bust).then(r => r.json()))
+  ]);
+  UI = uiData;
+  SEQ = seqData.sort((a,b) => a.order - b.order);
 }
 
-// Shorthand helpers
-function ui() { return CONTENT.ui[lang]; }
-function SEQ() { return CONTENT.sequences; }
-function QUIZ() { return CONTENT.quiz[lang]; }
+// ─── HELPERS ─────────────────────────────────────────────────
+const u = () => UI[lang];
+const courseVal = c => typeof c === 'object' ? (c.course || c.name || '') : c;
+const navLabel = (i) => {
+  const nav = u().nav;
+  return Array.isArray(nav) ? (typeof nav[i] === 'object' ? nav[i].label : nav[i]) : '';
+};
 
-// ══════════════════════════════════════════════════════════════
-// RENDER HOME
-// ══════════════════════════════════════════════════════════════
+// ─── RENDER HOME ─────────────────────────────────────────────
 function renderHome() {
-  const u = ui();
+  const labels = u();
+  document.getElementById('hero-label').textContent = labels.hero_label;
+  document.getElementById('hero-line1').textContent = labels.hero_line1;
+  document.getElementById('hero-line2').textContent = labels.hero_line2;
+  document.getElementById('hero-sub').textContent = labels.hero_sub;
+  document.getElementById('explore-label').textContent = labels.explore;
+  document.getElementById('quiz-eyebrow').textContent = labels.quiz_eyebrow;
+  document.getElementById('quiz-h2').innerHTML = labels.quiz_h2;
+  document.getElementById('quiz-sub').textContent = labels.quiz_sub;
+  document.getElementById('quiz-submit').textContent = labels.quiz_btn;
+  document.getElementById('result-eyebrow').textContent = labels.result_eyebrow;
+  document.getElementById('quiz-retry').textContent = labels.retry;
+  document.getElementById('back-label').textContent = labels.back;
+  ['footer-brand','footer-brand2'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=labels.footer_brand;});
+  ['footer-note','footer-note2'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=labels.footer_note;});
 
-  document.getElementById('hero-label').textContent = u.hero_label;
-  document.getElementById('hero-line1').textContent = u.hero_line1;
-  document.getElementById('hero-line2').textContent = u.hero_line2;
-  document.getElementById('hero-sub').textContent = u.hero_sub;
-  document.getElementById('explore-label').textContent = u.explore;
-  document.getElementById('quiz-eyebrow').textContent = u.quiz_eyebrow;
-  document.getElementById('quiz-h2').innerHTML = u.quiz_h2;
-  document.getElementById('quiz-sub').textContent = u.quiz_sub;
-  document.getElementById('quiz-submit').textContent = u.quiz_btn;
-  document.getElementById('result-eyebrow').textContent = u.result_eyebrow;
-  document.getElementById('quiz-retry').textContent = u.retry;
-  document.getElementById('back-label').textContent = u.back;
-  ['footer-brand','footer-brand2'].forEach(id=>{ const el=document.getElementById(id); if(el) el.textContent=u.footer_brand; });
-  ['footer-note','footer-note2'].forEach(id=>{ const el=document.getElementById(id); if(el) el.textContent=u.footer_note; });
-
-  // Nav
-  document.getElementById('nav-list').innerHTML = SEQ().map((s,i)=>`
+  document.getElementById('nav-list').innerHTML = SEQ.map((s,i)=>`
     <li><a href="#${s.id}" data-id="${s.id}"
       onmouseover="this.style.color='${s.color}';this.style.borderBottomColor='${s.color}'"
       onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">
-      ${u.nav[i]}
-    </a></li>
-  `).join('');
+      ${navLabel(i)}
+    </a></li>`).join('');
 
-  // Sequences
-  document.getElementById('seq-container').innerHTML = SEQ().map((s,i)=>{
+  document.getElementById('seq-container').innerHTML = SEQ.map((s,i)=>{
     const d = s[lang];
-    const isEven = i % 2 === 1;
-    return `
-    <section class="sequence" id="${s.id}">
-      <div class="seq-header" ${isEven?'style="direction:rtl"':''}>
-        <div class="seq-text-panel reveal" ${isEven?'style="direction:ltr"':''}>
+    const even = i%2===1;
+    return `<section class="sequence" id="${s.id}">
+      <div class="seq-header" ${even?'style="direction:rtl"':''}>
+        <div class="seq-text-panel reveal" ${even?'style="direction:ltr"':''}>
           <div class="seq-number" style="color:${s.color};opacity:.7">${s.num} / 08</div>
           <a class="seq-title-link" onclick="goDetail('${s.id}')" href="javascript:void(0)">
             <h2 class="seq-title" style="color:${s.color}">${d.title}</h2>
             <span class="seq-explore-hint" style="color:${s.color}">→ ${lang==='en'?'Explore this program':'Explorar programa'}</span>
           </a>
           <p class="seq-desc">${d.desc}</p>
-          <div class="seq-courses-label" style="color:${s.color}">${u.courses_label}</div>
-          <ul class="course-list">
-            ${d.courses.map(c=>`<li class="course-item">
-              <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:${s.color};flex-shrink:0;margin-right:.1rem"></span>
-              ${typeof c === 'object' ? c.course || c.name || '' : c}
-            </li>`).join('')}
-          </ul>
+          <div class="seq-courses-label" style="color:${s.color}">${labels.courses_label}</div>
+          <ul class="course-list">${d.courses.map(c=>`<li class="course-item">
+            <span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:${s.color};flex-shrink:0;margin-right:.1rem"></span>
+            ${courseVal(c)}</li>`).join('')}</ul>
         </div>
-        <div class="seq-accent-panel reveal" ${isEven?'style="direction:ltr"':''}>
+        <div class="seq-accent-panel reveal" ${even?'style="direction:ltr"':''}>
           <div style="background:radial-gradient(ellipse at center,${s.color}1f,transparent 70%);width:100%;height:100%;display:flex;align-items:center;justify-content:center">
-            <span style="font-size:clamp(9rem,18vw,16rem);opacity:.14;user-select:none;transition:opacity .45s,transform .45s">${s.icon}</span>
+            <span class="seq-icon" style="font-size:clamp(9rem,18vw,16rem);opacity:.14;user-select:none;transition:opacity .45s,transform .45s">${s.icon}</span>
           </div>
           <span class="seq-tag" style="color:${s.color}">${d.tag}</span>
         </div>
@@ -448,272 +367,195 @@ function renderHome() {
     </section>`;
   }).join('');
 
-  initReveal();
-  initNavHighlight();
-  renderQuiz();
+  initReveal(); initNavHighlight(); renderQuiz();
 }
 
-// ══════════════════════════════════════════════════════════════
-// RENDER DETAIL
-// ══════════════════════════════════════════════════════════════
+// ─── RENDER DETAIL ───────────────────────────────────────────
 function renderDetail(id) {
-  const s = SEQ().find(x=>x.id===id);
-  if(!s) return;
-  const d = s[lang];
-  const u = ui();
-
-  document.getElementById('back-label').textContent = u.back;
-  ['footer-brand2'].forEach(el=>{ const e=document.getElementById(el); if(e) e.textContent=u.footer_brand; });
-  ['footer-note2'].forEach(el=>{ const e=document.getElementById(el); if(e) e.textContent=u.footer_note; });
-
-  const courseVal = c => typeof c === 'object' ? (c.course || c.name || '') : c;
+  const s = SEQ.find(x=>x.id===id); if(!s) return;
+  const d = s[lang]; const labels = u();
+  document.getElementById('back-label').textContent = labels.back;
+  ['footer-brand2'].forEach(el=>{const e=document.getElementById(el);if(e)e.textContent=labels.footer_brand;});
+  ['footer-note2'].forEach(el=>{const e=document.getElementById(el);if(e)e.textContent=labels.footer_note;});
 
   document.getElementById('detail-content').innerHTML = `
     <div class="detail-hero" style="background:radial-gradient(ellipse 65% 85% at 5% 50%,${s.color}1a,transparent 65%)">
       <div class="detail-hero-text">
-        <div class="detail-d-num">${s.num} / 08 &mdash; <span style="color:${s.color}">${d.tag}</span></div>
+        <div class="detail-d-num">${s.num} / 08 — <span style="color:${s.color}">${d.tag}</span></div>
         <h1 class="detail-d-title" style="color:${s.color}">${d.title}</h1>
         <p class="detail-d-desc">${d.desc}</p>
       </div>
       <div class="detail-icon-float">${s.icon}</div>
     </div>
-
     <div class="detail-body">
-
       <div class="detail-sec" style="border-top:none;padding-top:4rem;margin-top:0">
-        <div class="detail-sec-eyebrow" style="color:${s.color}">${u.d_courses_eyebrow}</div>
-        <h2 class="detail-sec-title">${u.d_courses_title}</h2>
-        <div class="courses-grid">
-          ${d.courses.map((c,i)=>`
-            <div class="course-card" style="border-top-color:${s.color}">
-              <div class="course-card-num">${u.course_prefix} ${String(i+1).padStart(2,'0')}</div>
-              <div class="course-card-name">${courseVal(c)}</div>
-            </div>
-          `).join('')}
-        </div>
+        <div class="detail-sec-eyebrow" style="color:${s.color}">${labels.d_courses_eyebrow}</div>
+        <h2 class="detail-sec-title">${labels.d_courses_title}</h2>
+        <div class="courses-grid">${d.courses.map((c,i)=>`
+          <div class="course-card" style="border-top-color:${s.color}">
+            <div class="course-card-num">${labels.course_prefix} ${String(i+1).padStart(2,'0')}</div>
+            <div class="course-card-name">${courseVal(c)}</div>
+          </div>`).join('')}</div>
       </div>
-
       <div class="detail-sec">
-        <div class="detail-sec-eyebrow" style="color:${s.color}">${u.d_postsec_eyebrow}</div>
-        <h2 class="detail-sec-title">${u.d_postsec_title}</h2>
-        <div class="info-grid">
-          ${d.postsec.map(p=>`
-            <div class="info-card">
-              <div class="info-card-type">${p.type}</div>
-              <div class="info-card-name">${p.name}</div>
-              <div class="info-card-note">${p.note}</div>
-              ${p.url ? `<a class="info-card-link" href="${p.url}" target="_blank" rel="noopener" style="color:${s.color}">↗ ${lang==='en'?'Learn more':'Más información'}</a>` : ''}
-            </div>
-          `).join('')}
-        </div>
+        <div class="detail-sec-eyebrow" style="color:${s.color}">${labels.d_postsec_eyebrow}</div>
+        <h2 class="detail-sec-title">${labels.d_postsec_title}</h2>
+        <div class="info-grid">${d.postsec.map(p=>`
+          <div class="info-card">
+            <div class="info-card-type">${p.type}</div>
+            <div class="info-card-name">${p.name}</div>
+            <div class="info-card-note">${p.note}</div>
+            ${p.url?`<a class="info-card-link" href="${p.url}" target="_blank" rel="noopener" style="color:${s.color}">↗ ${lang==='en'?'Learn more':'Más información'}</a>`:''}
+          </div>`).join('')}</div>
       </div>
-
       <div class="detail-sec">
-        <div class="detail-sec-eyebrow" style="color:${s.color}">${u.d_careers_eyebrow}</div>
-        <h2 class="detail-sec-title">${u.d_careers_title}</h2>
-        <div class="info-grid">
-          ${d.careers.map(c=>`
-            <div class="career-card">
-              <div class="career-card-title">${c.title}</div>
-              <div>
-                <div class="career-card-salary" style="color:${s.color}">${c.salary}</div>
-                <div class="career-card-outlook">${c.outlook} ${u.outlook_label}</div>
-              </div>
-              <div class="career-card-desc">${c.desc}</div>
-            </div>
-          `).join('')}
-        </div>
+        <div class="detail-sec-eyebrow" style="color:${s.color}">${labels.d_careers_eyebrow}</div>
+        <h2 class="detail-sec-title">${labels.d_careers_title}</h2>
+        <div class="info-grid">${d.careers.map(c=>`
+          <div class="career-card">
+            <div class="career-card-title">${c.title}</div>
+            <div><div class="career-card-salary" style="color:${s.color}">${c.salary}</div>
+            <div class="career-card-outlook">${c.outlook} ${labels.outlook_label}</div></div>
+            <div class="career-card-desc">${c.desc}</div>
+          </div>`).join('')}</div>
       </div>
-
       <div class="detail-sec">
-        <div class="detail-sec-eyebrow" style="color:${s.color}">${u.d_fin_eyebrow}</div>
-        <h2 class="detail-sec-title">${u.d_fin_title}</h2>
-        <div class="fin-list">
-          ${d.financial.map(f=>`
-            <div class="fin-item">
-              <div class="fin-dot" style="background:${s.color}"></div>
-              <div>
-                <div class="fin-name">${f.name}</div>
-                <div class="fin-note">${f.note}</div>
-                ${f.url ? `<a class="fin-link" href="${f.url}" target="_blank" rel="noopener" style="color:${s.color}">↗ ${lang==='en'?'Apply / Learn more':'Aplicar / Más información'}</a>` : ''}
-              </div>
+        <div class="detail-sec-eyebrow" style="color:${s.color}">${labels.d_fin_eyebrow}</div>
+        <h2 class="detail-sec-title">${labels.d_fin_title}</h2>
+        <div class="fin-list">${d.financial.map(f=>`
+          <div class="fin-item">
+            <div class="fin-dot" style="background:${s.color}"></div>
+            <div>
+              <div class="fin-name">${f.name}</div>
+              <div class="fin-note">${f.note}</div>
+              ${f.url?`<a class="fin-link" href="${f.url}" target="_blank" rel="noopener" style="color:${s.color}">↗ ${lang==='en'?'Apply / Learn more':'Aplicar / Más información'}</a>`:''}
             </div>
-          `).join('')}
-        </div>
+          </div>`).join('')}</div>
       </div>
-
-    </div>
-  `;
+    </div>`;
 }
 
-// ══════════════════════════════════════════════════════════════
-// QUIZ
-// ══════════════════════════════════════════════════════════════
+// ─── QUIZ ─────────────────────────────────────────────────────
 function renderQuiz() {
   quizAnswers = {};
-  const qs = QUIZ();
+  const qs = QUIZ[lang];
   document.getElementById('quiz-qs').innerHTML = qs.map((q,qi)=>`
     <div class="quiz-card">
       <div class="quiz-q-num">${String(qi+1).padStart(2,'0')}</div>
       <div class="quiz-q-text">${q.q}</div>
-      <div class="quiz-opts">
-        ${q.opts.map((o,oi)=>`
-          <div class="quiz-opt" id="qo-${qi}-${oi}" onclick="pickOpt(${qi},${oi})">
-            <div class="radio-dot"></div>
-            <span>${o.t}</span>
-          </div>
-        `).join('')}
-      </div>
-    </div>
-  `).join('');
+      <div class="quiz-opts">${q.opts.map((o,oi)=>`
+        <div class="quiz-opt" id="qo-${qi}-${oi}" onclick="pickOpt(${qi},${oi})">
+          <div class="radio-dot"></div><span>${o.t}</span>
+        </div>`).join('')}</div>
+    </div>`).join('');
   document.getElementById('quiz-result').classList.remove('show');
   document.getElementById('quiz-submit').disabled = true;
-  document.getElementById('quiz-submit').textContent = ui().quiz_btn;
+  document.getElementById('quiz-submit').textContent = u().quiz_btn;
 }
 
 function pickOpt(qi,oi){
-  QUIZ()[qi].opts.forEach((_,i)=>{
-    const el = document.getElementById(`qo-${qi}-${i}`);
-    if(el) el.classList.remove('sel');
-  });
-  const el = document.getElementById(`qo-${qi}-${oi}`);
-  if(el) el.classList.add('sel');
-  quizAnswers[qi] = oi;
-  document.getElementById('quiz-submit').disabled = Object.keys(quizAnswers).length < QUIZ().length;
+  QUIZ[lang][qi].opts.forEach((_,i)=>{const el=document.getElementById(`qo-${qi}-${i}`);if(el)el.classList.remove('sel');});
+  const el=document.getElementById(`qo-${qi}-${oi}`);if(el)el.classList.add('sel');
+  quizAnswers[qi]=oi;
+  document.getElementById('quiz-submit').disabled=Object.keys(quizAnswers).length<QUIZ[lang].length;
 }
 
-document.getElementById('quiz-submit').addEventListener('click', ()=>{
-  const scores = {};
-  SEQ().forEach(s=>scores[s.id]=0);
+document.getElementById('quiz-submit').addEventListener('click',()=>{
+  const scores={};SEQ.forEach(s=>scores[s.id]=0);
   Object.entries(quizAnswers).forEach(([qi,oi])=>{
-    const s = QUIZ()[qi].opts[oi].s;
-    Object.entries(s).forEach(([id,pts])=>{ scores[id]=(scores[id]||0)+pts; });
+    const s=QUIZ[lang][qi].opts[oi].s;
+    Object.entries(s).forEach(([id,pts])=>{scores[id]=(scores[id]||0)+pts;});
   });
-  const winnerId = Object.entries(scores).sort((a,b)=>b[1]-a[1])[0][0];
-  const winner = SEQ().find(s=>s.id===winnerId);
-  const d = winner[lang];
-  const u = ui();
-
-  document.getElementById('result-name').textContent = d.title;
-  document.getElementById('result-name').style.color = winner.color;
-  document.getElementById('result-blurb').textContent = d.desc;
-  document.getElementById('result-eyebrow').textContent = u.result_eyebrow;
-
-  const cta = document.getElementById('result-cta');
-  cta.style.background = winner.color;
-  cta.style.color = '#0f0f0f';
-  cta.textContent = u.result_cta;
-  cta.onclick = ()=>goDetail(winner.id);
-
-  document.getElementById('quiz-retry').textContent = u.retry;
+  const winnerId=Object.entries(scores).sort((a,b)=>b[1]-a[1])[0][0];
+  const winner=SEQ.find(s=>s.id===winnerId);
+  const d=winner[lang];const labels=u();
+  document.getElementById('result-name').textContent=d.title;
+  document.getElementById('result-name').style.color=winner.color;
+  document.getElementById('result-blurb').textContent=d.desc;
+  document.getElementById('result-eyebrow').textContent=labels.result_eyebrow;
+  const cta=document.getElementById('result-cta');
+  cta.style.background=winner.color;cta.style.color='#0f0f0f';
+  cta.textContent=labels.result_cta;cta.onclick=()=>goDetail(winner.id);
+  document.getElementById('quiz-retry').textContent=labels.retry;
   document.getElementById('quiz-result').classList.add('show');
   document.getElementById('quiz-result').scrollIntoView({behavior:'smooth',block:'center'});
 });
 
-document.getElementById('quiz-retry').addEventListener('click', ()=>{
+document.getElementById('quiz-retry').addEventListener('click',()=>{
   document.getElementById('quiz-result').classList.remove('show');
   renderQuiz();
   document.getElementById('quiz').scrollIntoView({behavior:'smooth',block:'start'});
 });
 
-// ══════════════════════════════════════════════════════════════
-// NAVIGATION
-// ══════════════════════════════════════════════════════════════
-function goDetail(id) {
-  currentDetailId = id;
-  document.getElementById('view-home').style.display = 'none';
-  document.getElementById('view-detail').style.display = 'block';
-  renderDetail(id);
+// ─── NAVIGATION ──────────────────────────────────────────────
+function goDetail(id){
+  currentDetailId=id;
+  document.getElementById('view-home').style.display='none';
+  document.getElementById('view-detail').style.display='block';
+  renderDetail(id);window.scrollTo({top:0,behavior:'smooth'});
+}
+function goHome(){
+  currentDetailId=null;
+  document.getElementById('view-home').style.display='block';
+  document.getElementById('view-detail').style.display='none';
   window.scrollTo({top:0,behavior:'smooth'});
 }
+document.getElementById('back-bar').addEventListener('click',goHome);
 
-function goHome() {
-  currentDetailId = null;
-  document.getElementById('view-home').style.display = 'block';
-  document.getElementById('view-detail').style.display = 'none';
-  window.scrollTo({top:0,behavior:'smooth'});
+// ─── LANGUAGE ────────────────────────────────────────────────
+function toggleLang(){
+  lang=lang==='en'?'es':'en';
+  document.getElementById('lang-label').textContent=lang==='en'?'ES':'EN';
+  document.documentElement.lang=lang;
+  currentDetailId?renderDetail(currentDetailId):renderHome();
 }
 
-document.getElementById('back-bar').addEventListener('click', goHome);
-
-// ══════════════════════════════════════════════════════════════
-// LANGUAGE TOGGLE
-// ══════════════════════════════════════════════════════════════
-function toggleLang() {
-  lang = lang==='en'?'es':'en';
-  document.getElementById('lang-label').textContent = lang==='en'?'ES':'EN';
-  document.documentElement.lang = lang;
-  if(currentDetailId) {
-    renderDetail(currentDetailId);
-    document.getElementById('back-label').textContent = ui().back;
-  } else {
-    renderHome();
-  }
-}
-
-// ══════════════════════════════════════════════════════════════
-// SCROLL REVEAL
-// ══════════════════════════════════════════════════════════════
-let revealObserver;
-function initReveal() {
-  if(revealObserver) revealObserver.disconnect();
-  revealObserver = new IntersectionObserver(entries=>{
-    entries.forEach(e=>{
-      if(e.isIntersecting){e.target.classList.add('visible');revealObserver.unobserve(e.target);}
-    });
+// ─── SCROLL REVEAL ───────────────────────────────────────────
+let revealObs;
+function initReveal(){
+  if(revealObs)revealObs.disconnect();
+  revealObs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');revealObs.unobserve(e.target);}});
   },{threshold:0.07});
-  document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
+  document.querySelectorAll('.reveal').forEach(el=>revealObs.observe(el));
 }
-
-// ══════════════════════════════════════════════════════════════
-// NAV HIGHLIGHT
-// ══════════════════════════════════════════════════════════════
-let navObserver;
-function initNavHighlight() {
-  if(navObserver) navObserver.disconnect();
-  navObserver = new IntersectionObserver(entries=>{
+let navObs;
+function initNavHighlight(){
+  if(navObs)navObs.disconnect();
+  navObs=new IntersectionObserver(entries=>{
     entries.forEach(e=>{
       if(e.isIntersecting){
-        const seq = SEQ().find(s=>s.id===e.target.id);
-        if(!seq) return;
-        document.querySelectorAll('.seq-nav a').forEach(a=>{
-          a.classList.remove('active');a.style.color='';a.style.borderBottomColor='';
-        });
-        const link = document.querySelector(`.seq-nav a[data-id="${e.target.id}"]`);
+        const seq=SEQ.find(s=>s.id===e.target.id);if(!seq)return;
+        document.querySelectorAll('.seq-nav a').forEach(a=>{a.classList.remove('active');a.style.color='';a.style.borderBottomColor='';});
+        const link=document.querySelector(`.seq-nav a[data-id="${e.target.id}"]`);
         if(link){link.classList.add('active');link.style.color=seq.color;link.style.borderBottomColor=seq.color;}
       }
     });
   },{threshold:0.35});
-  document.querySelectorAll('.sequence').forEach(s=>navObserver.observe(s));
+  document.querySelectorAll('.sequence').forEach(s=>navObs.observe(s));
 }
-
-// Hover on icons
-document.addEventListener('mouseover', e=>{
-  const seq = e.target.closest('.sequence');
-  if(seq) { const icon = seq.querySelector('span[style*="clamp"]'); if(icon){ icon.style.opacity='.22'; icon.style.transform='scale(1.07) rotate(-4deg)'; }}
+document.addEventListener('mouseover',e=>{
+  const seq=e.target.closest('.sequence');
+  if(seq){const icon=seq.querySelector('.seq-icon');if(icon){icon.style.opacity='.22';icon.style.transform='scale(1.07) rotate(-4deg)';}}
 });
-document.addEventListener('mouseout', e=>{
-  const seq = e.target.closest('.sequence');
-  if(seq && !seq.contains(e.relatedTarget)) { const icon = seq.querySelector('span[style*="clamp"]'); if(icon){ icon.style.opacity='.14'; icon.style.transform=''; }}
+document.addEventListener('mouseout',e=>{
+  const seq=e.target.closest('.sequence');
+  if(seq&&!seq.contains(e.relatedTarget)){const icon=seq.querySelector('.seq-icon');if(icon){icon.style.opacity='.14';icon.style.transform='';}}
 });
 
-// Netlify Identity redirect
-if (window.netlifyIdentity) {
-  window.netlifyIdentity.on("init", user => {
-    if (!user) {
-      window.netlifyIdentity.on("login", () => { document.location.href = "/admin/"; });
-    }
+// Netlify Identity
+if(window.netlifyIdentity){
+  window.netlifyIdentity.on('init',user=>{
+    if(!user)window.netlifyIdentity.on('login',()=>{document.location.href='/admin/';});
   });
 }
 
-// ══════════════════════════════════════════════════════════════
-// INIT
-// ══════════════════════════════════════════════════════════════
-loadContent().then(() => {
+// ─── INIT ────────────────────────────────────────────────────
+loadContent().then(()=>{
   renderHome();
-  const loader = document.getElementById('loading');
+  const loader=document.getElementById('loading');
   loader.classList.add('done');
-  setTimeout(()=>loader.style.display='none', 450);
+  setTimeout(()=>loader.style.display='none',450);
 });
 </script>
 </body>

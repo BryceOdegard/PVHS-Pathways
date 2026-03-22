@@ -1,0 +1,55 @@
+{
+  "id": "earlychildhood",
+  "num": "04",
+  "icon": "🌱",
+  "color": "#f472b6",
+  "order": 4,
+  "en": {
+    "title": "Early Childhood",
+    "tag": "Human Services",
+    "desc": "Explore child development from birth through age eight. Students learn to create nurturing, developmentally appropriate learning environments and graduate with credentials aligned to careers in childcare, preschool, and early intervention.",
+    "courses": ["Child Growth & Development","Family & Community Relations","Curriculum for Young Children","Early Childhood Practicum"],
+    "postsec": [
+      {"type": "Industry Credential", "name": "Child Development Associate (CDA)", "note": "The most widely recognized credential in early childhood education; can be earned during or after completing this sequence.", "url": "https://www.cdacouncil.org"},
+      {"type": "Community College", "name": "AAS in Early Childhood Education", "note": "2-year degree that qualifies graduates to serve as lead teachers in licensed childcare centers and preschools.", "url": ""},
+      {"type": "University", "name": "BS in Child Development / Early Childhood Education", "note": "4-year degree for students pursuing preschool director, school counselor, or child life specialist roles.", "url": ""},
+      {"type": "Specialized Certification", "name": "Early Intervention Specialist", "note": "State-issued credential for working with infants and toddlers (ages 0–3) who have developmental delays or disabilities.", "url": ""}
+    ],
+    "careers": [
+      {"title": "Preschool Teacher", "salary": "$33,000", "outlook": "+15%", "desc": "Plan and implement developmentally appropriate activities for children ages 3–5 in preschool or Head Start programs."},
+      {"title": "Childcare Center Director", "salary": "$50,000", "outlook": "+7%", "desc": "Manage the operations, staff, curriculum, and licensing compliance of a childcare facility."},
+      {"title": "Kindergarten Teacher", "salary": "$60,000", "outlook": "+4%", "desc": "Teach foundational literacy, numeracy, and social skills to students in K-level classrooms."},
+      {"title": "Child Life Specialist", "salary": "$52,000", "outlook": "+10%", "desc": "Support children and families in hospital or clinical settings using therapeutic play-based approaches."}
+    ],
+    "financial": [
+      {"name": "T.E.A.C.H. Early Childhood Scholarship", "note": "Covers tuition, books, and travel for childcare workers pursuing ECE credentials — often includes a paid completion bonus.", "url": "https://teachecnationalcenter.org"},
+      {"name": "CDA Scholarship Program", "note": "The Council for Professional Recognition offers financial assistance specifically toward the CDA credential for qualifying candidates.", "url": "https://www.cdacouncil.org"},
+      {"name": "Head Start Training Grants", "note": "Head Start grantees receive dedicated funds for staff professional development and continuing education.", "url": "https://www.acf.hhs.gov/ohs"},
+      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+    ]
+  },
+  "es": {
+    "title": "Primera Infancia",
+    "tag": "Servicios Humanos",
+    "desc": "Explora el desarrollo infantil desde el nacimiento hasta los ocho años. Los estudiantes aprenden a crear entornos de aprendizaje nutritivos y apropiados para el desarrollo.",
+    "courses": ["Crecimiento y Desarrollo Infantil","Relaciones Familiares y Comunitarias","Currículo para Niños Pequeños","Práctica de Primera Infancia"],
+    "postsec": [
+      {"type": "Credencial Industrial", "name": "Asociado de Desarrollo Infantil (CDA)", "note": "La credencial más reconocida en educación de primera infancia.", "url": "https://www.cdacouncil.org"},
+      {"type": "Colegio Comunitario", "name": "AAS en Educación de Primera Infancia", "note": "Título de 2 años que califica a los graduados para ser maestros principales en centros de cuidado infantil.", "url": ""},
+      {"type": "Universidad", "name": "BS en Desarrollo Infantil", "note": "Título de 4 años para estudiantes que buscan ser directores de preescolar o especialistas en vida infantil.", "url": ""},
+      {"type": "Certificación Especializada", "name": "Especialista en Intervención Temprana", "note": "Credencial estatal para trabajar con bebés y niños pequeños (0–3 años) con retrasos del desarrollo.", "url": ""}
+    ],
+    "careers": [
+      {"title": "Maestra de Preescolar", "salary": "$33,000", "outlook": "+15%", "desc": "Planifica e implementa actividades apropiadas para el desarrollo de niños de 3 a 5 años."},
+      {"title": "Director/a de Centro de Cuidado Infantil", "salary": "$50,000", "outlook": "+7%", "desc": "Gestiona las operaciones, el personal, el currículo y el cumplimiento de licencias de una guardería."},
+      {"title": "Maestra de Jardín de Infantes", "salary": "$60,000", "outlook": "+4%", "desc": "Enseña alfabetización, numeración y habilidades sociales fundamentales a estudiantes de nivel K."},
+      {"title": "Especialista en Vida Infantil", "salary": "$52,000", "outlook": "+10%", "desc": "Apoya a niños y familias en entornos hospitalarios usando enfoques terapéuticos basados en el juego."}
+    ],
+    "financial": [
+      {"name": "Beca T.E.A.C.H. de Primera Infancia", "note": "Cubre matrícula, libros y transporte para trabajadores de cuidado infantil que buscan credenciales ECE.", "url": "https://teachecnationalcenter.org"},
+      {"name": "Programa de Becas CDA", "note": "El Consejo para el Reconocimiento Profesional ofrece asistencia financiera para la credencial CDA.", "url": "https://www.cdacouncil.org"},
+      {"name": "Becas de Capacitación Head Start", "note": "Los beneficiarios de Head Start reciben fondos para el desarrollo profesional del personal.", "url": "https://www.acf.hhs.gov/ohs"},
+      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+    ]
+  }
+}

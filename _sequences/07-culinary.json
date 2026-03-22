@@ -1,0 +1,55 @@
+{
+  "id": "culinary",
+  "num": "07",
+  "icon": "👨‍🍳",
+  "color": "#fb923c",
+  "order": 7,
+  "en": {
+    "title": "Culinary Arts",
+    "tag": "Hospitality",
+    "desc": "From mise en place to plated masterpiece. Students develop culinary technique, food science knowledge, and kitchen management skills in our professional lab kitchen — with industry mentorship and ServSafe certification.",
+    "courses": ["Culinary Foundations","Global Cuisines & Techniques","Baking & Pastry Arts","Restaurant Operations & Management"],
+    "postsec": [
+      {"type": "Culinary Institute", "name": "CIA / Johnson & Wales / Auguste Escoffier", "note": "Highly respected culinary degrees with intense hands-on training; strong industry networks and alumni placement programs.", "url": ""},
+      {"type": "Community College", "name": "AAS in Culinary Arts", "note": "More affordable 2-year programs at regional community colleges with professional kitchen labs and local industry partnerships.", "url": ""},
+      {"type": "Industry Credential", "name": "ServSafe Manager Certification", "note": "Required for food service management roles in most states; can be earned during this sequence.", "url": "https://www.servsafe.com"},
+      {"type": "Industry Credential", "name": "ACF Certification (CC, CPC, CEC)", "note": "American Culinary Federation certifications from Certified Cook through Executive Chef — the professional ladder for culinary careers.", "url": "https://www.acfchefs.org"}
+    ],
+    "careers": [
+      {"title": "Chef / Head Cook", "salary": "$55,000", "outlook": "+9%", "desc": "Direct kitchen operations, develop menus, and lead culinary teams in restaurants, hotels, or catering operations."},
+      {"title": "Food Service Manager", "salary": "$61,000", "outlook": "+7%", "desc": "Oversee daily operations of restaurants, cafeterias, hotels, or institutional food service programs."},
+      {"title": "Pastry Chef / Baker", "salary": "$42,000", "outlook": "+8%", "desc": "Specialize in breads, pastries, desserts, and confections for restaurants, hotels, bakeries, or private clients."},
+      {"title": "Private / Personal Chef", "salary": "$65,000+", "outlook": "+9%", "desc": "Prepare customized meals for private households, corporate executives, yachts, or exclusive venues."}
+    ],
+    "financial": [
+      {"name": "James Beard Foundation Scholarship", "note": "One of the most prestigious culinary scholarships in the US — awarded to students enrolled in accredited culinary programs.", "url": "https://www.jamesbeard.org/scholarships"},
+      {"name": "ACF Scholarship Program", "note": "The American Culinary Federation awards scholarships annually to student members pursuing culinary education and credentials.", "url": "https://www.acfchefs.org"},
+      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
+      {"name": "National Restaurant Association Educational Foundation", "note": "The NRAEF and WIOA provide workforce training funding specifically for students entering foodservice careers.", "url": "https://www.nraef.org"}
+    ]
+  },
+  "es": {
+    "title": "Artes Culinarias",
+    "tag": "Hospitalidad",
+    "desc": "De la mise en place a la obra maestra en el plato. Los estudiantes desarrollan técnica culinaria, conocimiento de ciencias de los alimentos y habilidades de gestión de cocina.",
+    "courses": ["Fundamentos Culinarios","Cocinas Globales y Técnicas","Arte de la Panadería y Pastelería","Operaciones y Gestión de Restaurantes"],
+    "postsec": [
+      {"type": "Instituto Culinario", "name": "CIA / Johnson & Wales / Auguste Escoffier", "note": "Títulos culinarios muy respetados con capacitación práctica intensa y sólidas redes en la industria.", "url": ""},
+      {"type": "Colegio Comunitario", "name": "AAS en Artes Culinarias", "note": "Programas de 2 años más asequibles con laboratorios de cocina profesional y asociaciones con la industria local.", "url": ""},
+      {"type": "Credencial Industrial", "name": "Certificación ServSafe Manager", "note": "Requerida para roles de gestión en servicios de alimentos en la mayoría de los estados.", "url": "https://www.servsafe.com"},
+      {"type": "Credencial Industrial", "name": "Certificación ACF (CC, CPC, CEC)", "note": "Certificaciones de la Federación Culinaria Americana desde Cocinero Certificado hasta Chef Ejecutivo.", "url": "https://www.acfchefs.org"}
+    ],
+    "careers": [
+      {"title": "Chef / Cocinero/a Principal", "salary": "$55,000", "outlook": "+9%", "desc": "Dirige operaciones de cocina, desarrolla menús y lidera equipos culinarios en restaurantes, hoteles o catering."},
+      {"title": "Gerente de Servicios de Alimentos", "salary": "$61,000", "outlook": "+7%", "desc": "Supervisa las operaciones diarias de restaurantes, cafeterías, hoteles o programas institucionales de alimentos."},
+      {"title": "Chef de Pastelería / Panadero/a", "salary": "$42,000", "outlook": "+8%", "desc": "Se especializa en panes, pasteles, postres y confitería para restaurantes, hoteles o clientes privados."},
+      {"title": "Chef Privado/a", "salary": "$65,000+", "outlook": "+9%", "desc": "Prepara comidas personalizadas para hogares privados, ejecutivos corporativos, yates o lugares exclusivos."}
+    ],
+    "financial": [
+      {"name": "Beca de la Fundación James Beard", "note": "Una de las becas culinarias más prestigiosas en EE. UU.", "url": "https://www.jamesbeard.org/scholarships"},
+      {"name": "Programa de Becas ACF", "note": "La Federación Culinaria Americana otorga becas anualmente a estudiantes que buscan educación y credenciales culinarias.", "url": "https://www.acfchefs.org"},
+      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
+      {"name": "Fundación Educativa NRAEF", "note": "La NRAEF y WIOA proporcionan financiamiento de capacitación para estudiantes que ingresan a carreras en servicios de alimentos.", "url": "https://www.nraef.org"}
+    ]
+  }
+}

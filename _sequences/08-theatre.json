@@ -1,0 +1,55 @@
+{
+  "id": "theatre",
+  "num": "08",
+  "icon": "🎭",
+  "color": "#a78bfa",
+  "order": 8,
+  "en": {
+    "title": "Theatre Technology",
+    "tag": "Arts & Media",
+    "desc": "The magic behind the curtain. Students master lighting design, sound engineering, scenic construction, and stage management — skills that translate to careers in live events, film production, and entertainment technology.",
+    "courses": ["Introduction to Theatre Technology","Lighting & Sound Design","Scenic Design & Construction","Stage Management & Production"],
+    "postsec": [
+      {"type": "University", "name": "BFA in Theatre Technology / Design", "note": "Intensive 4-year conservatory-style program with concentrations in lighting, scenic, costume, or sound design.", "url": ""},
+      {"type": "Community College", "name": "AAS in Technical Theatre", "note": "2-year pathway to entry-level production, event, and venue technician roles; prepares students for IATSE membership.", "url": ""},
+      {"type": "Industry Certification", "name": "ETCP — Entertainment Technician Certification", "note": "Industry-recognized credential for riggers and electricians working in entertainment venues, arenas, and touring productions.", "url": "https://etcp.esta.org"},
+      {"type": "Trade Union", "name": "IATSE Apprenticeship (Stage Local)", "note": "The International Alliance of Theatrical Stage Employees offers structured apprenticeships in major regional markets.", "url": "https://www.iatse.net"}
+    ],
+    "careers": [
+      {"title": "Lighting Designer", "salary": "$55,000", "outlook": "+8%", "desc": "Create and execute lighting designs for theatrical productions, concerts, corporate events, and touring shows."},
+      {"title": "Sound Engineer", "salary": "$57,000", "outlook": "+6%", "desc": "Record, mix, and reinforce audio for live performances, broadcasts, recording sessions, and events."},
+      {"title": "Scenic Designer / Carpenter", "salary": "$45,000", "outlook": "+5%", "desc": "Design and build sets, props, and physical environments for theatrical productions, film, and television."},
+      {"title": "Production / Event Manager", "salary": "$70,000", "outlook": "+8%", "desc": "Coordinate all technical and logistical elements of a production, event, or venue — the creative project manager."}
+    ],
+    "financial": [
+      {"name": "USITT Scholarships", "note": "The United States Institute for Theatre Technology awards multiple annual scholarships to students in accredited technical theatre programs.", "url": "https://www.usitt.org"},
+      {"name": "IATSE Scholarship Program", "note": "The International Alliance of Theatrical Stage Employees offers scholarships to members and their dependents pursuing entertainment careers.", "url": "https://www.iatse.net"},
+      {"name": "State Arts Council Grants", "note": "Most state arts councils offer grants and scholarships for students pursuing careers in the performing arts, production, and technical theatre.", "url": ""},
+      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+    ]
+  },
+  "es": {
+    "title": "Tecnología Teatral",
+    "tag": "Artes y Medios",
+    "desc": "La magia detrás del telón. Los estudiantes dominan el diseño de iluminación, la ingeniería de sonido, la construcción de escenarios y la gestión de escenas.",
+    "courses": ["Introducción a la Tecnología Teatral","Diseño de Iluminación y Sonido","Diseño y Construcción Escénica","Gestión de Escena y Producción"],
+    "postsec": [
+      {"type": "Universidad", "name": "BFA en Tecnología / Diseño Teatral", "note": "Programa intensivo de 4 años estilo conservatorio con concentraciones en iluminación, escenografía o sonido.", "url": ""},
+      {"type": "Colegio Comunitario", "name": "AAS en Teatro Técnico", "note": "Camino de 2 años hacia roles de técnico de producción; prepara a los estudiantes para la membresía IATSE.", "url": ""},
+      {"type": "Certificación Industrial", "name": "ETCP — Certificación de Técnico de Entretenimiento", "note": "Credencial reconocida por la industria para aparejadores y electricistas en recintos y producciones de gira.", "url": "https://etcp.esta.org"},
+      {"type": "Sindicato", "name": "Aprendizaje IATSE (Local Teatral)", "note": "La Alianza Internacional de Empleados de Escenarios Teatrales ofrece aprendizajes en los principales mercados regionales.", "url": "https://www.iatse.net"}
+    ],
+    "careers": [
+      {"title": "Diseñador/a de Iluminación", "salary": "$55,000", "outlook": "+8%", "desc": "Crea y ejecuta diseños de iluminación para producciones teatrales, conciertos y eventos corporativos."},
+      {"title": "Ingeniero/a de Sonido", "salary": "$57,000", "outlook": "+6%", "desc": "Graba, mezcla y refuerza audio para actuaciones en vivo, transmisiones y sesiones de grabación."},
+      {"title": "Diseñador/a Escénico / Carpintero/a", "salary": "$45,000", "outlook": "+5%", "desc": "Diseña y construye sets, accesorios y entornos físicos para producciones teatrales, cine y televisión."},
+      {"title": "Gerente de Producción / Eventos", "salary": "$70,000", "outlook": "+8%", "desc": "Coordina todos los elementos técnicos y logísticos de una producción, evento o lugar."}
+    ],
+    "financial": [
+      {"name": "Becas USITT", "note": "El Instituto de los Estados Unidos para la Tecnología Teatral otorga múltiples becas anuales a estudiantes en programas acreditados.", "url": "https://www.usitt.org"},
+      {"name": "Programa de Becas IATSE", "note": "La Alianza Internacional de Empleados de Escenarios Teatrales ofrece becas a miembros y sus dependientes.", "url": "https://www.iatse.net"},
+      {"name": "Becas de Consejos Estatales de Arte", "note": "La mayoría de los consejos estatales ofrecen becas para estudiantes que buscan carreras en artes escénicas y teatro técnico.", "url": ""},
+      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+    ]
+  }
+}

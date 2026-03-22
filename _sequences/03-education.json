@@ -1,0 +1,55 @@
+{
+  "id": "education",
+  "num": "03",
+  "icon": "📚",
+  "color": "#10b981",
+  "order": 3,
+  "en": {
+    "title": "Teaching and Training",
+    "tag": "Education",
+    "desc": "Discover the art and science of teaching. Students explore learning theory, classroom management, and curriculum design while gaining real experience in local school placements — the first step toward a rewarding career in education.",
+    "courses": ["Introduction to Education","Learning Theory & Development","Instructional Methods","Student Teaching Practicum"],
+    "postsec": [
+      {"type": "University", "name": "BS in Education (Elementary / Secondary)", "note": "4-year degree with state teacher licensure; required for public school teaching positions in most states.", "url": ""},
+      {"type": "University", "name": "Master of Arts in Teaching (MAT)", "note": "Graduate-level credential that increases earning potential and opens doors to curriculum leadership and administration.", "url": ""},
+      {"type": "Alternative Certification", "name": "Teach For America / TNTP", "note": "Alternative pathways into high-need school districts; participants earn a full teaching salary from day one.", "url": "https://www.teachforamerica.org"},
+      {"type": "Professional Training", "name": "Corporate Trainer / Workforce Instructor", "note": "AA or BS in HR, Education, or Communications; increasingly in-demand roles in healthcare, tech, and business.", "url": ""}
+    ],
+    "careers": [
+      {"title": "Classroom Teacher (K–12)", "salary": "$61,000", "outlook": "+4%", "desc": "Educate and inspire students in public or private school settings across all grade levels and subject areas."},
+      {"title": "Instructional Coordinator", "salary": "$63,000", "outlook": "+2%", "desc": "Develop curriculum and instructional materials, and train teaching staff on implementation strategies."},
+      {"title": "Corporate Trainer", "salary": "$62,000", "outlook": "+6%", "desc": "Design and facilitate professional development, onboarding, and skills training programs for businesses."},
+      {"title": "School Administrator", "salary": "$98,000", "outlook": "+4%", "desc": "Lead school operations as a principal, assistant principal, or district-level administrator."}
+    ],
+    "financial": [
+      {"name": "TEACH Grant", "note": "Up to $4,000/year for students who commit to teaching in high-need subjects or low-income schools for four years after graduation.", "url": "https://studentaid.gov/understand-aid/types/grants/teach"},
+      {"name": "Teacher Loan Forgiveness", "note": "Up to $17,500 in federal student loan forgiveness after 5 consecutive years of teaching in qualifying Title I schools.", "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/teacher"},
+      {"name": "Grow Your Own State Scholarships", "note": "Many states offer scholarships for students who commit to teaching in the state after graduation — check your state's Department of Education.", "url": ""},
+      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+    ]
+  },
+  "es": {
+    "title": "Enseñanza y Capacitación",
+    "tag": "Educación",
+    "desc": "Descubre el arte y la ciencia de enseñar. Los estudiantes exploran la teoría del aprendizaje, la gestión del aula y el diseño curricular mientras ganan experiencia real en escuelas locales.",
+    "courses": ["Introducción a la Educación","Teoría del Aprendizaje y Desarrollo","Métodos de Instrucción","Práctica Docente"],
+    "postsec": [
+      {"type": "Universidad", "name": "BS en Educación (Primaria / Secundaria)", "note": "Título de 4 años con licencia docente estatal; requerido para posiciones de enseñanza en escuelas públicas.", "url": ""},
+      {"type": "Universidad", "name": "Maestría en Artes en la Enseñanza (MAT)", "note": "Credencial de posgrado que aumenta el potencial de ingresos y abre puertas al liderazgo curricular.", "url": ""},
+      {"type": "Certificación Alternativa", "name": "Teach For America / TNTP", "note": "Caminos alternativos hacia distritos de alta necesidad; los participantes ganan un salario docente completo desde el primer día.", "url": "https://www.teachforamerica.org"},
+      {"type": "Capacitación Profesional", "name": "Capacitador Corporativo / Instructor Laboral", "note": "AA o BS en RRHH, Educación o Comunicaciones; roles cada vez más demandados en salud, tecnología y negocios.", "url": ""}
+    ],
+    "careers": [
+      {"title": "Maestro/a de Aula (K–12)", "salary": "$61,000", "outlook": "+4%", "desc": "Educa e inspira a los estudiantes en escuelas públicas o privadas en todos los niveles y áreas temáticas."},
+      {"title": "Coordinador Instruccional", "salary": "$63,000", "outlook": "+2%", "desc": "Desarrolla currículos y materiales educativos, y capacita al personal docente en estrategias de implementación."},
+      {"title": "Capacitador Corporativo", "salary": "$62,000", "outlook": "+6%", "desc": "Diseña y facilita programas de desarrollo profesional, orientación y capacitación de habilidades para empresas."},
+      {"title": "Administrador Escolar", "salary": "$98,000", "outlook": "+4%", "desc": "Dirige las operaciones escolares como director, subdirector o administrador a nivel de distrito."}
+    ],
+    "financial": [
+      {"name": "Beca TEACH", "note": "Hasta $4,000/año para estudiantes que se comprometan a enseñar en materias de alta necesidad durante cuatro años.", "url": "https://studentaid.gov/understand-aid/types/grants/teach"},
+      {"name": "Condonación de Préstamos para Maestros", "note": "Hasta $17,500 en condonación de préstamos federales tras 5 años consecutivos de enseñanza en escuelas Title I.", "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/teacher"},
+      {"name": "Becas Estatales Grow Your Own", "note": "Muchos estados ofrecen becas para estudiantes que se comprometan a enseñar en el estado después de graduarse.", "url": ""},
+      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+    ]
+  }
+}

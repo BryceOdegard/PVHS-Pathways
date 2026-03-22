@@ -1,0 +1,55 @@
+{
+  "id": "cs",
+  "num": "05",
+  "icon": "💻",
+  "color": "#a3e635",
+  "order": 5,
+  "en": {
+    "title": "Computer Science",
+    "tag": "Technology",
+    "desc": "Think, code, create. Students build proficiency in programming, data structures, and software development through project-based learning — with pathways into web development, app design, and computer engineering.",
+    "courses": ["Foundations of Computer Science","Programming Fundamentals","Data Structures & Algorithms","Software Development & Capstone"],
+    "postsec": [
+      {"type": "University", "name": "BS in Computer Science", "note": "4-year degree with one of the highest return-on-investment profiles available; strong placement in tech, finance, healthcare, and more.", "url": ""},
+      {"type": "Community College", "name": "AAS in Information Technology", "note": "Affordable 2-year pathway to entry-level developer or IT analyst roles; credits often transfer to a 4-year university.", "url": ""},
+      {"type": "Bootcamp", "name": "Coding Bootcamp (App Academy, Flatiron, etc.)", "note": "Intensive 12–24 week programs focused on job-ready skills; many offer income share agreements with no upfront cost.", "url": ""},
+      {"type": "Online University", "name": "WGU — Western Governors University", "note": "Competency-based online CS and IT degrees that let you accelerate through material you already know, at lower cost.", "url": "https://www.wgu.edu"}
+    ],
+    "careers": [
+      {"title": "Software Developer", "salary": "$124,000", "outlook": "+25%", "desc": "Design and build software applications, websites, and systems for businesses and consumers across every industry."},
+      {"title": "Web Developer", "salary": "$78,000", "outlook": "+16%", "desc": "Build and maintain websites and web applications using front-end and back-end technologies and frameworks."},
+      {"title": "Systems Analyst", "salary": "$99,000", "outlook": "+9%", "desc": "Analyze and redesign IT systems to improve performance, security, and alignment with organizational needs."},
+      {"title": "IT Manager", "salary": "$169,000", "outlook": "+15%", "desc": "Plan, direct, and coordinate an organization's entire computer-related activities, systems, and infrastructure."}
+    ],
+    "financial": [
+      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
+      {"name": "Google / Microsoft / Cisco Scholarships", "note": "Major tech companies offer annual merit and diversity-based scholarships for students pursuing CS and IT degrees.", "url": ""},
+      {"name": "NCWIT Aspirations in Computing Award", "note": "National recognition and scholarship for students who identify as women or non-binary pursuing computing careers.", "url": "https://www.ncwit.org/programs/aspirations-computing"},
+      {"name": "Income Share Agreements (ISAs)", "note": "Many coding bootcamps charge $0 upfront — you repay tuition as a percentage of your salary only after landing a qualifying job.", "url": ""}
+    ]
+  },
+  "es": {
+    "title": "Ciencias de la Computación",
+    "tag": "Tecnología",
+    "desc": "Piensa, programa, crea. Los estudiantes desarrollan competencia en programación, estructuras de datos y desarrollo de software a través del aprendizaje basado en proyectos.",
+    "courses": ["Fundamentos de las Ciencias de la Computación","Fundamentos de Programación","Estructuras de Datos y Algoritmos","Desarrollo de Software y Proyecto Final"],
+    "postsec": [
+      {"type": "Universidad", "name": "BS en Ciencias de la Computación", "note": "Título de 4 años con uno de los perfiles de retorno de inversión más altos.", "url": ""},
+      {"type": "Colegio Comunitario", "name": "AAS en Tecnología de la Información", "note": "Camino asequible de 2 años hacia roles de desarrollador o analista de TI de nivel inicial.", "url": ""},
+      {"type": "Bootcamp", "name": "Bootcamp de Programación", "note": "Programas intensivos de 12–24 semanas con acuerdos de participación en ingresos sin costo inicial.", "url": ""},
+      {"type": "Universidad en Línea", "name": "WGU — Western Governors University", "note": "Títulos de CS y TI en línea basados en competencias que permiten avanzar más rápido a menor costo.", "url": "https://www.wgu.edu"}
+    ],
+    "careers": [
+      {"title": "Desarrollador/a de Software", "salary": "$124,000", "outlook": "+25%", "desc": "Diseña y construye aplicaciones de software, sitios web y sistemas para empresas y consumidores."},
+      {"title": "Desarrollador/a Web", "salary": "$78,000", "outlook": "+16%", "desc": "Construye y mantiene sitios web y aplicaciones web usando tecnologías de front-end y back-end."},
+      {"title": "Analista de Sistemas", "salary": "$99,000", "outlook": "+9%", "desc": "Analiza y rediseña sistemas de TI para mejorar el rendimiento, la seguridad y la alineación organizacional."},
+      {"title": "Gerente de TI", "salary": "$169,000", "outlook": "+15%", "desc": "Planifica, dirige y coordina todas las actividades informáticas y la infraestructura de una organización."}
+    ],
+    "financial": [
+      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
+      {"name": "Becas Google / Microsoft / Cisco", "note": "Las principales empresas tecnológicas ofrecen becas anuales por mérito y diversidad para estudiantes de CS y TI.", "url": ""},
+      {"name": "Premio NCWIT Aspirations in Computing", "note": "Reconocimiento nacional y beca para estudiantes que se identifican como mujeres o no binarios en computación.", "url": "https://www.ncwit.org/programs/aspirations-computing"},
+      {"name": "Acuerdos de Participación en Ingresos (ISAs)", "note": "Muchos bootcamps cobran $0 por adelantado — reembolsas la matrícula solo después de conseguir trabajo.", "url": ""}
+    ]
+  }
+}

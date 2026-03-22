@@ -1,0 +1,55 @@
+{
+  "id": "cyber",
+  "num": "06",
+  "icon": "🛡️",
+  "color": "#ef4444",
+  "order": 6,
+  "en": {
+    "title": "Cybersecurity",
+    "tag": "Security",
+    "desc": "Defend the digital world. Students learn network security, ethical hacking, and incident response — preparing for CompTIA Security+ certification and careers in one of the fastest-growing sectors in technology.",
+    "courses": ["Networking Fundamentals","Cybersecurity Principles","Ethical Hacking & Penetration Testing","Security Operations & Response"],
+    "postsec": [
+      {"type": "University", "name": "BS in Cybersecurity / Information Assurance", "note": "NSA/DHS-designated CAE programs offer top-tier education with strong federal, defense, and private sector placement.", "url": ""},
+      {"type": "Community College", "name": "AAS in Network Security", "note": "Affordable 2-year pathway to security analyst and network admin roles; pairs naturally with CompTIA certifications.", "url": ""},
+      {"type": "Industry Credential", "name": "CompTIA A+ / Network+ / Security+", "note": "The essential certification trifecta for the field — widely required for all entry-level cybersecurity positions.", "url": "https://www.comptia.org"},
+      {"type": "Advanced Credential", "name": "EC-Council CEH / SANS GIAC", "note": "Certified Ethical Hacker and GIAC certifications are the industry standard for penetration testing and red team roles.", "url": ""}
+    ],
+    "careers": [
+      {"title": "Information Security Analyst", "salary": "$112,000", "outlook": "+32%", "desc": "Monitor organizational systems for security breaches, investigate incidents, and implement protective measures."},
+      {"title": "Penetration Tester", "salary": "$98,000", "outlook": "+35%", "desc": "Ethically hack systems and networks to find vulnerabilities before malicious actors can exploit them."},
+      {"title": "SOC Analyst", "salary": "$65,000", "outlook": "+32%", "desc": "Staff security operations centers monitoring networks, analyzing alerts, and responding to threats in real time."},
+      {"title": "Chief Information Security Officer", "salary": "$180,000+", "outlook": "+15%", "desc": "Lead an organization's entire information security strategy, policy, and program at the executive level."}
+    ],
+    "financial": [
+      {"name": "CyberCorps: Scholarship for Service", "note": "Full tuition + a living stipend from the NSA/NSF for students who commit to federal government cybersecurity roles after graduation.", "url": "https://www.sfs.opm.gov"},
+      {"name": "(ISC)² Scholarship Program", "note": "The world's largest cybersecurity organization awards scholarships to students pursuing security degrees and certifications.", "url": "https://www.isc2.org/scholarships"},
+      {"name": "DoD SkillBridge / Hiring Our Heroes", "note": "Military-connected students can access cyber training programs and direct hiring pathways into DoD and federal agencies.", "url": ""},
+      {"name": "WIOA & State Workforce Grants", "note": "Cybersecurity is a priority field for workforce development funding — contact your local workforce board.", "url": ""}
+    ]
+  },
+  "es": {
+    "title": "Ciberseguridad",
+    "tag": "Seguridad",
+    "desc": "Defiende el mundo digital. Los estudiantes aprenden seguridad de redes, hacking ético y respuesta a incidentes, preparándose para la certificación CompTIA Security+.",
+    "courses": ["Fundamentos de Redes","Principios de Ciberseguridad","Hacking Ético y Pruebas de Penetración","Operaciones de Seguridad y Respuesta"],
+    "postsec": [
+      {"type": "Universidad", "name": "BS en Ciberseguridad / Seguridad de la Información", "note": "Los programas CAE designados por NSA/DHS ofrecen educación de primer nivel con fuerte colocación federal y privada.", "url": ""},
+      {"type": "Colegio Comunitario", "name": "AAS en Seguridad de Redes", "note": "Camino asequible de 2 años hacia roles de analista de seguridad; combina con certificaciones CompTIA.", "url": ""},
+      {"type": "Credencial Industrial", "name": "CompTIA A+ / Network+ / Security+", "note": "La trifecta de certificaciones esenciales — ampliamente requerida para todos los puestos de ciberseguridad.", "url": "https://www.comptia.org"},
+      {"type": "Credencial Avanzada", "name": "EC-Council CEH / SANS GIAC", "note": "El Hacker Ético Certificado y las certificaciones GIAC son el estándar para roles de pruebas de penetración.", "url": ""}
+    ],
+    "careers": [
+      {"title": "Analista de Seguridad de la Información", "salary": "$112,000", "outlook": "+32%", "desc": "Monitorea sistemas en busca de brechas de seguridad, investiga incidentes e implementa medidas de protección."},
+      {"title": "Probador de Penetración", "salary": "$98,000", "outlook": "+35%", "desc": "Hackea éticamente sistemas y redes para encontrar vulnerabilidades antes de que actores maliciosos las exploten."},
+      {"title": "Analista SOC", "salary": "$65,000", "outlook": "+32%", "desc": "Trabaja en centros de operaciones de seguridad, monitoreando redes y respondiendo a amenazas en tiempo real."},
+      {"title": "Director de Seguridad (CISO)", "salary": "$180,000+", "outlook": "+15%", "desc": "Dirige toda la estrategia y programa de seguridad de la información de una organización a nivel ejecutivo."}
+    ],
+    "financial": [
+      {"name": "CyberCorps: Beca de Servicio", "note": "Matrícula completa + estipendio de vida de NSA/NSF para estudiantes que se comprometan a roles federales de ciberseguridad.", "url": "https://www.sfs.opm.gov"},
+      {"name": "Programa de Becas (ISC)²", "note": "La organización de ciberseguridad más grande del mundo otorga becas a estudiantes que buscan títulos de seguridad.", "url": "https://www.isc2.org/scholarships"},
+      {"name": "DoD SkillBridge / Hiring Our Heroes", "note": "Estudiantes conectados con los militares pueden acceder a programas de capacitación en ciberseguridad y vías de contratación directa.", "url": ""},
+      {"name": "WIOA y Becas Estatales", "note": "La ciberseguridad es un campo prioritario para el financiamiento del desarrollo de la fuerza laboral.", "url": ""}
+    ]
+  }
+}

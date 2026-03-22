@@ -1,0 +1,55 @@
+{
+  "id": "automotive",
+  "num": "02",
+  "icon": "🔧",
+  "color": "#3b82f6",
+  "order": 2,
+  "en": {
+    "title": "Automotive Technology",
+    "tag": "Technology",
+    "desc": "Get hands-on under the hood. Students develop diagnostic, repair, and maintenance expertise aligned with ASE certification standards — preparing for high-demand careers in the automotive service industry.",
+    "courses": ["Auto Technology Fundamentals","Engine Systems & Repair","Electrical & Brake Systems","Advanced Diagnostics"],
+    "postsec": [
+      {"type": "Community College", "name": "AAS in Automotive Technology", "note": "NATEF-accredited 2-year program with fully equipped labs; the most common pathway to ASE certification.", "url": ""},
+      {"type": "Technical School", "name": "Lincoln Tech / Universal Technical Institute", "note": "Accelerated 12–18 month programs with manufacturer-sponsored training tracks and direct dealership placement.", "url": ""},
+      {"type": "Manufacturer Program", "name": "GM ASEP / Ford FACT / Toyota T-TEN", "note": "OEM-sponsored programs at community colleges — students earn while training and graduate directly into dealership jobs.", "url": ""},
+      {"type": "Industry Credential", "name": "ASE Certification (8+ Areas)", "note": "The national gold standard for automotive professionals; certifications cover engine repair, brakes, electrical, HVAC, and more.", "url": "https://www.ase.com"}
+    ],
+    "careers": [
+      {"title": "Automotive Technician", "salary": "$46,000", "outlook": "+6%", "desc": "Diagnose and repair mechanical and electronic vehicle systems at dealerships, independent shops, or fleet services."},
+      {"title": "Service Advisor", "salary": "$50,000", "outlook": "+5%", "desc": "Serve as the bridge between customers and the service department, estimating costs and coordinating repairs."},
+      {"title": "Master Technician", "salary": "$72,000+", "outlook": "+6%", "desc": "Holding all ASE certifications, master techs tackle the most complex diagnostic and repair challenges in the shop."},
+      {"title": "Shop Foreman / Service Manager", "salary": "$65,000", "outlook": "+4%", "desc": "Lead a team of technicians, manage workflow, maintain quality standards, and oversee shop operations."}
+    ],
+    "financial": [
+      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
+      {"name": "ASE Education Foundation Scholarships", "note": "Annual scholarships specifically for students enrolled in NATEF-accredited automotive programs across the country.", "url": "https://www.aseeducationfoundation.org"},
+      {"name": "Manufacturer Dealer Sponsorships", "note": "GM, Ford, Honda, and Toyota partner with dealerships to sponsor student tuition in exchange for a post-graduation commitment.", "url": ""},
+      {"name": "WIOA Workforce Training Grants", "note": "Career and technical training grants are available through local workforce development boards for eligible students.", "url": ""}
+    ]
+  },
+  "es": {
+    "title": "Tecnología Automotriz",
+    "tag": "Tecnología",
+    "desc": "Trabaja directamente con los vehículos. Los estudiantes desarrollan experiencia en diagnóstico, reparación y mantenimiento alineada con los estándares de certificación ASE.",
+    "courses": ["Fundamentos de Tecnología Automotriz","Sistemas de Motor y Reparación","Sistemas Eléctricos y de Frenos","Diagnóstico Avanzado"],
+    "postsec": [
+      {"type": "Colegio Comunitario", "name": "AAS en Tecnología Automotriz", "note": "Programa de 2 años acreditado por NATEF con laboratorios completamente equipados.", "url": ""},
+      {"type": "Escuela Técnica", "name": "Lincoln Tech / Universal Technical Institute", "note": "Programas acelerados de 12–18 meses con colocación directa en concesionarias.", "url": ""},
+      {"type": "Programa de Fabricante", "name": "GM ASEP / Ford FACT / Toyota T-TEN", "note": "Programas patrocinados por fabricantes — los estudiantes ganan mientras se capacitan.", "url": ""},
+      {"type": "Credencial Industrial", "name": "Certificación ASE (más de 8 áreas)", "note": "El estándar nacional de oro para profesionales automotrices.", "url": "https://www.ase.com"}
+    ],
+    "careers": [
+      {"title": "Técnico Automotriz", "salary": "$46,000", "outlook": "+6%", "desc": "Diagnostica y repara sistemas mecánicos y electrónicos en concesionarias, talleres independientes o flotas."},
+      {"title": "Asesor de Servicios", "salary": "$50,000", "outlook": "+5%", "desc": "Sirve de enlace entre los clientes y el departamento de servicio, estimando costos y coordinando reparaciones."},
+      {"title": "Técnico Maestro", "salary": "$72,000+", "outlook": "+6%", "desc": "Con todas las certificaciones ASE, los técnicos maestros abordan los desafíos más complejos del taller."},
+      {"title": "Capataz / Gerente de Servicios", "salary": "$65,000", "outlook": "+4%", "desc": "Dirige un equipo de técnicos, gestiona el flujo de trabajo y supervisa las operaciones del taller."}
+    ],
+    "financial": [
+      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
+      {"name": "Becas de la Fundación Educativa ASE", "note": "Becas anuales para estudiantes inscritos en programas automotrices acreditados por NATEF.", "url": "https://www.aseeducationfoundation.org"},
+      {"name": "Patrocinios de Concesionarias", "note": "GM, Ford, Honda y Toyota patrocinan la matrícula de estudiantes a cambio de un compromiso laboral post-graduación.", "url": ""},
+      {"name": "Becas WIOA para Capacitación", "note": "Las becas de capacitación técnica están disponibles a través de las juntas locales de desarrollo de la fuerza laboral.", "url": ""}
+    ]
+  }
+}
