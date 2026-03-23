@@ -1,0 +1,20 @@
+{
+  "en": {
+    "title": "Presenter Bios",
+    "subtitle": "Meet the educators and industry professionals behind PVHS Pathways."
+  },
+  "es": {
+    "title": "Biografías de Presentadores",
+    "subtitle": "Conoce a los educadores y profesionales de la industria detrás de PVHS Pathways."
+  },
+  "presenters": [
+    {
+      "name": "Your Name Here",
+      "role": "CTE Department Lead",
+      "bio": "Add a bio here. Describe this presenter's background, expertise, and role in the PVHS Pathways program.",
+      "image": "",
+      "sequence": "construction",
+      "contact": ""
+    }
+  ]
+}

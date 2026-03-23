@@ -110,3 +110,84 @@ collections:
                 name: "nav"
                 widget: "list"
                 field: { label: "Label", name: "label", widget: "string" }
+
+  # ── ABOUT PAGE ─────────────────────────────────────────────
+  - name: "about"
+    label: "👋 About PVHS Pathways"
+    files:
+      - name: "about"
+        label: "About Page Content"
+        file: "_data/about.json"
+        fields:
+          - label: "🇺🇸 English"
+            name: "en"
+            widget: "object"
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Body Text", name: "body", widget: "markdown" }
+              - label: "Highlight Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Value (e.g. 8 or 100+)", name: "value", widget: "string" }
+                  - { label: "Label (e.g. Career Sequences)", name: "label", widget: "string" }
+          - label: "🇲🇽 Spanish"
+            name: "es"
+            widget: "object"
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Body Text", name: "body", widget: "markdown" }
+              - label: "Highlight Stats"
+                name: "stats"
+                widget: "list"
+                fields:
+                  - { label: "Value", name: "value", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+
+  # ── PRESENTERS ─────────────────────────────────────────────
+  - name: "presenters_page"
+    label: "🎤 Presenter Bios"
+    files:
+      - name: "presenters"
+        label: "Presenters"
+        file: "_data/presenters.json"
+        fields:
+          - label: "🇺🇸 English Page Labels"
+            name: "en"
+            widget: "object"
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - label: "🇲🇽 Spanish Page Labels"
+            name: "es"
+            widget: "object"
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - label: "Presenters"
+            name: "presenters"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: "Full Name", name: "name", widget: "string" }
+              - { label: "Title / Role", name: "role", widget: "string" }
+              - { label: "Bio", name: "bio", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image", required: false, default: "" }
+              - label: "Associated Sequence (optional)"
+                name: "sequence"
+                widget: "select"
+                required: false
+                default: ""
+                options:
+                  - { label: "None", value: "" }
+                  - { label: "Building Construction Technology", value: "construction" }
+                  - { label: "Automotive Technology", value: "automotive" }
+                  - { label: "Teaching and Training", value: "education" }
+                  - { label: "Early Childhood", value: "earlychildhood" }
+                  - { label: "Computer Science", value: "cs" }
+                  - { label: "Cybersecurity", value: "cyber" }
+                  - { label: "Culinary Arts", value: "culinary" }
+                  - { label: "Theatre Technology", value: "theatre" }
+              - { label: "Contact / Email (optional)", name: "contact", widget: "string", required: false, default: "" }

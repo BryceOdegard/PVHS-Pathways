@@ -1,0 +1,24 @@
+{
+  "en": {
+    "title": "About PVHS Pathways",
+    "subtitle": "Our mission, our story, our vision.",
+    "body": "Write your About section here. Tell visitors who you are, what PVHS Pathways is, and why this project matters. You can describe the school, the CTE department, your goals for students, and anything else you'd like the community to know.",
+    "stats": [
+      { "value": "8", "label": "Career Sequences" },
+      { "value": "100+", "label": "Students Enrolled" },
+      { "value": "4", "label": "Industry Credentials" },
+      { "value": "15+", "label": "Partner Employers" }
+    ]
+  },
+  "es": {
+    "title": "Acerca de PVHS Pathways",
+    "subtitle": "Nuestra misión, nuestra historia, nuestra visión.",
+    "body": "Escribe tu sección Acerca de aquí. Cuéntales a los visitantes quién eres, qué es PVHS Pathways y por qué este proyecto es importante.",
+    "stats": [
+      { "value": "8", "label": "Secuencias de Carrera" },
+      { "value": "100+", "label": "Estudiantes Inscritos" },
+      { "value": "4", "label": "Credenciales Industriales" },
+      { "value": "15+", "label": "Empleadores Asociados" }
+    ]
+  }
+}
