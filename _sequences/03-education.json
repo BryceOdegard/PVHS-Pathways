@@ -8,7 +8,7 @@
     "title": "Teaching and Training",
     "tag": "Education",
     "desc": "Discover the art and science of teaching. Students explore learning theory, classroom management, and curriculum design while gaining real experience in local school placements — the first step toward a rewarding career in education.",
-    "courses": ["Introduction to Education","Learning Theory & Development","Instructional Methods","Student Teaching Practicum"],
+    "courses": ["Teaching and Training I","Teaching and Training II"],
     "postsec": [
       {"type": "University", "name": "BS in Education (Elementary / Secondary)", "note": "4-year degree with state teacher licensure; required for public school teaching positions in most states.", "url": ""},
       {"type": "University", "name": "Master of Arts in Teaching (MAT)", "note": "Graduate-level credential that increases earning potential and opens doors to curriculum leadership and administration.", "url": ""},

@@ -8,7 +8,7 @@
     "title": "Computer Science",
     "tag": "Technology",
     "desc": "Think, code, create. Students build proficiency in programming, data structures, and software development through project-based learning — with pathways into web development, app design, and computer engineering.",
-    "courses": ["Foundations of Computer Science","Programming Fundamentals","Data Structures & Algorithms","Software Development & Capstone"],
+    "courses": ["Computer Science and Applications","Advanced Computer Science I","AP Computer Science Principles"],
     "postsec": [
       {"type": "University", "name": "BS in Computer Science", "note": "4-year degree with one of the highest return-on-investment profiles available; strong placement in tech, finance, healthcare, and more.", "url": ""},
       {"type": "Community College", "name": "AAS in Information Technology", "note": "Affordable 2-year pathway to entry-level developer or IT analyst roles; credits often transfer to a 4-year university.", "url": ""},

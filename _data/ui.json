@@ -1,9 +1,9 @@
 {
   "en": {
-    "hero_label": "Career & Technical Education",
+    "hero_label": "PVHS Pathways - Career & Technical Education",
     "hero_line1": "Chart Your",
     "hero_line2": "Path Forward",
-    "hero_sub": "Eight career sequences. Real-world skills. Industry-recognized credentials. Choose the program that matches your passion and build the future you want.",
+    "hero_sub": "Eight career sequences. Real-world skills. Find your path.",
     "explore": "Explore",
     "courses_label": "Sequence Courses",
     "quiz_eyebrow": "Find Your Path",
@@ -29,10 +29,10 @@
     "course_prefix": "Course"
   },
   "es": {
-    "hero_label": "Educación Técnica y Vocacional",
+    "hero_label": "PVHS Pathways - Educación Técnica y Vocacional",
     "hero_line1": "Traza Tu",
     "hero_line2": "Camino al Futuro",
-    "hero_sub": "Ocho secuencias de carrera. Habilidades del mundo real. Credenciales reconocidas por la industria. Elige el programa que se adapte a tu pasión y construye el futuro que deseas.",
+    "hero_sub": "Ocho secuencias de carrera. Habilidades del mundo real. Encuentra tu camino.",
     "explore": "Explorar",
     "courses_label": "Cursos de la Secuencia",
     "quiz_eyebrow": "Encuentra Tu Camino",
