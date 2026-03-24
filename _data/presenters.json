@@ -14,9 +14,7 @@
       "contact": "bodegard@nyeschools.org",
       "name": "Bryce Odegard",
       "role": "Project Manager",
-      "role_es": "Director de Proyecto",
-      "bio": "Hi! My name is Bryce and I am the engine behind PVHS Pathways! PVHS Pathways is my Capstone Project that I am completing during my senior year at Spartanburg Methodist College. In addition to my studies at SMC, I also work in the Grants Department at Nye County School District. If you have any questions about the project or would like additional help gaining access to resources or learning about more opportunities, please don't hesitate to reach out! ",
-      "bio_es": "¡Hola! Mi nombre es Bryce y soy el motor detrás de PVHS Pathways! PVHS Pathways es mi Proyecto Capstone que estoy completando durante mi último año en Spartanburg Methodist College. Además de mis estudios en SMC, también trabajo en el Departamento de Subvenciones del Distrito Escolar del Condado de Nye. Si tienes alguna pregunta sobre el proyecto o necesitas ayuda adicional para acceder a recursos o conocer más oportunidades, ¡no dudes en comunicarte conmigo!"
+      "bio": "Hi! My name is Bryce and I am the engine behind PVHS Pathways! PVHS Pathways is my Capstone Project that I am completing during my senior year at Spartanburg Methodist College. In addition to my studies at SMC, I also work in the Grants Department at Nye County School District. If you have any questions about the project or would like additional help gaining access to resources or learning about more opportunities, please don't hesitate to reach out! "
     },
     {
       "name": "Jose Miranda",
@@ -25,12 +23,6 @@
       "image": "",
       "sequence": "theatre",
       "contact": "jmiranda@cras.edu"
-    },
-    {
-      "name": "Nickalis Salmons",
-      "role": "Enter Role and Company Here",
-      "bio": "Enter Nick's bio here. ",
-      "image": "",
-      "sequence": "Computer Science and Cybersecurity",
-      "contact": "nickalis.salmons@gmail.com"
+    }
+  ]
 }

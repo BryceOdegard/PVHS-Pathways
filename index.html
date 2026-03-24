@@ -195,41 +195,6 @@ footer{padding:3.5rem 4rem;display:flex;align-items:center;justify-content:space
 .presenter-contact:hover{opacity:1}
 .presenters-empty{color:var(--muted);font-size:.95rem;font-family:'JetBrains Mono',monospace;letter-spacing:.05em}
 
-/* CONTACT PAGE */
-.contact-hero{padding:5rem 4rem 4rem;position:relative;overflow:hidden;border-bottom:1px solid var(--border);min-height:38vh;display:flex;align-items:center}
-@media(max-width:768px){.contact-hero{padding:4rem 1.5rem 3rem;min-height:auto}}
-.contact-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 55% 70% at 50% 50%,rgba(163,230,53,.08),transparent 60%),radial-gradient(ellipse 40% 50% at 20% 80%,rgba(59,130,246,.06),transparent 60%);pointer-events:none}
-.contact-hero-text{max-width:780px;position:relative;z-index:1}
-.contact-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(3.5rem,10vw,8rem);line-height:.9;letter-spacing:.02em;margin-bottom:1.4rem;color:#a3e635}
-.contact-subtitle{font-size:1.1rem;color:#b0aa9f;line-height:1.7;max-width:620px}
-.contact-body-wrap{padding:4rem 4rem 6rem;max-width:1200px;margin:0 auto}
-@media(max-width:768px){.contact-body-wrap{padding:3rem 1.5rem 4rem}}
-.contact-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:3rem;align-items:start}
-@media(max-width:900px){.contact-grid{grid-template-columns:1fr;gap:3rem}}
-.contact-section-title{font-family:'Bebas Neue',sans-serif;font-size:2rem;letter-spacing:.03em;color:var(--text);margin-bottom:1.5rem}
-.contact-form{display:flex;flex-direction:column;gap:1.3rem}
-.form-group{display:flex;flex-direction:column;gap:.5rem}
-.form-label{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
-.form-input,.form-textarea{background:var(--surface);border:1px solid var(--border);border-radius:3px;padding:.85rem 1rem;font-family:'Barlow',sans-serif;font-size:.95rem;color:var(--text);transition:border-color .2s;resize:vertical}
-.form-input:focus,.form-textarea:focus{outline:none;border-color:#a3e635}
-.form-input::placeholder,.form-textarea::placeholder{color:#555}
-.form-submit-btn{padding:1rem 2rem;background:#a3e635;color:var(--bg);border:none;border-radius:3px;font-family:'JetBrains Mono',monospace;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;font-weight:700;transition:opacity .2s;display:flex;align-items:center;justify-content:center;gap:.5rem}
-.form-submit-btn:hover:not(:disabled){opacity:.85}
-.form-submit-btn:disabled{opacity:.5;cursor:not-allowed}
-.btn-loading{animation:spin 1s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.form-message{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.1em;padding:.75rem 1rem;border-radius:3px;margin-top:.5rem;display:none}
-.form-message.success{display:block;background:rgba(163,230,53,.1);border:1px solid rgba(163,230,53,.3);color:#a3e635}
-.form-message.error{display:block;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.3);color:#ef4444}
-.contact-info-cards{display:flex;flex-direction:column;gap:1rem}
-.contact-info-card{background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:1.5rem;transition:border-color .2s}
-.contact-info-card:hover{border-color:#4a4a4a}
-.contact-info-icon{font-size:2rem;margin-bottom:.7rem;opacity:.7}
-.contact-info-label{font-family:'JetBrains Mono',monospace;font-size:.63rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:.4rem}
-.contact-info-value{font-size:.95rem;color:var(--text);line-height:1.5}
-.contact-info-value a{color:#a3e635;text-decoration:none;transition:opacity .2s}
-.contact-info-value a:hover{opacity:.8}
-
 @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
 @keyframes scrollPulse{0%,100%{opacity:.4;transform:scaleY(1)}50%{opacity:1;transform:scaleY(1.2)}}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
@@ -321,72 +286,9 @@ footer{padding:3.5rem 4rem;display:flex;align-items:center;justify-content:space
   <footer><div class="footer-brand" id="footer-brand4"></div><div class="footer-note" id="footer-note4"></div></footer>
 </div>
 
-<!-- CONTACT -->
-<div id="view-contact" class="page-view">
-  <div class="back-bar" onclick="goHome()">← <span class="back-lbl"></span></div>
-  <div class="contact-hero">
-    <div class="contact-hero-text">
-      <div class="page-eyebrow">PVHS Pathways</div>
-      <h1 class="contact-title" id="contact-title"></h1>
-      <p class="contact-subtitle" id="contact-subtitle"></p>
-    </div>
-  </div>
-  <div class="contact-body-wrap">
-    <div class="contact-grid">
-      <div class="contact-form-section">
-        <h2 class="contact-section-title" id="contact-form-heading"></h2>
-        <form id="contact-form" class="contact-form">
-          <div class="form-group">
-            <label class="form-label" id="label-name"></label>
-            <input type="text" name="name" class="form-input" id="input-name" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label" id="label-email"></label>
-            <input type="email" name="email" class="form-input" id="input-email" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label" id="label-subject"></label>
-            <input type="text" name="subject" class="form-input" id="input-subject" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label" id="label-message"></label>
-            <textarea name="message" class="form-textarea" id="input-message" rows="6" required></textarea>
-          </div>
-          <button type="submit" class="form-submit-btn" id="contact-submit-btn">
-            <span class="btn-text" id="submit-btn-text"></span>
-            <span class="btn-loading" style="display:none">⟳</span>
-          </button>
-          <div class="form-message" id="form-message"></div>
-        </form>
-      </div>
-      <div class="contact-info-section">
-        <h2 class="contact-section-title" id="contact-info-heading"></h2>
-        <div class="contact-info-cards">
-          <div class="contact-info-card">
-            <div class="contact-info-icon">📞</div>
-            <div class="contact-info-label" id="label-phone"></div>
-            <div class="contact-info-value" id="value-phone"></div>
-          </div>
-          <div class="contact-info-card">
-            <div class="contact-info-icon">✉</div>
-            <div class="contact-info-label" id="label-email-alt"></div>
-            <div class="contact-info-value"><a href="mailto:bodegard@nyeschools.org" id="value-email"></a></div>
-          </div>
-          <div class="contact-info-card">
-            <div class="contact-info-icon">📍</div>
-            <div class="contact-info-label" id="label-address"></div>
-            <div class="contact-info-value" id="value-address"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer><div class="footer-brand" id="footer-brand5"></div><div class="footer-note" id="footer-note5"></div></footer>
-</div>
-
 <script>
 let lang='en', currentView='home', currentDetailId=null, quizAnswers={};
-let UI=null, SEQ=[], ABOUT=null, PRESENTERS_DATA=null, CONTACT_DATA=null;
+let UI=null, SEQ=[], ABOUT=null, PRESENTERS_DATA=null;
 
 const SEQ_COLORS={construction:'#f59e0b',automotive:'#3b82f6',education:'#10b981',earlychildhood:'#f472b6',cs:'#a3e635',cyber:'#ef4444',culinary:'#fb923c',theatre:'#a78bfa'};
 
@@ -410,22 +312,9 @@ const QUIZ={
 async function loadContent(){
   const FILES=['_sequences/01-construction.json','_sequences/02-automotive.json','_sequences/03-education.json','_sequences/04-earlychildhood.json','_sequences/05-cs.json','_sequences/06-cyber.json','_sequences/07-culinary.json','_sequences/08-theatre.json'];
   const bust='?v='+Date.now();
-  
-  try{
-    const res=await Promise.all([
-      fetch('_data/ui.json'+bust).then(r=>r.json()).catch(e=>{console.error('Error loading ui.json:',e);throw e;}),
-      fetch('_data/about.json'+bust).then(r=>r.json()).catch(e=>{console.error('Error loading about.json:',e);throw e;}),
-      fetch('_data/presenters.json'+bust).then(r=>r.json()).catch(e=>{console.error('Error loading presenters.json:',e);throw e;}),
-      fetch('_data/_datacontact3.json'+bust).then(r=>{if(!r.ok)return{en:{title:'Contact Us',subtitle:'Get in touch with us',form_heading:'Send a Message',info_heading:'Contact Information',name_label:'Name',name_placeholder:'Your name',email_label:'Email',email_placeholder:'Your email',subject_label:'Subject',subject_placeholder:'Message subject',message_label:'Message',message_placeholder:'Your message',submit_btn:'Send Message',phone_label:'Phone',email_label_alt:'Email',address_label:'Address',success_message:'Thank you! Your message has been sent.',error_message:'Oops! Something went wrong. Please try again.',contact_info:{phone:'(775) 727-2000',email:'bodegard@nyeschools.org',address:'Pahrump Valley High School, Pahrump, NV'}},es:{title:'Contáctenos',subtitle:'Ponte en contacto con nosotros',form_heading:'Enviar un Mensaje',info_heading:'Información de Contacto',name_label:'Nombre',name_placeholder:'Tu nombre',email_label:'Email',email_placeholder:'Tu email',subject_label:'Asunto',subject_placeholder:'Asunto del mensaje',message_label:'Mensaje',message_placeholder:'Tu mensaje',submit_btn:'Enviar Mensaje',phone_label:'Teléfono',email_label_alt:'Email',address_label:'Dirección',success_message:'¡Gracias! Tu mensaje ha sido enviado.',error_message:'¡Oops! Algo salió mal. Por favor intenta de nuevo.',contact_info:{phone:'(775) 727-2000',email:'bodegard@nyeschools.org',address:'Pahrump Valley High School, Pahrump, NV'}}};return r.json();}).catch(e=>{console.error('Error loading _datacontact3.json:',e);return{en:{},es:{}}}),
-      ...FILES.map((f,i)=>fetch(f+bust).then(r=>r.json()).catch(e=>{console.error(`Error loading ${f}:`,e);throw new Error(`Failed to parse ${f}: ${e.message}`);}))
-    ]);
-    UI=res[0]; ABOUT=res[1]; PRESENTERS_DATA=res[2]; CONTACT_DATA=res[3];
-    SEQ=res.slice(4).sort((a,b)=>a.order-b.order);
-  }catch(error){
-    console.error('Failed to load content:',error);
-    alert('Error loading site data. Please check the browser console for details. One of your JSON files may have a syntax error.');
-    throw error;
-  }
+  const res=await Promise.all([fetch('_data/ui.json'+bust).then(r=>r.json()),fetch('_data/about.json'+bust).then(r=>r.json()),fetch('_data/presenters.json'+bust).then(r=>r.json()),...FILES.map(f=>fetch(f+bust).then(r=>r.json()))]);
+  UI=res[0]; ABOUT=res[1]; PRESENTERS_DATA=res[2];
+  SEQ=res.slice(3).sort((a,b)=>a.order-b.order);
 }
 
 const u=()=>UI[lang];
@@ -441,7 +330,7 @@ function syncFooters(){
 }
 
 function showView(id){
-  ['view-home','view-detail','view-about','view-presenters','view-contact'].forEach(v=>{
+  ['view-home','view-detail','view-about','view-presenters'].forEach(v=>{
     document.getElementById(v).style.display=v===id?'block':'none';
   });
   window.scrollTo({top:0,behavior:'smooth'});
@@ -466,7 +355,6 @@ function renderHome(){
 
   const aboutLbl=lang==='en'?'About':'Acerca de';
   const presLbl=lang==='en'?'Presenters':'Presentadores';
-  const contactLbl=lang==='en'?'Contact':'Contacto';
   document.getElementById('nav-list').innerHTML=
     SEQ.map((s,i)=>`<li><a href="#${s.id}" data-id="${s.id}"
       onmouseover="this.style.color='${s.color}';this.style.borderBottomColor='${s.color}'"
@@ -477,10 +365,7 @@ function renderHome(){
        onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">${aboutLbl}</a></li>
      <li><a href="javascript:void(0)" id="nav-presenters" onclick="goPresenters()"
        onmouseover="this.style.color='#f59e0b';this.style.borderBottomColor='#f59e0b'"
-       onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">${presLbl}</a></li>
-     <li><a href="javascript:void(0)" id="nav-contact" onclick="goContact()"
-       onmouseover="this.style.color='#3b82f6';this.style.borderBottomColor='#3b82f6'"
-       onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">${contactLbl}</a></li>`;
+       onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">${presLbl}</a></li>`;
 
   document.getElementById('seq-container').innerHTML=SEQ.map((s,i)=>{
     const d=s[lang],even=i%2===1;
@@ -541,31 +426,6 @@ function renderPresenters(){
       </div>
     </div>`;
   }).join(''):`<p class="presenters-empty">${lang==='en'?'No presenters added yet — add them in the CMS editor.':'Aún no hay presentadores. Agrégalos en el editor CMS.'}</p>`;
-  syncFooters();
-}
-
-function renderContact(){
-  if(!CONTACT_DATA||!CONTACT_DATA[lang])return;
-  const d=CONTACT_DATA[lang];
-  document.getElementById('contact-title').textContent=d.title;
-  document.getElementById('contact-subtitle').textContent=d.subtitle;
-  document.getElementById('contact-form-heading').textContent=d.form_heading;
-  document.getElementById('contact-info-heading').textContent=d.info_heading;
-  document.getElementById('label-name').textContent=d.name_label;
-  document.getElementById('input-name').placeholder=d.name_placeholder;
-  document.getElementById('label-email').textContent=d.email_label;
-  document.getElementById('input-email').placeholder=d.email_placeholder;
-  document.getElementById('label-subject').textContent=d.subject_label;
-  document.getElementById('input-subject').placeholder=d.subject_placeholder;
-  document.getElementById('label-message').textContent=d.message_label;
-  document.getElementById('input-message').placeholder=d.message_placeholder;
-  document.getElementById('submit-btn-text').textContent=d.submit_btn;
-  document.getElementById('label-phone').textContent=d.phone_label;
-  document.getElementById('label-email-alt').textContent=d.email_label_alt;
-  document.getElementById('label-address').textContent=d.address_label;
-  document.getElementById('value-phone').textContent=d.contact_info.phone;
-  document.getElementById('value-email').textContent=d.contact_info.email;
-  document.getElementById('value-address').textContent=d.contact_info.address;
   syncFooters();
 }
 
@@ -658,7 +518,6 @@ function goHome(){currentView='home';currentDetailId=null;showView('view-home');
 function goDetail(id){currentView='detail';currentDetailId=id;renderDetail(id);showView('view-detail');clearNav();}
 function goAbout(){currentView='about';renderAbout();showView('view-about');clearNav();const a=document.getElementById('nav-about');if(a){a.classList.add('active');a.style.color='#a3e635';a.style.borderBottomColor='#a3e635';}}
 function goPresenters(){currentView='presenters';renderPresenters();showView('view-presenters');clearNav();const a=document.getElementById('nav-presenters');if(a){a.classList.add('active');a.style.color='#f59e0b';a.style.borderBottomColor='#f59e0b';}}
-function goContact(){currentView='contact';renderContact();showView('view-contact');clearNav();const a=document.getElementById('nav-contact');if(a){a.classList.add('active');a.style.color='#3b82f6';a.style.borderBottomColor='#3b82f6';}}
 
 function toggleLang(){
   lang=lang==='en'?'es':'en';
@@ -668,7 +527,6 @@ function toggleLang(){
   else if(currentView==='detail'){renderDetail(currentDetailId);syncFooters();}
   else if(currentView==='about')renderAbout();
   else if(currentView==='presenters')renderPresenters();
-  else if(currentView==='contact')renderContact();
 }
 
 let revealObs,navObs;
@@ -684,52 +542,6 @@ function initNavHighlight(){
 }
 document.addEventListener('mouseover',e=>{const s=e.target.closest('.sequence');if(s){const i=s.querySelector('.seq-icon');if(i){i.style.opacity='.22';i.style.transform='scale(1.07) rotate(-4deg)';}}});
 document.addEventListener('mouseout',e=>{const s=e.target.closest('.sequence');if(s&&!s.contains(e.relatedTarget)){const i=s.querySelector('.seq-icon');if(i){i.style.opacity='.14';i.style.transform='';}}});
-
-// CONTACT FORM HANDLER
-document.addEventListener('DOMContentLoaded',()=>{
-  const form=document.getElementById('contact-form');
-  if(form){
-    form.addEventListener('submit',async(e)=>{
-      e.preventDefault();
-      const btn=document.getElementById('contact-submit-btn');
-      const btnText=document.querySelector('.btn-text');
-      const btnLoading=document.querySelector('.btn-loading');
-      const msg=document.getElementById('form-message');
-      const d=CONTACT_DATA?.[lang]||{};
-      
-      btn.disabled=true;
-      btnText.style.display='none';
-      btnLoading.style.display='block';
-      msg.className='form-message';
-      msg.textContent='';
-      
-      const formData=new FormData(form);
-      
-      try{
-        const response=await fetch('https://formspree.io/f/mkoqdzdj',{
-          method:'POST',
-          body:formData,
-          headers:{'Accept':'application/json'}
-        });
-        
-        if(response.ok){
-          msg.className='form-message success';
-          msg.textContent=d.success_message||'Thank you! Your message has been sent.';
-          form.reset();
-        }else{
-          throw new Error('Form submission failed');
-        }
-      }catch(error){
-        msg.className='form-message error';
-        msg.textContent=d.error_message||'Oops! Something went wrong. Please try again.';
-      }finally{
-        btn.disabled=false;
-        btnText.style.display='block';
-        btnLoading.style.display='none';
-      }
-    });
-  }
-});
 
 if(window.netlifyIdentity){window.netlifyIdentity.on('init',user=>{if(!user)window.netlifyIdentity.on('login',()=>{document.location.href='/admin/';});});}
 
