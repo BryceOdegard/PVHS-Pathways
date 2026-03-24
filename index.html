@@ -410,9 +410,22 @@ const QUIZ={
 async function loadContent(){
   const FILES=['_sequences/01-construction.json','_sequences/02-automotive.json','_sequences/03-education.json','_sequences/04-earlychildhood.json','_sequences/05-cs.json','_sequences/06-cyber.json','_sequences/07-culinary.json','_sequences/08-theatre.json'];
   const bust='?v='+Date.now();
-  const res=await Promise.all([fetch('_data/ui.json'+bust).then(r=>r.json()),fetch('_data/about.json'+bust).then(r=>r.json()),fetch('_data/presenters.json'+bust).then(r=>r.json()),fetch('_data/contact.json'+bust).then(r=>r.json()).catch(()=>({})),...FILES.map(f=>fetch(f+bust).then(r=>r.json()))]);
-  UI=res[0]; ABOUT=res[1]; PRESENTERS_DATA=res[2]; CONTACT_DATA=res[3];
-  SEQ=res.slice(4).sort((a,b)=>a.order-b.order);
+  
+  try{
+    const res=await Promise.all([
+      fetch('_data/ui.json'+bust).then(r=>r.json()).catch(e=>{console.error('Error loading ui.json:',e);throw e;}),
+      fetch('_data/about.json'+bust).then(r=>r.json()).catch(e=>{console.error('Error loading about.json:',e);throw e;}),
+      fetch('_data/presenters.json'+bust).then(r=>r.json()).catch(e=>{console.error('Error loading presenters.json:',e);throw e;}),
+      fetch('_data/_datacontact3.json'+bust).then(r=>{if(!r.ok)return{en:{title:'Contact Us',subtitle:'Get in touch with us',form_heading:'Send a Message',info_heading:'Contact Information',name_label:'Name',name_placeholder:'Your name',email_label:'Email',email_placeholder:'Your email',subject_label:'Subject',subject_placeholder:'Message subject',message_label:'Message',message_placeholder:'Your message',submit_btn:'Send Message',phone_label:'Phone',email_label_alt:'Email',address_label:'Address',success_message:'Thank you! Your message has been sent.',error_message:'Oops! Something went wrong. Please try again.',contact_info:{phone:'(775) 727-2000',email:'bodegard@nyeschools.org',address:'Pahrump Valley High School, Pahrump, NV'}},es:{title:'Contáctenos',subtitle:'Ponte en contacto con nosotros',form_heading:'Enviar un Mensaje',info_heading:'Información de Contacto',name_label:'Nombre',name_placeholder:'Tu nombre',email_label:'Email',email_placeholder:'Tu email',subject_label:'Asunto',subject_placeholder:'Asunto del mensaje',message_label:'Mensaje',message_placeholder:'Tu mensaje',submit_btn:'Enviar Mensaje',phone_label:'Teléfono',email_label_alt:'Email',address_label:'Dirección',success_message:'¡Gracias! Tu mensaje ha sido enviado.',error_message:'¡Oops! Algo salió mal. Por favor intenta de nuevo.',contact_info:{phone:'(775) 727-2000',email:'bodegard@nyeschools.org',address:'Pahrump Valley High School, Pahrump, NV'}}};return r.json();}).catch(e=>{console.error('Error loading _datacontact3.json:',e);return{en:{},es:{}}}),
+      ...FILES.map((f,i)=>fetch(f+bust).then(r=>r.json()).catch(e=>{console.error(`Error loading ${f}:`,e);throw new Error(`Failed to parse ${f}: ${e.message}`);}))
+    ]);
+    UI=res[0]; ABOUT=res[1]; PRESENTERS_DATA=res[2]; CONTACT_DATA=res[3];
+    SEQ=res.slice(4).sort((a,b)=>a.order-b.order);
+  }catch(error){
+    console.error('Failed to load content:',error);
+    alert('Error loading site data. Please check the browser console for details. One of your JSON files may have a syntax error.');
+    throw error;
+  }
 }
 
 const u=()=>UI[lang];
