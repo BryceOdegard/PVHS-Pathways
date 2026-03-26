@@ -279,7 +279,7 @@ footer{padding:3.5rem 4rem;display:flex;align-items:center;justify-content:space
       <div class="contact-header">
         <div class="contact-eyebrow" id="contact-eyebrow-home">Get In Touch</div>
         <h2 class="contact-h2" id="contact-h2-home">Contact Us</h2>
-        <p class="contact-sub" id="contact-sub-home">Have a question about a CTE program? We'd love to hear from you.</p>
+        <p class="contact-sub" id="contact-sub-home">Have a question about a CTE program? We\'d love to hear from you.</p>
       </div>
       <div id="contact-form-home"></div>
     </div>
@@ -588,7 +588,7 @@ function contactFormHTML(id) {
   const msgPh    = lang==='en'?'Ask us anything about our CTE programs...':'Pregúntanos sobre nuestros programas CTE...';
   const btnTxt   = lang==='en'?'Send Message':'Enviar Mensaje';
   const successTitle = lang==='en'?'Message Sent!':'¡Mensaje Enviado!';
-  const successTxt   = lang==='en'?'Thanks for reaching out. We'll get back to you soon.':'Gracias por contactarnos. Te responderemos pronto.';
+  const successTxt   = lang==='en'?'Thanks for reaching out. We\'ll get back to you soon.':'Gracias por contactarnos. Te responderemos pronto.';
 
   return `
     <form class="contact-form" id="cf-${id}" onsubmit="handleContact(event,'${id}')">
@@ -627,7 +627,7 @@ function renderContactForms() {
   const pgsub   = document.getElementById('contact-page-sub');
   if(eyebrow) eyebrow.textContent = lang==='en'?'Get In Touch':'Contáctanos';
   if(h2)      h2.textContent      = lang==='en'?'Contact Us':'Contáctanos';
-  if(sub)     sub.textContent     = lang==='en'?'Have a question about a CTE program? We'd love to hear from you.':'¿Tienes preguntas sobre un programa CTE? Nos encantaría escucharte.';
+  if(sub)     sub.textContent     = lang==='en'?'Have a question about a CTE program? We\'d love to hear from you.':'¿Tienes preguntas sobre un programa CTE? Nos encantaría escucharte.';
   if(pgsub)   pgsub.textContent   = lang==='en'?'Have a question about a CTE sequence or program? Fill out the form below and we will get back to you.':'¿Tienes preguntas sobre una secuencia CTE? Completa el formulario y te responderemos pronto.';
 }
 
