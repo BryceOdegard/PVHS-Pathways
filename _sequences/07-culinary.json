@@ -8,7 +8,7 @@
     "title": "Culinary Arts",
     "tag": "Hospitality",
     "desc": "From mise en place to plated masterpiece. Students develop culinary technique, food science knowledge, and kitchen management skills in our professional lab kitchen — with industry mentorship and ServSafe certification.",
-    "courses": ["Culinary Foundations","Global Cuisines & Techniques","Baking & Pastry Arts","Restaurant Operations & Management"],
+    "courses": ["Culinary Arts I","Culinary Arts II"],
     "postsec": [
       {"type": "Culinary Institute", "name": "CIA / Johnson & Wales / Auguste Escoffier", "note": "Highly respected culinary degrees with intense hands-on training; strong industry networks and alumni placement programs.", "url": ""},
       {"type": "Community College", "name": "AAS in Culinary Arts", "note": "More affordable 2-year programs at regional community colleges with professional kitchen labs and local industry partnerships.", "url": ""},
@@ -32,7 +32,7 @@
     "title": "Artes Culinarias",
     "tag": "Hospitalidad",
     "desc": "De la mise en place a la obra maestra en el plato. Los estudiantes desarrollan técnica culinaria, conocimiento de ciencias de los alimentos y habilidades de gestión de cocina.",
-    "courses": ["Fundamentos Culinarios","Cocinas Globales y Técnicas","Arte de la Panadería y Pastelería","Operaciones y Gestión de Restaurantes"],
+    "courses": ["Artes Culinarias I","Artes Culinarias II"],
     "postsec": [
       {"type": "Instituto Culinario", "name": "CIA / Johnson & Wales / Auguste Escoffier", "note": "Títulos culinarios muy respetados con capacitación práctica intensa y sólidas redes en la industria.", "url": ""},
       {"type": "Colegio Comunitario", "name": "AAS en Artes Culinarias", "note": "Programas de 2 años más asequibles con laboratorios de cocina profesional y asociaciones con la industria local.", "url": ""},

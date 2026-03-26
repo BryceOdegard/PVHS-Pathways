@@ -8,7 +8,7 @@
     "title": "Automotive Technology",
     "tag": "Technology",
     "desc": "Get hands-on under the hood. Students develop diagnostic, repair, and maintenance expertise aligned with ASE certification standards — preparing for high-demand careers in the automotive service industry.",
-    "courses": ["Auto Technology Fundamentals","Engine Systems & Repair","Electrical & Brake Systems","Advanced Diagnostics"],
+    "courses": ["Automotive Technology I","Automotive Technology II"],
     "postsec": [
       {"type": "Community College", "name": "AAS in Automotive Technology", "note": "NATEF-accredited 2-year program with fully equipped labs; the most common pathway to ASE certification.", "url": ""},
       {"type": "Technical School", "name": "Lincoln Tech / Universal Technical Institute", "note": "Accelerated 12–18 month programs with manufacturer-sponsored training tracks and direct dealership placement.", "url": ""},
@@ -32,7 +32,7 @@
     "title": "Tecnología Automotriz",
     "tag": "Tecnología",
     "desc": "Trabaja directamente con los vehículos. Los estudiantes desarrollan experiencia en diagnóstico, reparación y mantenimiento alineada con los estándares de certificación ASE.",
-    "courses": ["Fundamentos de Tecnología Automotriz","Sistemas de Motor y Reparación","Sistemas Eléctricos y de Frenos","Diagnóstico Avanzado"],
+    "courses": ["Tecnología Automotriz I","Tecnología Automotriz II"],
     "postsec": [
       {"type": "Colegio Comunitario", "name": "AAS en Tecnología Automotriz", "note": "Programa de 2 años acreditado por NATEF con laboratorios completamente equipados.", "url": ""},
       {"type": "Escuela Técnica", "name": "Lincoln Tech / Universal Technical Institute", "note": "Programas acelerados de 12–18 meses con colocación directa en concesionarias.", "url": ""},

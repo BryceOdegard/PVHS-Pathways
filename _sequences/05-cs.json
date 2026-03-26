@@ -8,7 +8,7 @@
     "title": "Computer Science",
     "tag": "Technology",
     "desc": "Think, code, create. Students build proficiency in programming, data structures, and software development through project-based learning — with pathways into web development, app design, and computer engineering.",
-    "courses": ["Foundations of Computer Science","Programming Fundamentals","Data Structures & Algorithms","Software Development & Capstone"],
+    "courses": ["Computer Science and Apps","Advanced Computer Science I","AP Computer Science"],
     "postsec": [
       {"type": "University", "name": "BS in Computer Science", "note": "4-year degree with one of the highest return-on-investment profiles available; strong placement in tech, finance, healthcare, and more.", "url": ""},
       {"type": "Community College", "name": "AAS in Information Technology", "note": "Affordable 2-year pathway to entry-level developer or IT analyst roles; credits often transfer to a 4-year university.", "url": ""},
@@ -32,7 +32,7 @@
     "title": "Ciencias de la Computación",
     "tag": "Tecnología",
     "desc": "Piensa, programa, crea. Los estudiantes desarrollan competencia en programación, estructuras de datos y desarrollo de software a través del aprendizaje basado en proyectos.",
-    "courses": ["Fundamentos de las Ciencias de la Computación","Fundamentos de Programación","Estructuras de Datos y Algoritmos","Desarrollo de Software y Proyecto Final"],
+    "courses": ["Informática y Aplicaciones", "Informática Avanzada I", "Informática AP"],
     "postsec": [
       {"type": "Universidad", "name": "BS en Ciencias de la Computación", "note": "Título de 4 años con uno de los perfiles de retorno de inversión más altos.", "url": ""},
       {"type": "Colegio Comunitario", "name": "AAS en Tecnología de la Información", "note": "Camino asequible de 2 años hacia roles de desarrollador o analista de TI de nivel inicial.", "url": ""},

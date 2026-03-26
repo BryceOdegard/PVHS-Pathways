@@ -8,7 +8,7 @@
     "title": "Theatre Technology",
     "tag": "Arts & Media",
     "desc": "The magic behind the curtain. Students master lighting design, sound engineering, scenic construction, and stage management — skills that translate to careers in live events, film production, and entertainment technology.",
-    "courses": ["Introduction to Theatre Technology","Lighting & Sound Design","Scenic Design & Construction","Stage Management & Production"],
+    "courses": ["Theatre Technology I","Theatre Technology II"],
     "postsec": [
       {"type": "University", "name": "BFA in Theatre Technology / Design", "note": "Intensive 4-year conservatory-style program with concentrations in lighting, scenic, costume, or sound design.", "url": ""},
       {"type": "Community College", "name": "AAS in Technical Theatre", "note": "2-year pathway to entry-level production, event, and venue technician roles; prepares students for IATSE membership.", "url": ""},
@@ -32,7 +32,7 @@
     "title": "Tecnología Teatral",
     "tag": "Artes y Medios",
     "desc": "La magia detrás del telón. Los estudiantes dominan el diseño de iluminación, la ingeniería de sonido, la construcción de escenarios y la gestión de escenas.",
-    "courses": ["Introducción a la Tecnología Teatral","Diseño de Iluminación y Sonido","Diseño y Construcción Escénica","Gestión de Escena y Producción"],
+    "courses": ["Tecnología Teatral I","Tecnología Teatral II"],
     "postsec": [
       {"type": "Universidad", "name": "BFA en Tecnología / Diseño Teatral", "note": "Programa intensivo de 4 años estilo conservatorio con concentraciones en iluminación, escenografía o sonido.", "url": ""},
       {"type": "Colegio Comunitario", "name": "AAS en Teatro Técnico", "note": "Camino de 2 años hacia roles de técnico de producción; prepara a los estudiantes para la membresía IATSE.", "url": ""},

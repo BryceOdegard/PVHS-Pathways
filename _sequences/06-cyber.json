@@ -8,7 +8,7 @@
     "title": "Cybersecurity",
     "tag": "Security",
     "desc": "Defend the digital world. Students learn network security, ethical hacking, and incident response — preparing for CompTIA Security+ certification and careers in one of the fastest-growing sectors in technology.",
-    "courses": ["Networking Fundamentals","Cybersecurity Principles","Ethical Hacking & Penetration Testing","Security Operations & Response"],
+    "courses": ["Cybersecurity I","Cybersecurity II","AP Cybersecurity Principles"],
     "postsec": [
       {"type": "University", "name": "BS in Cybersecurity / Information Assurance", "note": "NSA/DHS-designated CAE programs offer top-tier education with strong federal, defense, and private sector placement.", "url": ""},
       {"type": "Community College", "name": "AAS in Network Security", "note": "Affordable 2-year pathway to security analyst and network admin roles; pairs naturally with CompTIA certifications.", "url": ""},
@@ -32,7 +32,7 @@
     "title": "Ciberseguridad",
     "tag": "Seguridad",
     "desc": "Defiende el mundo digital. Los estudiantes aprenden seguridad de redes, hacking ético y respuesta a incidentes, preparándose para la certificación CompTIA Security+.",
-    "courses": ["Fundamentos de Redes","Principios de Ciberseguridad","Hacking Ético y Pruebas de Penetración","Operaciones de Seguridad y Respuesta"],
+    "courses": ["Ciberseguridad I","Ciberseguridad II","Principios de Ciberseguridad de AP"],
     "postsec": [
       {"type": "Universidad", "name": "BS en Ciberseguridad / Seguridad de la Información", "note": "Los programas CAE designados por NSA/DHS ofrecen educación de primer nivel con fuerte colocación federal y privada.", "url": ""},
       {"type": "Colegio Comunitario", "name": "AAS en Seguridad de Redes", "note": "Camino asequible de 2 años hacia roles de analista de seguridad; combina con certificaciones CompTIA.", "url": ""},

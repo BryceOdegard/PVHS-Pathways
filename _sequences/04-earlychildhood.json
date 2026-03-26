@@ -8,7 +8,7 @@
     "title": "Early Childhood",
     "tag": "Human Services",
     "desc": "Explore child development from birth through age eight. Students learn to create nurturing, developmentally appropriate learning environments and graduate with credentials aligned to careers in childcare, preschool, and early intervention.",
-    "courses": ["Child Growth & Development","Family & Community Relations","Curriculum for Young Children","Early Childhood Practicum"],
+    "courses": ["Early Childhood I","Early Childhood II"],
     "postsec": [
       {"type": "Industry Credential", "name": "Child Development Associate (CDA)", "note": "The most widely recognized credential in early childhood education; can be earned during or after completing this sequence.", "url": "https://www.cdacouncil.org"},
       {"type": "Community College", "name": "AAS in Early Childhood Education", "note": "2-year degree that qualifies graduates to serve as lead teachers in licensed childcare centers and preschools.", "url": ""},
@@ -32,7 +32,7 @@
     "title": "Primera Infancia",
     "tag": "Servicios Humanos",
     "desc": "Explora el desarrollo infantil desde el nacimiento hasta los ocho años. Los estudiantes aprenden a crear entornos de aprendizaje nutritivos y apropiados para el desarrollo.",
-    "courses": ["Crecimiento y Desarrollo Infantil","Relaciones Familiares y Comunitarias","Currículo para Niños Pequeños","Práctica de Primera Infancia"],
+    "courses": ["Primera Infancia I","Primera Infancia II"],
     "postsec": [
       {"type": "Credencial Industrial", "name": "Asociado de Desarrollo Infantil (CDA)", "note": "La credencial más reconocida en educación de primera infancia.", "url": "https://www.cdacouncil.org"},
       {"type": "Colegio Comunitario", "name": "AAS en Educación de Primera Infancia", "note": "Título de 2 años que califica a los graduados para ser maestros principales en centros de cuidado infantil.", "url": ""},
