@@ -199,6 +199,38 @@ footer{padding:3.5rem 4rem;display:flex;align-items:center;justify-content:space
 @keyframes scrollPulse{0%,100%{opacity:.4;transform:scaleY(1)}50%{opacity:1;transform:scaleY(1.2)}}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
 .reveal.visible{opacity:1;transform:translateY(0)}
+
+/* CONTACT SECTION (homepage) */
+.contact-section{padding:6rem 2rem;border-bottom:1px solid var(--border);background:var(--surface);position:relative;overflow:hidden}
+.contact-section::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 55% at 80% 50%,rgba(239,68,68,.05),transparent 60%),radial-gradient(ellipse 40% 40% at 10% 30%,rgba(59,130,246,.05),transparent 60%);pointer-events:none}
+.contact-inner{max-width:720px;margin:0 auto;position:relative;z-index:1}
+.contact-header{text-align:center;margin-bottom:3rem}
+.contact-eyebrow{font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:.9rem}
+.contact-h2{font-family:"Bebas Neue",sans-serif;font-size:clamp(2.5rem,6vw,5rem);line-height:.95;margin-bottom:1rem}
+.contact-sub{color:var(--muted);font-size:.98rem;line-height:1.65;max-width:460px;margin:0 auto}
+.contact-hero{padding:5rem 4rem 4rem;position:relative;overflow:hidden;border-bottom:1px solid var(--border);min-height:38vh;display:flex;align-items:center}
+.contact-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 55% 70% at 85% 50%,rgba(239,68,68,.07),transparent 60%),radial-gradient(ellipse 40% 50% at 10% 20%,rgba(59,130,246,.06),transparent 60%);pointer-events:none}
+.contact-hero-text{max-width:780px;position:relative;z-index:1}
+.contact-title{font-family:"Bebas Neue",sans-serif;font-size:clamp(3.5rem,10vw,8rem);line-height:.9;letter-spacing:.02em;margin-bottom:1.4rem;color:#ef4444}
+.contact-subtitle{font-size:1.1rem;color:#b0aa9f;line-height:1.7;max-width:580px}
+.contact-body{padding:4rem 4rem 6rem;max-width:720px;margin:0 auto}
+.contact-form{display:flex;flex-direction:column;gap:1.25rem}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
+@media(max-width:600px){.form-row{grid-template-columns:1fr}}
+.form-group{display:flex;flex-direction:column;gap:.45rem}
+.form-label{font-family:"JetBrains Mono",monospace;font-size:.63rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.form-input,.form-textarea{background:var(--bg);border:1px solid var(--border);border-radius:3px;padding:.8rem 1rem;color:var(--text);font-family:"Barlow",sans-serif;font-size:.95rem;font-weight:300;outline:none;transition:border-color .2s;width:100%;resize:none}
+.form-input:focus,.form-textarea:focus{border-color:#555}
+.form-textarea{min-height:130px;line-height:1.6}
+.form-input::placeholder,.form-textarea::placeholder{color:#444}
+.form-submit{padding:.95rem 2rem;background:#ef4444;color:#fff;border:none;border-radius:3px;font-family:"JetBrains Mono",monospace;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;cursor:pointer;font-weight:700;transition:opacity .2s;align-self:flex-start;width:100%}
+.form-submit:hover{opacity:.85}
+.form-submit:disabled{opacity:.4;cursor:not-allowed}
+.form-success{display:none;text-align:center;padding:2.5rem;background:var(--bg);border:1px solid #2a3a1a;border-radius:4px}
+.form-success.show{display:block}
+.form-success-icon{font-size:2rem;margin-bottom:.75rem}
+.form-success-title{font-family:"Bebas Neue",sans-serif;font-size:2rem;color:#a3e635;letter-spacing:.03em;margin-bottom:.5rem}
+.form-success-text{color:var(--muted);font-size:.9rem;line-height:1.6}
 </style>
 </head>
 <body>
@@ -240,6 +272,16 @@ footer{padding:3.5rem 4rem;display:flex;align-items:center;justify-content:space
         <button class="result-explore" id="result-cta"></button>
         <button class="result-retry" id="quiz-retry"></button>
       </div>
+    </div>
+  </section>
+  <section class="contact-section" id="contact-home">
+    <div class="contact-inner">
+      <div class="contact-header">
+        <div class="contact-eyebrow" id="contact-eyebrow-home">Get In Touch</div>
+        <h2 class="contact-h2" id="contact-h2-home">Contact Us</h2>
+        <p class="contact-sub" id="contact-sub-home">Have a question about a CTE program? We'd love to hear from you.</p>
+      </div>
+      <div id="contact-form-home"></div>
     </div>
   </section>
   <footer><div class="footer-brand" id="footer-brand"></div><div class="footer-note" id="footer-note"></div></footer>
@@ -286,6 +328,22 @@ footer{padding:3.5rem 4rem;display:flex;align-items:center;justify-content:space
   <footer><div class="footer-brand" id="footer-brand4"></div><div class="footer-note" id="footer-note4"></div></footer>
 </div>
 
+<!-- CONTACT PAGE -->
+<div id="view-contact" class="page-view">
+  <div class="back-bar" onclick="goHome()">← <span class="back-lbl"></span></div>
+  <div class="contact-hero">
+    <div class="contact-hero-text">
+      <div class="page-eyebrow">PVHS Pathways</div>
+      <h1 class="contact-title">Contact Us</h1>
+      <p class="contact-subtitle" id="contact-page-sub">Have a question about a CTE sequence or program? Fill out the form below and we will get back to you.</p>
+    </div>
+  </div>
+  <div class="contact-body">
+    <div id="contact-form-page"></div>
+  </div>
+  <footer><div class="footer-brand" id="footer-brand5"></div><div class="footer-note" id="footer-note5"></div></footer>
+</div>
+
 <script>
 let lang='en', currentView='home', currentDetailId=null, quizAnswers={};
 let UI=null, SEQ=[], ABOUT=null, PRESENTERS_DATA=null;
@@ -330,7 +388,7 @@ function syncFooters(){
 }
 
 function showView(id){
-  ['view-home','view-detail','view-about','view-presenters'].forEach(v=>{
+  ['view-home','view-detail','view-about','view-presenters','view-contact'].forEach(v=>{
     document.getElementById(v).style.display=v===id?'block':'none';
   });
   window.scrollTo({top:0,behavior:'smooth'});
@@ -355,6 +413,7 @@ function renderHome(){
 
   const aboutLbl=lang==='en'?'About':'Acerca de';
   const presLbl=lang==='en'?'Presenters':'Presentadores';
+  const contactLbl=lang==='en'?'Contact':'Contacto';
   document.getElementById('nav-list').innerHTML=
     SEQ.map((s,i)=>`<li><a href="#${s.id}" data-id="${s.id}"
       onmouseover="this.style.color='${s.color}';this.style.borderBottomColor='${s.color}'"
@@ -365,7 +424,10 @@ function renderHome(){
        onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">${aboutLbl}</a></li>
      <li><a href="javascript:void(0)" id="nav-presenters" onclick="goPresenters()"
        onmouseover="this.style.color='#f59e0b';this.style.borderBottomColor='#f59e0b'"
-       onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">${presLbl}</a></li>`;
+       onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">${presLbl}</a></li>
+     <li><a href="javascript:void(0)" id="nav-contact" onclick="goContact()"
+       onmouseover="this.style.color='#ef4444';this.style.borderBottomColor='#ef4444'"
+       onmouseout="if(!this.classList.contains('active')){this.style.color='';this.style.borderBottomColor=''}">${contactLbl}</a></li>`;
 
   document.getElementById('seq-container').innerHTML=SEQ.map((s,i)=>{
     const d=s[lang],even=i%2===1;
@@ -390,7 +452,7 @@ function renderHome(){
       </div>
     </section>`;
   }).join('');
-  initReveal();initNavHighlight();renderQuiz();
+  initReveal();initNavHighlight();renderQuiz();renderContactForms();
 }
 
 function renderAbout(){
@@ -514,10 +576,94 @@ document.getElementById('quiz-retry').addEventListener('click',()=>{
   document.getElementById('quiz').scrollIntoView({behavior:'smooth',block:'start'});
 });
 
+// ─── CONTACT FORM ────────────────────────────────────────────
+const FORMSPREE = 'https://formspree.io/f/mkoqdzdj';
+
+function contactFormHTML(id) {
+  const nameLbl  = lang==='en'?'Your Name':'Tu Nombre';
+  const emailLbl = lang==='en'?'Email Address':'Correo Electrónico';
+  const msgLbl   = lang==='en'?'Message':'Mensaje';
+  const namePh   = lang==='en'?'First and last name':'Nombre y apellido';
+  const emailPh  = lang==='en'?'your@email.com':'tu@correo.com';
+  const msgPh    = lang==='en'?'Ask us anything about our CTE programs...':'Pregúntanos sobre nuestros programas CTE...';
+  const btnTxt   = lang==='en'?'Send Message':'Enviar Mensaje';
+  const successTitle = lang==='en'?'Message Sent!':'¡Mensaje Enviado!';
+  const successTxt   = lang==='en'?'Thanks for reaching out. We'll get back to you soon.':'Gracias por contactarnos. Te responderemos pronto.';
+
+  return `
+    <form class="contact-form" id="cf-${id}" onsubmit="handleContact(event,'${id}')">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">${nameLbl}</label>
+          <input class="form-input" type="text" name="name" placeholder="${namePh}" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">${emailLbl}</label>
+          <input class="form-input" type="email" name="email" placeholder="${emailPh}" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">${msgLbl}</label>
+        <textarea class="form-textarea" name="message" placeholder="${msgPh}" required></textarea>
+      </div>
+      <button class="form-submit" type="submit">${btnTxt}</button>
+    </form>
+    <div class="form-success" id="fs-${id}">
+      <div class="form-success-icon">✓</div>
+      <div class="form-success-title">${successTitle}</div>
+      <div class="form-success-text">${successTxt}</div>
+    </div>`;
+}
+
+function renderContactForms() {
+  const homeEl = document.getElementById('contact-form-home');
+  const pageEl = document.getElementById('contact-form-page');
+  if(homeEl) homeEl.innerHTML = contactFormHTML('home');
+  if(pageEl) pageEl.innerHTML = contactFormHTML('page');
+  // update text labels too
+  const eyebrow = document.getElementById('contact-eyebrow-home');
+  const h2      = document.getElementById('contact-h2-home');
+  const sub     = document.getElementById('contact-sub-home');
+  const pgsub   = document.getElementById('contact-page-sub');
+  if(eyebrow) eyebrow.textContent = lang==='en'?'Get In Touch':'Contáctanos';
+  if(h2)      h2.textContent      = lang==='en'?'Contact Us':'Contáctanos';
+  if(sub)     sub.textContent     = lang==='en'?'Have a question about a CTE program? We'd love to hear from you.':'¿Tienes preguntas sobre un programa CTE? Nos encantaría escucharte.';
+  if(pgsub)   pgsub.textContent   = lang==='en'?'Have a question about a CTE sequence or program? Fill out the form below and we will get back to you.':'¿Tienes preguntas sobre una secuencia CTE? Completa el formulario y te responderemos pronto.';
+}
+
+async function handleContact(e, formId) {
+  e.preventDefault();
+  const form = document.getElementById('cf-'+formId);
+  const btn  = form.querySelector('.form-submit');
+  const successEl = document.getElementById('fs-'+formId);
+  btn.disabled = true;
+  btn.textContent = lang==='en'?'Sending...':'Enviando...';
+  try {
+    const res = await fetch(FORMSPREE, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+    if(res.ok) {
+      form.style.display = 'none';
+      successEl.classList.add('show');
+    } else {
+      btn.disabled = false;
+      btn.textContent = lang==='en'?'Send Message':'Enviar Mensaje';
+      alert(lang==='en'?'Something went wrong. Please try again.':'Algo salió mal. Por favor intenta de nuevo.');
+    }
+  } catch {
+    btn.disabled = false;
+    btn.textContent = lang==='en'?'Send Message':'Enviar Mensaje';
+    alert(lang==='en'?'Something went wrong. Please try again.':'Algo salió mal. Por favor intenta de nuevo.');
+  }
+}
+
 function goHome(){currentView='home';currentDetailId=null;showView('view-home');clearNav();}
 function goDetail(id){currentView='detail';currentDetailId=id;renderDetail(id);showView('view-detail');clearNav();}
 function goAbout(){currentView='about';renderAbout();showView('view-about');clearNav();const a=document.getElementById('nav-about');if(a){a.classList.add('active');a.style.color='#a3e635';a.style.borderBottomColor='#a3e635';}}
 function goPresenters(){currentView='presenters';renderPresenters();showView('view-presenters');clearNav();const a=document.getElementById('nav-presenters');if(a){a.classList.add('active');a.style.color='#f59e0b';a.style.borderBottomColor='#f59e0b';}}
+function goContact(){currentView='contact';renderContactForms();showView('view-contact');clearNav();const a=document.getElementById('nav-contact');if(a){a.classList.add('active');a.style.color='#ef4444';a.style.borderBottomColor='#ef4444';}}
 
 function toggleLang(){
   lang=lang==='en'?'es':'en';
@@ -527,6 +673,7 @@ function toggleLang(){
   else if(currentView==='detail'){renderDetail(currentDetailId);syncFooters();}
   else if(currentView==='about')renderAbout();
   else if(currentView==='presenters')renderPresenters();
+  else if(currentView==='contact')renderContactForms();
 }
 
 let revealObs,navObs;

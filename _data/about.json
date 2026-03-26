@@ -1,32 +1,24 @@
 {
   "en": {
     "title": "About PVHS Pathways",
-    "subtitle": "Our mission, our vision.",
-    "body": "**PVHS Pathways was built on a simple realization: not every student's path looks the same.**\n\nFor years, students have been told that college is the only road to success. But college isn't for everyone — and that's okay. Career and Technical Education (CTE) exists as a powerful alternative, supported at the federal level through Carl Perkins funding and at the state level here in Nevada through competitive and formula awards to local school districts.\n\nPahrump Valley High School offers eight CTE sequences — from Cybersecurity to Culinary Arts — giving students real skills, industry credentials, and a head start on careers that matter.\n\nBut there was a problem. When Nye County School District surveyed graduates one year after completing a CTE sequence, fewer than 40% reported pursuing education or work in the industry they had studied. Students were putting in the time, passing the tests, and gaining real experience — then walking away from it.\n\nThat gap is what inspired this project. PVHS Pathways exists to change that number by making it easier for students to see where their sequence can actually take them.",
+    "subtitle": "Our mission, our story, our vision.",
+    "body": "Write your About section here. Tell visitors who you are, what PVHS Pathways is, and why this project matters. You can describe the school, the CTE department, your goals for students, and anything else you'd like the community to know.",
     "stats": [
-      {
-        "value": "8",
-        "label": "Career Sequences"
-      },
-      {
-        "value": "800+",
-        "label": "Students Enrolled in CTE classes"
-      }
+      { "value": "8", "label": "Career Sequences" },
+      { "value": "100+", "label": "Students Enrolled" },
+      { "value": "4", "label": "Industry Credentials" },
+      { "value": "15+", "label": "Partner Employers" }
     ]
   },
   "es": {
     "title": "Acerca de PVHS Pathways",
-    "subtitle": "Nuestra misión, nuestra visión.",
-    "body": "**PVHS Pathways se fundamentó en una sencilla premisa: no todos los caminos de los estudiantes son iguales.**\n\nDurante años, se les ha dicho a los estudiantes que la universidad es el único camino hacia el éxito. Sin embargo, la universidad no es para todos, y eso está bien. La Educación Profesional y Técnica (CTE, por sus siglas en inglés) se erige como una poderosa alternativa, respaldada a nivel federal mediante los fondos Carl Perkins y, aquí en Nevada, a nivel estatal a través de subvenciones competitivas y por fórmula otorgadas a los distritos escolares locales.\n\nPahrump Valley High School ofrece ocho secuencias de CTE —que abarcan desde la ciberseguridad hasta las artes culinarias—, brindando a los estudiantes habilidades prácticas, credenciales reconocidas por la industria y una ventaja inicial en carreras que realmente importan.\n\nNo obstante, existía un problema. Cuando el Distrito Escolar del Condado de Nye encuestó a los graduados un año después de haber completado una secuencia de CTE, menos del 40 % informó estar cursando estudios o trabajando en la industria que habían estudiado. Los estudiantes dedicaban tiempo y esfuerzo, aprobaban los exámenes y adquirían experiencia real, para luego simplemente alejarse de ello.\n\nEsa brecha fue lo que inspiró este proyecto. PVHS Pathways existe para cambiar esa cifra, facilitando a los estudiantes la visualización de los destinos reales a los que su secuencia de estudios puede conducirlos.",
+    "subtitle": "Nuestra misión, nuestra historia, nuestra visión.",
+    "body": "Escribe tu sección Acerca de aquí. Cuéntales a los visitantes quién eres, qué es PVHS Pathways y por qué este proyecto es importante.",
     "stats": [
-      {
-        "value": "8",
-        "label": "Secuencias de Carrera"
-      },
-      {
-        "value": "800+",
-        "label": "Estudiantes inscritos en cursos de CTE"
-      }
+      { "value": "8", "label": "Secuencias de Carrera" },
+      { "value": "100+", "label": "Estudiantes Inscritos" },
+      { "value": "4", "label": "Credenciales Industriales" },
+      { "value": "15+", "label": "Empleadores Asociados" }
     ]
   }
 }
