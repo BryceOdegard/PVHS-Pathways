@@ -7,49 +7,259 @@
   "en": {
     "title": "Teaching and Training",
     "tag": "Education",
-    "desc": "Discover the art and science of teaching. Students explore learning theory, classroom management, and curriculum design while gaining real experience in local school placements — the first step toward a rewarding career in education.",
-    "courses": ["Teaching and Training I","Teaching and Training II"],
+    "desc": "Discover the art and science of teaching. Students explore learning theory, classroom management, and curriculum design while gaining real experience in local school placements. Nevada faces one of the most acute teacher shortages in the country — the Nevada Department of Education identified a need for 3,000+ additional teachers — making this sequence a direct funded pathway to a stable, impactful career in the local community.",
+    "courses": ["Teaching and Training I", "Teaching and Training II"],
     "postsec": [
-      {"type": "University", "name": "BS in Education (Elementary / Secondary)", "note": "4-year degree with state teacher licensure; required for public school teaching positions in most states.", "url": ""},
-      {"type": "University", "name": "Master of Arts in Teaching (MAT)", "note": "Graduate-level credential that increases earning potential and opens doors to curriculum leadership and administration.", "url": ""},
-      {"type": "Alternative Certification", "name": "Teach For America / TNTP", "note": "Alternative pathways into high-need school districts; participants earn a full teaching salary from day one.", "url": "https://www.teachforamerica.org"},
-      {"type": "Professional Training", "name": "Corporate Trainer / Workforce Instructor", "note": "AA or BS in HR, Education, or Communications; increasingly in-demand roles in healthcare, tech, and business.", "url": ""}
+      {
+        "type": "University",
+        "name": "BS in Education (Elementary or Secondary) — UNLV College of Education",
+        "note": "UNLV offers state-approved teacher preparation in elementary, secondary, special education, and early childhood. Strong clinical placement network in CCSD schools throughout Southern Nevada. One of Nevada's primary teacher pipelines.",
+        "url": "https://www.unlv.edu/education"
+      },
+      {
+        "type": "University",
+        "name": "BS in Education — Nevada State College (Henderson)",
+        "note": "NSC is specifically designed to serve first-generation and working students. Its School of Education has a direct focus on growing Nevada's own teacher pipeline. Lower cost than UNLV with strong financial aid and the Teachers Now Scholarship program. Convenient Henderson campus.",
+        "url": "https://www.nsc.edu/education"
+      },
+      {
+        "type": "Alternative Route",
+        "name": "Nevada Alternative Route to Licensure (ARL)",
+        "note": "Allows individuals with a bachelor's degree in any subject to earn a teaching license while working as a full-time teacher in a Nevada school. Candidates receive a full teacher salary from day one while completing coursework. Administered through approved Nevada EPPs.",
+        "url": "https://doe.nv.gov/educator-licensure"
+      },
+      {
+        "type": "Paid Pathway",
+        "name": "Teacher Academy College Pathway Program (TACPP) — Nevada DOE",
+        "note": "High school graduates who completed a Teacher Academy CTE program can earn paraprofessional employment in CCSD or NCSD while enrolled in an NSHE teaching program. Earn up to 12 college credits during high school at no cost. Details at doe.nv.gov/offices/craleo/cte/tacpp",
+        "url": "https://doe.nv.gov/offices/craleo/cte/tacpp"
+      },
+      {
+        "type": "Alternative Route",
+        "name": "Teach For America — Las Vegas Corps",
+        "note": "TFA places recent graduates in high-need Clark County schools. Full teacher salary from day one while earning provisional licensure. AmeriCorps education award of $7,395 upon completion. Highly competitive — apply in fall of senior year.",
+        "url": "https://www.teachforamerica.org/where-we-work/las-vegas"
+      },
+      {
+        "type": "University",
+        "name": "BS in Education — University of Nevada, Reno (UNR)",
+        "note": "UNR's College of Education offers some programs with online delivery for rural Nevada students. NSHE institution — eligible for Millennium Scholarship and Nevada Promise.",
+        "url": "https://www.unr.edu/education"
+      }
     ],
     "careers": [
-      {"title": "Classroom Teacher (K–12)", "salary": "$61,000", "outlook": "+4%", "desc": "Educate and inspire students in public or private school settings across all grade levels and subject areas."},
-      {"title": "Instructional Coordinator", "salary": "$63,000", "outlook": "+2%", "desc": "Develop curriculum and instructional materials, and train teaching staff on implementation strategies."},
-      {"title": "Corporate Trainer", "salary": "$62,000", "outlook": "+6%", "desc": "Design and facilitate professional development, onboarding, and skills training programs for businesses."},
-      {"title": "School Administrator", "salary": "$98,000", "outlook": "+4%", "desc": "Lead school operations as a principal, assistant principal, or district-level administrator."}
+      {
+        "title": "K–12 Classroom Teacher",
+        "salary": "$47,000–$78,000",
+        "outlook": "+4% / Critical shortage in NV",
+        "desc": "Educate and inspire students across all grade levels and subject areas. Clark County School District (CCSD) is the 5th-largest school district in the US and one of Nevada's largest employers. Nye County School District (NCSD) also hires regularly. Persistent shortages in STEM, special education, bilingual education, and CTE mean strong job security."
+      },
+      {
+        "title": "CTE Teacher / Career Education Instructor",
+        "salary": "$52,000–$82,000",
+        "outlook": "High demand statewide",
+        "desc": "Teach career and technical education sequences in Nevada public schools. Industry credentials earn supplement pay. PVHS and NCSD actively seek CTE-licensed instructors with relevant work experience. One of the fastest ways to combine industry knowledge with a teaching career."
+      },
+      {
+        "title": "Instructional Aide / Paraprofessional",
+        "salary": "$28,000–$40,000",
+        "outlook": "Steady",
+        "desc": "Support classroom teachers and students in CCSD, NCSD, and charter schools. Entry-level path while pursuing a teaching license. TACPP participants can work as paraprofessionals while completing their degree. Some districts provide tuition support for aides pursuing full licensure."
+      },
+      {
+        "title": "Corporate Trainer / L&D Specialist",
+        "salary": "$58,000–$90,000",
+        "outlook": "+6%",
+        "desc": "Design and deliver professional development and onboarding programs for businesses. Major Las Vegas employers including MGM Resorts, Caesars Entertainment, Southwest Airlines, NV Energy, and CCSD all maintain large Learning & Development departments that hire education graduates."
+      },
+      {
+        "title": "Instructional Coordinator",
+        "salary": "$63,000–$90,000",
+        "outlook": "+2%",
+        "desc": "Develop curriculum and instructional materials and train teaching staff. Roles at CCSD, Nevada DOE, and charter management organizations. District-level positions often require a master's degree and several years of teaching experience."
+      },
+      {
+        "title": "School Counselor",
+        "salary": "$60,000–$85,000",
+        "outlook": "+5%",
+        "desc": "Support students' academic, social-emotional, and career development. Requires a master's degree. Growing demand in Nevada as student-to-counselor ratios become a legislative priority. CCSD and NCSD both have ongoing counselor vacancies."
+      }
     ],
     "financial": [
-      {"name": "TEACH Grant", "note": "Up to $4,000/year for students who commit to teaching in high-need subjects or low-income schools for four years after graduation.", "url": "https://studentaid.gov/understand-aid/types/grants/teach"},
-      {"name": "Teacher Loan Forgiveness", "note": "Up to $17,500 in federal student loan forgiveness after 5 consecutive years of teaching in qualifying Title I schools.", "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/teacher"},
-      {"name": "Grow Your Own State Scholarships", "note": "Many states offer scholarships for students who commit to teaching in the state after graduation — check your state's Department of Education.", "url": ""},
-      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year. Apply via FAFSA at studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Federal TEACH Grant",
+        "note": "Up to $4,000/year for students who commit to teaching 4 years in a high-need subject or low-income school after graduation. High-need subjects in Nevada include mathematics, science, bilingual education, special education, and CTE. Apply at studentaid.gov/understand-aid/types/grants/teach.",
+        "url": "https://studentaid.gov/understand-aid/types/grants/teach"
+      },
+      {
+        "name": "Incentivizing Pathways to Teaching (IPT) Grant — Nevada",
+        "note": "Provides paid stipends during the student teaching clinical field experience — addressing the financial hardship of unpaid student teaching. Apply through your educator preparation program (UNLV, NSC, or UNR). Check doe.nv.gov for current funding status.",
+        "url": "https://doe.nv.gov/educator-licensure/nevada-scholarship-opportunities"
+      },
+      {
+        "name": "Nevada Promise Scholarship",
+        "note": "Covers registration fees at CSN or other community colleges for up to 3 years. If starting at a community college before transferring to UNLV or NSC, this significantly reduces cost.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Governor Guinn Millennium Scholarship",
+        "note": "Up to $10,000 for eligible Nevada graduates at UNLV, NSC, or UNR. Automatically evaluated — no application required.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "Nevada State College — Teachers Now Scholarship",
+        "note": "NSC offers specific scholarships to attract education students, particularly those from Southern Nevada. Contact the NSC Financial Aid and School of Education offices for current awards.",
+        "url": "https://www.nsc.edu/education"
+      },
+      {
+        "name": "NSEA Scholarships — Nevada State Education Association",
+        "note": "NSEA awards two annual scholarships to Nevada students: the Loretta Harper Reach for the Stars ($2,000) and the Chuck Fletcher Reach for the Stars ($2,000). Apply by April 30. Details at nsea-nv.org.",
+        "url": "https://www.nsea-nv.org/about-nsea/grants-awards-member-benefits/our-scholarships"
+      },
+      {
+        "name": "Federal Teacher Loan Forgiveness",
+        "note": "Up to $17,500 in federal student loan forgiveness after 5 consecutive years of teaching in a qualifying Title I school. Nevada has many qualifying schools including schools within NCSD and CCSD. Apply at studentaid.gov.",
+        "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/teacher"
+      },
+      {
+        "name": "CCSD Tuition Reimbursement",
+        "note": "Clark County School District provides tuition reimbursement for licensed teachers pursuing advanced degrees and additional endorsements. Inquire through CCSD's Human Resources department after being hired.",
+        "url": "https://www.ccsd.net"
+      }
     ]
   },
   "es": {
     "title": "Enseñanza y Capacitación",
     "tag": "Educación",
-    "desc": "Descubre el arte y la ciencia de enseñar. Los estudiantes exploran la teoría del aprendizaje, la gestión del aula y el diseño curricular mientras ganan experiencia real en escuelas locales.",
-    "courses": ["Enseñanza y Formación I","Enseñanza y Formación II"],
+    "desc": "Descubre el arte y la ciencia de enseñar. Los estudiantes exploran la teoría del aprendizaje, la gestión del aula y el diseño curricular mientras ganan experiencia real en escuelas locales. Nevada enfrenta una de las escaseces de maestros más agudas del país — el Departamento de Educación de Nevada identificó la necesidad de más de 3,000 maestros adicionales — lo que convierte esta secuencia en una vía financiada directamente hacia una carrera estable e impactante en la comunidad local.",
+    "courses": ["Enseñanza y Formación I", "Enseñanza y Formación II"],
     "postsec": [
-      {"type": "Universidad", "name": "BS en Educación (Primaria / Secundaria)", "note": "Título de 4 años con licencia docente estatal; requerido para posiciones de enseñanza en escuelas públicas.", "url": ""},
-      {"type": "Universidad", "name": "Maestría en Artes en la Enseñanza (MAT)", "note": "Credencial de posgrado que aumenta el potencial de ingresos y abre puertas al liderazgo curricular.", "url": ""},
-      {"type": "Certificación Alternativa", "name": "Teach For America / TNTP", "note": "Caminos alternativos hacia distritos de alta necesidad; los participantes ganan un salario docente completo desde el primer día.", "url": "https://www.teachforamerica.org"},
-      {"type": "Capacitación Profesional", "name": "Capacitador Corporativo / Instructor Laboral", "note": "AA o BS en RRHH, Educación o Comunicaciones; roles cada vez más demandados en salud, tecnología y negocios.", "url": ""}
+      {
+        "type": "Universidad",
+        "name": "BS en Educación (Primaria o Secundaria) — Facultad de Educación de UNLV",
+        "note": "UNLV ofrece preparación docente aprobada por el estado en educación primaria, secundaria, educación especial e infancia temprana. Sólida red de colocación clínica en las escuelas del CCSD en todo el sur de Nevada.",
+        "url": "https://www.unlv.edu/education"
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Educación — Nevada State College (Henderson)",
+        "note": "NSC está diseñado específicamente para servir a estudiantes de primera generación y trabajadores. Su Escuela de Educación tiene un enfoque directo en hacer crecer el cuerpo docente propio de Nevada. Costo menor que UNLV con sólida ayuda financiera y el programa Teachers Now Scholarship.",
+        "url": "https://www.nsc.edu/education"
+      },
+      {
+        "type": "Ruta Alternativa",
+        "name": "Ruta Alternativa a la Licencia de Nevada (ARL)",
+        "note": "Permite que personas con una licenciatura en cualquier materia obtengan una licencia docente mientras trabajan como maestros a tiempo completo en una escuela de Nevada. Los candidatos reciben un salario docente completo desde el primer día mientras completan el trabajo de curso.",
+        "url": "https://doe.nv.gov/educator-licensure"
+      },
+      {
+        "type": "Vía Remunerada",
+        "name": "Programa de Vía Universitaria de la Academia de Maestros (TACPP) — DOE de Nevada",
+        "note": "Los graduados de escuela secundaria que completaron un programa CTE de Academia de Maestros pueden obtener empleo como paraprofesionales en CCSD o NCSD mientras están inscritos en un programa de enseñanza del NSHE. Ganen hasta 12 créditos universitarios durante la escuela secundaria sin costo alguno.",
+        "url": "https://doe.nv.gov/offices/craleo/cte/tacpp"
+      },
+      {
+        "type": "Ruta Alternativa",
+        "name": "Teach For America — Cuerpo de Las Vegas",
+        "note": "TFA coloca a graduados recientes en escuelas del Condado de Clark con alta necesidad. Salario docente completo desde el primer día mientras obtienen la licencia provisional. Premio educativo de AmeriCorps de $7,395 al completar el programa.",
+        "url": "https://www.teachforamerica.org/where-we-work/las-vegas"
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Educación — Universidad de Nevada, Reno (UNR)",
+        "note": "La Facultad de Educación de UNR ofrece algunos programas con entrega en línea para estudiantes del norte y las zonas rurales de Nevada. Institución del NSHE — elegible para la Beca Millennium y Nevada Promise.",
+        "url": "https://www.unr.edu/education"
+      }
     ],
     "careers": [
-      {"title": "Maestro/a de Aula (K–12)", "salary": "$61,000", "outlook": "+4%", "desc": "Educa e inspira a los estudiantes en escuelas públicas o privadas en todos los niveles y áreas temáticas."},
-      {"title": "Coordinador Instruccional", "salary": "$63,000", "outlook": "+2%", "desc": "Desarrolla currículos y materiales educativos, y capacita al personal docente en estrategias de implementación."},
-      {"title": "Capacitador Corporativo", "salary": "$62,000", "outlook": "+6%", "desc": "Diseña y facilita programas de desarrollo profesional, orientación y capacitación de habilidades para empresas."},
-      {"title": "Administrador Escolar", "salary": "$98,000", "outlook": "+4%", "desc": "Dirige las operaciones escolares como director, subdirector o administrador a nivel de distrito."}
+      {
+        "title": "Maestro/a de Aula K–12",
+        "salary": "$47,000–$78,000",
+        "outlook": "+4% / Escasez crítica en NV",
+        "desc": "Educa e inspira a los estudiantes en todos los niveles de grado y áreas temáticas. El Distrito Escolar del Condado de Clark (CCSD) es el 5.° distrito escolar más grande de EE. UU. y uno de los mayores empleadores de Nevada. El Distrito Escolar del Condado de Nye (NCSD) también contrata regularmente. Las escaseces persistentes en STEM, educación especial, educación bilingüe y CTE significan una gran seguridad laboral."
+      },
+      {
+        "title": "Maestro/a de CTE / Instructor de Educación Profesional",
+        "salary": "$52,000–$82,000",
+        "outlook": "Alta demanda en todo el estado",
+        "desc": "Enseña secuencias de educación técnica y vocacional en las escuelas públicas de Nevada. Las credenciales industriales generan pago suplementario. PVHS y NCSD buscan activamente instructores con licencia en CTE con experiencia laboral relevante."
+      },
+      {
+        "title": "Asistente de Instrucción / Paraprofesional",
+        "salary": "$28,000–$40,000",
+        "outlook": "Estable",
+        "desc": "Apoya a los maestros de aula y estudiantes en CCSD, NCSD y escuelas chárter. Vía de nivel de entrada mientras se obtiene una licencia docente. Los participantes del TACPP pueden trabajar como paraprofesionales mientras completan su título. Algunos distritos brindan apoyo de matrícula para asistentes que buscan la licencia completa."
+      },
+      {
+        "title": "Capacitador Corporativo / Especialista en L&D",
+        "salary": "$58,000–$90,000",
+        "outlook": "+6%",
+        "desc": "Diseña y ofrece programas de desarrollo profesional e incorporación para empresas. Los principales empleadores de Las Vegas, incluidos MGM Resorts, Caesars Entertainment, Southwest Airlines, NV Energy y CCSD, mantienen grandes departamentos de Aprendizaje y Desarrollo que contratan graduados en educación."
+      },
+      {
+        "title": "Coordinador/a Instruccional",
+        "salary": "$63,000–$90,000",
+        "outlook": "+2%",
+        "desc": "Desarrolla currículos y materiales educativos y capacita al personal docente. Roles en CCSD, DOE de Nevada y organizaciones de gestión de escuelas chárter. Los puestos a nivel de distrito a menudo requieren una maestría y varios años de experiencia docente."
+      },
+      {
+        "title": "Consejero/a Escolar",
+        "salary": "$60,000–$85,000",
+        "outlook": "+5%",
+        "desc": "Apoya el desarrollo académico, socioemocional y profesional de los estudiantes. Requiere una maestría. La demanda creciente en Nevada a medida que las proporciones de estudiantes por consejero se convierten en una prioridad legislativa. Tanto CCSD como NCSD tienen vacantes continuas para consejeros."
+      }
     ],
     "financial": [
-      {"name": "Beca TEACH", "note": "Hasta $4,000/año para estudiantes que se comprometan a enseñar en materias de alta necesidad durante cuatro años.", "url": "https://studentaid.gov/understand-aid/types/grants/teach"},
-      {"name": "Condonación de Préstamos para Maestros", "note": "Hasta $17,500 en condonación de préstamos federales tras 5 años consecutivos de enseñanza en escuelas Title I.", "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/teacher"},
-      {"name": "Becas Estatales Grow Your Own", "note": "Muchos estados ofrecen becas para estudiantes que se comprometan a enseñar en el estado después de graduarse.", "url": ""},
-      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año. Solicitar vía FAFSA en studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Beca Federal TEACH",
+        "note": "Hasta $4,000/año para estudiantes que se comprometan a enseñar 4 años en una materia de alta necesidad o escuela de bajos ingresos. Las materias de alta necesidad en Nevada incluyen matemáticas, ciencias, educación bilingüe, educación especial y CTE.",
+        "url": "https://studentaid.gov/understand-aid/types/grants/teach"
+      },
+      {
+        "name": "Programa de Subvención Incentivando Caminos hacia la Enseñanza (IPT) — Nevada",
+        "note": "Proporciona estipendios pagados durante la experiencia clínica de práctica docente. Solicitar a través de tu programa de preparación de educadores (UNLV, NSC o UNR). Consultar doe.nv.gov para el estado de financiamiento actual.",
+        "url": "https://doe.nv.gov/educator-licensure/nevada-scholarship-opportunities"
+      },
+      {
+        "name": "Beca Nevada Promise",
+        "note": "Cubre las tarifas de inscripción en CSN u otros colegios comunitarios por hasta 3 años. Si comienzas en un colegio comunitario antes de transferirte a UNLV o NSC, esto reduce significativamente el costo.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Beca Conmemorativa Gobernador Guinn Millennium",
+        "note": "Hasta $10,000 para graduados elegibles de Nevada en UNLV, NSC o UNR. Se evalúa automáticamente — no se requiere solicitud.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "Nevada State College — Beca Teachers Now",
+        "note": "NSC ofrece becas específicas para atraer a estudiantes de educación, particularmente del sur de Nevada. Contactar las oficinas de Ayuda Financiera y la Escuela de Educación de NSC para conocer los premios actuales.",
+        "url": "https://www.nsc.edu/education"
+      },
+      {
+        "name": "Becas NSEA — Nevada State Education Association",
+        "note": "La NSEA otorga dos becas anuales a estudiantes de Nevada: Loretta Harper Reach for the Stars ($2,000) y Chuck Fletcher Reach for the Stars ($2,000). Solicitar antes del 30 de abril. Detalles en nsea-nv.org.",
+        "url": "https://www.nsea-nv.org/about-nsea/grants-awards-member-benefits/our-scholarships"
+      },
+      {
+        "name": "Condonación Federal de Préstamos para Maestros",
+        "note": "Hasta $17,500 en condonación de préstamos estudiantiles federales tras 5 años consecutivos de enseñanza en una escuela Title I elegible. Nevada tiene muchas escuelas elegibles dentro del NCSD y CCSD.",
+        "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation/teacher"
+      },
+      {
+        "name": "Reembolso de Matrícula del CCSD",
+        "note": "El Distrito Escolar del Condado de Clark proporciona reembolso de matrícula para maestros con licencia que buscan títulos avanzados y certificaciones adicionales. Consultar con el departamento de Recursos Humanos del CCSD después de ser contratado.",
+        "url": "https://www.ccsd.net"
+      }
     ]
   }
 }

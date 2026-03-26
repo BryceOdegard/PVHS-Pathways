@@ -7,49 +7,249 @@
   "en": {
     "title": "Theatre Technology",
     "tag": "Arts & Media",
-    "desc": "The magic behind the curtain. Students master lighting design, sound engineering, scenic construction, and stage management — skills that translate to careers in live events, film production, and entertainment technology.",
-    "courses": ["Theatre Technology I","Theatre Technology II"],
+    "desc": "The magic behind the curtain. Students master lighting design, sound engineering, scenic construction, and stage management — skills that translate to careers in live events, film production, and entertainment technology. Las Vegas is one of the most technically demanding entertainment environments on earth, home to 30+ resident productions, the #1 convention destination in the US, Formula 1, major concert residencies, and the MSG Sphere — the most advanced entertainment venue ever built.",
+    "courses": ["Theatre Technology I", "Theatre Technology II"],
     "postsec": [
-      {"type": "University", "name": "BFA in Theatre Technology / Design", "note": "Intensive 4-year conservatory-style program with concentrations in lighting, scenic, costume, or sound design.", "url": ""},
-      {"type": "Community College", "name": "AAS in Technical Theatre", "note": "2-year pathway to entry-level production, event, and venue technician roles; prepares students for IATSE membership.", "url": ""},
-      {"type": "Industry Certification", "name": "ETCP — Entertainment Technician Certification", "note": "Industry-recognized credential for riggers and electricians working in entertainment venues, arenas, and touring productions.", "url": "https://etcp.esta.org"},
-      {"type": "Trade Union", "name": "IATSE Apprenticeship (Stage Local)", "note": "The International Alliance of Theatrical Stage Employees offers structured apprenticeships in major regional markets.", "url": "https://www.iatse.net"}
+      {
+        "type": "Trade Union",
+        "name": "IATSE Local 720 — Las Vegas",
+        "note": "The International Alliance of Theatrical Stage Employees Local 720 has represented Las Vegas stagehands since 1939. Applications open periodically — watch for July/early-year openings. Entry via two-call system: be available on short notice for two calls within 6 months of your interview. Starting wage slightly above minimum but increases rapidly. Full benefits for journeyman members. iatselocal720.org",
+        "url": "https://iatselocal720.org"
+      },
+      {
+        "type": "University",
+        "name": "BFA in Theatre Technology / Design — UNLV Department of Theatre",
+        "note": "UNLV offers concentrations in lighting, sound, scenic, and costume design within a rigorous 4-year conservatory-style BFA program. Strong industry connections to the Las Vegas entertainment community. Many alumni work on the Strip, at resort showrooms, and on touring productions.",
+        "url": "https://www.unlv.edu/theatre"
+      },
+      {
+        "type": "Community College",
+        "name": "Technical Theatre Coursework — CSN",
+        "note": "CSN offers technical theatre coursework as part of its performing arts and technology programs. A lower-cost pathway to foundational skills and IATSE eligibility. Transfer options to UNLV's BFA program available.",
+        "url": "https://www.csn.edu"
+      },
+      {
+        "type": "Industry Credential",
+        "name": "ETCP — Entertainment Technician Certification Program",
+        "note": "The industry standard certification for riggers and electricians in entertainment. Two credentials: Rigger-Theatre and Rigger-Arena. Required or strongly preferred at major Las Vegas venues including T-Mobile Arena, Allegiant Stadium, and the MSG Sphere. Study guides available through ESTA at etcp.esta.org.",
+        "url": "https://etcp.esta.org"
+      },
+      {
+        "type": "Staffing / Entry",
+        "name": "Non-Union Entry Points — PRG, Rhino Staging, Desert Entertainment, ELF",
+        "note": "Four major companies offer on-call stagehand work in Las Vegas at approximately $20/hr. PRG (Production Resource Group, South Valley View) is the world's largest entertainment AV company and offers internship pathways. These are the best way to build experience and a callsheet before pursuing IATSE Local 720 membership.",
+        "url": "https://www.prg.com"
+      },
+      {
+        "type": "AV / Convention Tech",
+        "name": "PSAV / Encore Event Technologies",
+        "note": "The largest AV service provider in the hospitality industry. PSAV/Encore staffs the AV departments at most major Las Vegas resort properties and convention venues. Full-time and part-time technician positions available. A structured pathway for students interested in corporate events and convention technology rather than theatrical production.",
+        "url": "https://www.encoreglobal.com"
+      }
     ],
     "careers": [
-      {"title": "Lighting Designer", "salary": "$55,000", "outlook": "+8%", "desc": "Create and execute lighting designs for theatrical productions, concerts, corporate events, and touring shows."},
-      {"title": "Sound Engineer", "salary": "$57,000", "outlook": "+6%", "desc": "Record, mix, and reinforce audio for live performances, broadcasts, recording sessions, and events."},
-      {"title": "Scenic Designer / Carpenter", "salary": "$45,000", "outlook": "+5%", "desc": "Design and build sets, props, and physical environments for theatrical productions, film, and television."},
-      {"title": "Production / Event Manager", "salary": "$70,000", "outlook": "+8%", "desc": "Coordinate all technical and logistical elements of a production, event, or venue — the creative project manager."}
+      {
+        "title": "Production Technician / Stagehand",
+        "salary": "$22–$50/hr (union scale)",
+        "outlook": "+8%",
+        "desc": "Perform technical stage work including load-ins, strikes, spot operation, and production support. IATSE Local 720 covers stagehands at the major resorts, venues, and convention centers. Union scale starts around $22/hr with significant increases for specialized skills. Full benefits for journeyman members. Non-union on-call work available immediately through Rhino Staging, Desert Entertainment, and ELF."
+      },
+      {
+        "title": "Lighting Designer / Programmer",
+        "salary": "$55,000–$100,000+",
+        "outlook": "+8%",
+        "desc": "Create and execute lighting designs for theatrical productions, concerts, and events. Las Vegas productions, the MSG Sphere (the most technically advanced venue ever built), and major touring shows that stop in Las Vegas create steady demand. Grand MA and Hog 4 console experience is highly valued. The Las Vegas market is one of the best in the world for lighting designers."
+      },
+      {
+        "title": "Audio Engineer (A1 / A2)",
+        "salary": "$55,000–$95,000",
+        "outlook": "+6%",
+        "desc": "Record, mix, and reinforce audio for live performances, broadcasts, and events. Every casino showroom, concert venue, convention ballroom, and residency in Las Vegas requires audio engineering staff. Major residencies by artists like Adele and Beyoncé require full-time A1 crews for their runs at Las Vegas properties."
+      },
+      {
+        "title": "AV Technician — Convention & Events",
+        "salary": "$45,000–$75,000",
+        "outlook": "+10%",
+        "desc": "Set up and operate audio-visual systems for conventions, corporate events, and trade shows. The convention industry is Las Vegas's second-largest economic driver. PSAV/Encore, Freeman AV, and AVT Network staff the AV departments at the LVCC, Venetian Expo, Mandalay Bay Convention Center, and every major resort's ballroom facilities."
+      },
+      {
+        "title": "Rigging Specialist (ETCP-Certified)",
+        "salary": "$60,000–$95,000",
+        "outlook": "+6%",
+        "desc": "Plan and execute the rigging of lighting, scenic, and aerial systems in entertainment venues. ETCP certification is the industry standard and often required at T-Mobile Arena, Allegiant Stadium, MSG Sphere, and resort showrooms. IATSE Local 720 and touring companies both require ETCP-certified riggers. Significant shortage of qualified riggers in the market."
+      },
+      {
+        "title": "Production Manager / Stage Manager",
+        "salary": "$65,000–$120,000",
+        "outlook": "+8%",
+        "desc": "Coordinate all technical and logistical elements of a production or event. Major resort productions including Cirque du Soleil (multiple shows permanently based in Las Vegas), Blue Man Group, and resident headliners require multiple stage managers per production. The city's convention and corporate event sector also employs hundreds of production managers year-round."
+      }
     ],
     "financial": [
-      {"name": "USITT Scholarships", "note": "The United States Institute for Theatre Technology awards multiple annual scholarships to students in accredited technical theatre programs.", "url": "https://www.usitt.org"},
-      {"name": "IATSE Scholarship Program", "note": "The International Alliance of Theatrical Stage Employees offers scholarships to members and their dependents pursuing entertainment careers.", "url": "https://www.iatse.net"},
-      {"name": "State Arts Council Grants", "note": "Most state arts councils offer grants and scholarships for students pursuing careers in the performing arts, production, and technical theatre.", "url": ""},
-      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year at CSN or UNLV. Apply via FAFSA at studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Nevada Promise Scholarship",
+        "note": "Covers CSN registration fees for up to 3 years for graduating Nevada high school seniors. Apply by October 31.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Governor Guinn Millennium Scholarship",
+        "note": "Up to $10,000 for eligible Nevada graduates at UNLV or other NSHE institutions. Automatically evaluated — no application required.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "USITT Scholarships — US Institute for Theatre Technology",
+        "note": "USITT awards multiple annual scholarships to students in accredited technical theatre and design programs. Both UNLV and CSN students are eligible. Apply at usitt.org. The USITT Annual Conference (held in different US cities each year) is also a prime networking and job fair event.",
+        "url": "https://www.usitt.org"
+      },
+      {
+        "name": "IATSE Scholarship Program",
+        "note": "After joining IATSE Local 720, members and their dependents can apply for scholarships through the national IATSE Scholarship Fund. Awards range from $1,000 to $2,500. Apply at iatse.net/scholarships.",
+        "url": "https://www.iatse.net"
+      },
+      {
+        "name": "Nevada Arts Council Grants",
+        "note": "The Nevada Arts Council awards grants and scholarships for students pursuing careers in the performing arts, production, and technical theatre. Check nvartscouncil.org for current grant cycles.",
+        "url": "https://nvartscouncil.org"
+      },
+      {
+        "name": "MSG Sphere Student Associate Program",
+        "note": "MSG Entertainment's Las Vegas Sphere offers structured student associate and internship pathways for technical theatre, AV, and production students. Watch for postings at msgentertainment.com. A rare opportunity to work inside the most advanced entertainment venue ever built.",
+        "url": "https://www.msgentertainment.com"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Need-based grant for Nevada community college students. Apply via FAFSA.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      }
     ]
   },
   "es": {
     "title": "Tecnología Teatral",
     "tag": "Artes y Medios",
-    "desc": "La magia detrás del telón. Los estudiantes dominan el diseño de iluminación, la ingeniería de sonido, la construcción de escenarios y la gestión de escenas.",
-    "courses": ["Tecnología Teatral I","Tecnología Teatral II"],
+    "desc": "La magia detrás del telón. Los estudiantes dominan el diseño de iluminación, la ingeniería de sonido, la construcción de escenarios y la gestión de escenas, con habilidades que se traducen en carreras en eventos en vivo, producción cinematográfica y tecnología del entretenimiento. Las Vegas es uno de los entornos de entretenimiento más técnicamente exigentes del mundo, hogar de más de 30 producciones residentes, el destino de convenciones #1 en EE. UU., la Fórmula 1, grandes residencias de conciertos y el MSG Sphere — el recinto de entretenimiento más avanzado jamás construido.",
+    "courses": ["Tecnología Teatral I", "Tecnología Teatral II"],
     "postsec": [
-      {"type": "Universidad", "name": "BFA en Tecnología / Diseño Teatral", "note": "Programa intensivo de 4 años estilo conservatorio con concentraciones en iluminación, escenografía o sonido.", "url": ""},
-      {"type": "Colegio Comunitario", "name": "AAS en Teatro Técnico", "note": "Camino de 2 años hacia roles de técnico de producción; prepara a los estudiantes para la membresía IATSE.", "url": ""},
-      {"type": "Certificación Industrial", "name": "ETCP — Certificación de Técnico de Entretenimiento", "note": "Credencial reconocida por la industria para aparejadores y electricistas en recintos y producciones de gira.", "url": "https://etcp.esta.org"},
-      {"type": "Sindicato", "name": "Aprendizaje IATSE (Local Teatral)", "note": "La Alianza Internacional de Empleados de Escenarios Teatrales ofrece aprendizajes en los principales mercados regionales.", "url": "https://www.iatse.net"}
+      {
+        "type": "Sindicato",
+        "name": "IATSE Local 720 — Las Vegas",
+        "note": "La Alianza Internacional de Empleados de Escenarios Teatrales Local 720 ha representado a los trabajadores de escena de Las Vegas desde 1939. Las solicitudes abren periódicamente — estar atento a las aperturas de julio/principios de año. Entrada mediante el sistema de dos llamadas: estar disponible con poca antelación para dos llamadas dentro de los 6 meses de la entrevista. Salario inicial ligeramente por encima del mínimo pero aumenta rápidamente. Beneficios completos para miembros con rango de oficial.",
+        "url": "https://iatselocal720.org"
+      },
+      {
+        "type": "Universidad",
+        "name": "BFA en Tecnología / Diseño Teatral — Departamento de Teatro de UNLV",
+        "note": "UNLV ofrece concentraciones en diseño de iluminación, sonido, escenografía y vestuario dentro de un riguroso programa BFA de 4 años estilo conservatorio. Sólidas conexiones con la comunidad de entretenimiento de Las Vegas. Muchos egresados trabajan en el Strip, en salas de espectáculos de complejos y en producciones de gira.",
+        "url": "https://www.unlv.edu/theatre"
+      },
+      {
+        "type": "Colegio Comunitario",
+        "name": "Cursos de Teatro Técnico — CSN",
+        "note": "CSN ofrece cursos de teatro técnico como parte de sus programas de artes escénicas y tecnología. Una vía de menor costo hacia habilidades fundamentales y elegibilidad para la IATSE. Opciones de transferencia al programa BFA de UNLV disponibles.",
+        "url": "https://www.csn.edu"
+      },
+      {
+        "type": "Credencial Industrial",
+        "name": "ETCP — Programa de Certificación de Técnicos de Entretenimiento",
+        "note": "La certificación estándar de la industria para aparejadores y electricistas en entretenimiento. Dos credenciales: Aparejador de Teatro y Aparejador de Arena. Requerida o fuertemente preferida en los principales recintos de Las Vegas incluyendo T-Mobile Arena, Allegiant Stadium y MSG Sphere.",
+        "url": "https://etcp.esta.org"
+      },
+      {
+        "type": "Empresas de Personal / Entrada",
+        "name": "Puntos de Entrada No Sindicales — PRG, Rhino Staging, Desert Entertainment, ELF",
+        "note": "Cuatro empresas importantes ofrecen trabajo de técnico de escena a llamada en Las Vegas a aproximadamente $20/hr. PRG (Production Resource Group) es la empresa de AV para entretenimiento más grande del mundo y ofrece vías de prácticas. Estas son la mejor manera de acumular experiencia antes de buscar la membresía en IATSE Local 720.",
+        "url": "https://www.prg.com"
+      },
+      {
+        "type": "Tecnología AV / Convenciones",
+        "name": "PSAV / Encore Event Technologies",
+        "note": "El mayor proveedor de servicios AV en la industria hotelera. PSAV/Encore gestiona los departamentos de AV en la mayoría de las principales propiedades de complejos y recintos de convenciones de Las Vegas. Posiciones de técnico a tiempo completo y parcial disponibles.",
+        "url": "https://www.encoreglobal.com"
+      }
     ],
     "careers": [
-      {"title": "Diseñador/a de Iluminación", "salary": "$55,000", "outlook": "+8%", "desc": "Crea y ejecuta diseños de iluminación para producciones teatrales, conciertos y eventos corporativos."},
-      {"title": "Ingeniero/a de Sonido", "salary": "$57,000", "outlook": "+6%", "desc": "Graba, mezcla y refuerza audio para actuaciones en vivo, transmisiones y sesiones de grabación."},
-      {"title": "Diseñador/a Escénico / Carpintero/a", "salary": "$45,000", "outlook": "+5%", "desc": "Diseña y construye sets, accesorios y entornos físicos para producciones teatrales, cine y televisión."},
-      {"title": "Gerente de Producción / Eventos", "salary": "$70,000", "outlook": "+8%", "desc": "Coordina todos los elementos técnicos y logísticos de una producción, evento o lugar."}
+      {
+        "title": "Técnico de Producción / Tramoyista",
+        "salary": "$22–$50/hr (escala sindical)",
+        "outlook": "+8%",
+        "desc": "Realiza trabajo técnico de escena incluyendo montajes, desmontajes, operación de focos y apoyo en producción. La IATSE Local 720 cubre a los tramoyistas en los principales complejos, recintos y centros de convenciones. La escala sindical comienza alrededor de $22/hr con aumentos significativos para habilidades especializadas. Beneficios completos para miembros con rango de oficial."
+      },
+      {
+        "title": "Diseñador/a de Iluminación / Programador/a",
+        "salary": "$55,000–$100,000+",
+        "outlook": "+8%",
+        "desc": "Crea y ejecuta diseños de iluminación para producciones teatrales, conciertos y eventos. Las producciones de Las Vegas, el MSG Sphere (el recinto más técnicamente avanzado jamás construido) y los grandes espectáculos de gira que se detienen en Las Vegas crean una demanda constante. La experiencia con consolas Grand MA y Hog 4 es muy valorada."
+      },
+      {
+        "title": "Ingeniero/a de Audio (A1 / A2)",
+        "salary": "$55,000–$95,000",
+        "outlook": "+6%",
+        "desc": "Graba, mezcla y refuerza audio para actuaciones en vivo, transmisiones y eventos. Cada sala de espectáculos de casino, recinto de conciertos, salón de convenciones y residencia en Las Vegas requiere personal de ingeniería de audio. Las grandes residencias de artistas como Adele y Beyoncé requieren equipos A1 a tiempo completo durante sus temporadas en propiedades de Las Vegas."
+      },
+      {
+        "title": "Técnico/a de AV — Convenciones y Eventos",
+        "salary": "$45,000–$75,000",
+        "outlook": "+10%",
+        "desc": "Configura y opera sistemas audiovisuales para convenciones, eventos corporativos y ferias comerciales. La industria de convenciones es el segundo motor económico más grande de Las Vegas. PSAV/Encore, Freeman AV y AVT Network gestionan los departamentos de AV en el LVCC, Venetian Expo, Centro de Convenciones de Mandalay Bay y todas las instalaciones de salones de los principales complejos."
+      },
+      {
+        "title": "Especialista en Aparejo (Certificado ETCP)",
+        "salary": "$60,000–$95,000",
+        "outlook": "+6%",
+        "desc": "Planifica y ejecuta el aparejo de sistemas de iluminación, escenografía y aéreos en recintos de entretenimiento. La certificación ETCP a menudo es requerida en T-Mobile Arena, Allegiant Stadium, MSG Sphere y salas de espectáculos de complejos. Escasez significativa de aparejadores calificados en el mercado."
+      },
+      {
+        "title": "Gerente de Producción / Jefe/a de Escena",
+        "salary": "$65,000–$120,000",
+        "outlook": "+8%",
+        "desc": "Coordina todos los elementos técnicos y logísticos de una producción o evento. Las principales producciones de complejos incluyendo Cirque du Soleil (múltiples espectáculos permanentes en Las Vegas), Blue Man Group y artistas residentes requieren múltiples jefes de escena por producción. El sector de convenciones y eventos corporativos de la ciudad también emplea a cientos de gerentes de producción durante todo el año."
+      }
     ],
     "financial": [
-      {"name": "Becas USITT", "note": "El Instituto de los Estados Unidos para la Tecnología Teatral otorga múltiples becas anuales a estudiantes en programas acreditados.", "url": "https://www.usitt.org"},
-      {"name": "Programa de Becas IATSE", "note": "La Alianza Internacional de Empleados de Escenarios Teatrales ofrece becas a miembros y sus dependientes.", "url": "https://www.iatse.net"},
-      {"name": "Becas de Consejos Estatales de Arte", "note": "La mayoría de los consejos estatales ofrecen becas para estudiantes que buscan carreras en artes escénicas y teatro técnico.", "url": ""},
-      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año en CSN o UNLV. Solicitar vía FAFSA en studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Beca Nevada Promise",
+        "note": "Cubre las tarifas de inscripción en CSN por hasta 3 años para graduados de escuela secundaria de Nevada. Solicitar antes del 31 de octubre.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Beca Conmemorativa Gobernador Guinn Millennium",
+        "note": "Hasta $10,000 para graduados elegibles de Nevada en UNLV u otras instituciones del NSHE. Se evalúa automáticamente — no se requiere solicitud.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "Becas USITT — Instituto de los EE. UU. para la Tecnología Teatral",
+        "note": "USITT otorga múltiples becas anuales a estudiantes en programas acreditados de teatro técnico y diseño. Tanto los estudiantes de UNLV como de CSN son elegibles. Solicitar en usitt.org.",
+        "url": "https://www.usitt.org"
+      },
+      {
+        "name": "Programa de Becas IATSE",
+        "note": "Después de unirse a la IATSE Local 720, los miembros y sus dependientes pueden solicitar becas a través del Fondo de Becas nacional de la IATSE. Los premios van de $1,000 a $2,500. Solicitar en iatse.net/scholarships.",
+        "url": "https://www.iatse.net"
+      },
+      {
+        "name": "Becas del Consejo de Artes de Nevada",
+        "note": "El Consejo de Artes de Nevada otorga becas y subvenciones a estudiantes que buscan carreras en las artes escénicas, producción y teatro técnico. Consultar nvartscouncil.org para los ciclos de subvenciones actuales.",
+        "url": "https://nvartscouncil.org"
+      },
+      {
+        "name": "Programa de Asociado Estudiantil del MSG Sphere",
+        "note": "MSG Entertainment's Las Vegas Sphere ofrece vías estructuradas de asociado estudiantil y prácticas para estudiantes de teatro técnico, AV y producción. Buscar publicaciones en msgentertainment.com. Una rara oportunidad de trabajar dentro del recinto de entretenimiento más avanzado jamás construido.",
+        "url": "https://www.msgentertainment.com"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Beca basada en necesidad para estudiantes de colegios comunitarios de Nevada. Solicitar vía FAFSA.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      }
     ]
   }
 }

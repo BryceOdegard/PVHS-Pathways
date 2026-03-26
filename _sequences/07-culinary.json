@@ -7,49 +7,259 @@
   "en": {
     "title": "Culinary Arts",
     "tag": "Hospitality",
-    "desc": "From mise en place to plated masterpiece. Students develop culinary technique, food science knowledge, and kitchen management skills in our professional lab kitchen — with industry mentorship and ServSafe certification.",
-    "courses": ["Culinary Arts I","Culinary Arts II"],
+    "desc": "From mise en place to plated masterpiece. Students develop culinary technique, food science knowledge, and kitchen management skills with industry mentorship and ServSafe certification. Las Vegas is one of the world's premier culinary destinations with more AAA Four Diamond restaurants per capita than anywhere in the US, supporting a permanent workforce of tens of thousands of culinary professionals year-round.",
+    "courses": ["Culinary Arts I", "Culinary Arts II"],
     "postsec": [
-      {"type": "Culinary Institute", "name": "CIA / Johnson & Wales / Auguste Escoffier", "note": "Highly respected culinary degrees with intense hands-on training; strong industry networks and alumni placement programs.", "url": ""},
-      {"type": "Community College", "name": "AAS in Culinary Arts", "note": "More affordable 2-year programs at regional community colleges with professional kitchen labs and local industry partnerships.", "url": ""},
-      {"type": "Industry Credential", "name": "ServSafe Manager Certification", "note": "Required for food service management roles in most states; can be earned during this sequence.", "url": "https://www.servsafe.com"},
-      {"type": "Industry Credential", "name": "ACF Certification (CC, CPC, CEC)", "note": "American Culinary Federation certifications from Certified Cook through Executive Chef — the professional ladder for culinary careers.", "url": "https://www.acfchefs.org"}
+      {
+        "type": "Vocational School",
+        "name": "Culinary Academy of Las Vegas",
+        "note": "Founded in 1993; a nationally recognized model of labor-management cooperation between Culinary Union Local 226 and 50+ Strip and Downtown properties. Trains 11 hospitality classifications. Graduates receive a certificate recognized as equivalent to one year of work experience. Union members receive FREE training as a negotiated benefit. Non-members can also apply. theculinaryacademy.org",
+        "url": "https://www.theculinaryacademy.org"
+      },
+      {
+        "type": "Community College",
+        "name": "AAS in Culinary Arts & Hospitality Management — CSN",
+        "note": "CSN's Hospitality and Culinary Arts department offers degrees in Culinary Arts, Food & Beverage Management, and Casino Management. Strong industry partnerships with local properties. Multiple scholarships available specifically for hospitality students. Affordable at ~$3,000–$5,000/year.",
+        "url": "https://www.csn.edu/hosparea"
+      },
+      {
+        "type": "University",
+        "name": "BS in Hotel Administration — UNLV William F. Harrah College of Hospitality",
+        "note": "Ranked among the top hospitality programs globally. Culinary and food & beverage management concentrations available. Direct internship pipeline with major resort properties on the Strip. One of the strongest alumni networks in the Southern Nevada hospitality industry.",
+        "url": "https://www.unlv.edu/hospitality"
+      },
+      {
+        "type": "Culinary Institute",
+        "name": "Auguste Escoffier School of Culinary Arts — Online + Boulder, CO",
+        "note": "Accredited culinary school with online and on-campus options. Closest major culinary institute to Southern Nevada with online accessibility. Externship placement in Las Vegas-area restaurants and resorts available for enrolled students.",
+        "url": "https://www.escoffier.edu"
+      },
+      {
+        "type": "Industry Credential",
+        "name": "ServSafe Manager Certification — NRA Educational Foundation",
+        "note": "Required for food service management roles in Nevada. Available through CSN, the Culinary Academy of Las Vegas, and independent proctoring. Cost: approximately $150–200. Can be earned while in the PVHS sequence.",
+        "url": "https://www.servsafe.com"
+      },
+      {
+        "type": "Industry Credential",
+        "name": "ACF Certification — Chefs of Las Vegas / High Sierra Chefs",
+        "note": "American Culinary Federation offers progressive credentials from Certified Culinarian (CC) through Executive Chef (CEC). Chefs of Las Vegas and High Sierra Chefs are the regional ACF chapters — active mentorship and scholarship programs for Nevada culinary students.",
+        "url": "https://www.acfchefs.org"
+      }
     ],
     "careers": [
-      {"title": "Chef / Head Cook", "salary": "$55,000", "outlook": "+9%", "desc": "Direct kitchen operations, develop menus, and lead culinary teams in restaurants, hotels, or catering operations."},
-      {"title": "Food Service Manager", "salary": "$61,000", "outlook": "+7%", "desc": "Oversee daily operations of restaurants, cafeterias, hotels, or institutional food service programs."},
-      {"title": "Pastry Chef / Baker", "salary": "$42,000", "outlook": "+8%", "desc": "Specialize in breads, pastries, desserts, and confections for restaurants, hotels, bakeries, or private clients."},
-      {"title": "Private / Personal Chef", "salary": "$65,000+", "outlook": "+9%", "desc": "Prepare customized meals for private households, corporate executives, yachts, or exclusive venues."}
+      {
+        "title": "Professional Cook / Line Cook",
+        "salary": "$38,000–$55,000",
+        "outlook": "+9%",
+        "desc": "Prepare and plate dishes in resort, restaurant, and catering kitchens. Every major casino resort on the Strip and in Downtown Las Vegas maintains large kitchen brigades. MGM Resorts, Caesars Entertainment, Wynn, and the Venetian each employ hundreds of cooks. Culinary Union Local 226 represents many of these positions with strong wage scales and full benefits including health insurance."
+      },
+      {
+        "title": "Chef / Head Cook",
+        "salary": "$55,000–$95,000",
+        "outlook": "+9%",
+        "desc": "Direct kitchen operations, develop menus, and lead culinary teams. ACF-certified chefs command premium wages in Las Vegas's competitive market. Celebrity chef restaurants, award-winning resort dining programs, and catering operations all seek experienced culinary leadership. The Bellagio, Encore, Aria, and Wynn each run internationally recognized culinary programs."
+      },
+      {
+        "title": "Pastry Chef / Baker",
+        "salary": "$42,000–$70,000",
+        "outlook": "+8%",
+        "desc": "Specialize in breads, pastries, desserts, and confections. High demand at Las Vegas resorts, casino bakeries, and specialty patisseries. Award-winning pastry programs at the Bellagio, Encore, and Aria create high standards and career pathways for skilled pastry professionals."
+      },
+      {
+        "title": "Food Service Manager",
+        "salary": "$55,000–$80,000",
+        "outlook": "+7%",
+        "desc": "Oversee daily operations of restaurants, cafeterias, and institutional food service. CCSD, UMC Hospital, MGM Resorts corporate dining, and the Clark County Detention Center all operate managed food service programs. The Las Vegas Convention Center — the #1 convention venue in the US — requires large year-round food service management teams."
+      },
+      {
+        "title": "Catering & Events Coordinator",
+        "salary": "$45,000–$70,000",
+        "outlook": "+8%",
+        "desc": "Coordinate food and beverage for corporate events, conventions, and private functions. Las Vegas is the #1 convention destination in the US. The LVCC, Mandalay Bay Convention Center, Venetian Expo, and Resorts World all require large catering teams year-round. The Formula 1 Grand Prix added a major new annual event with extensive hospitality needs."
+      },
+      {
+        "title": "Private / Personal Chef",
+        "salary": "$65,000–$120,000+",
+        "outlook": "+9%",
+        "desc": "Prepare customized meals for private households, corporate executives, and exclusive venues. Las Vegas's high concentration of high-net-worth residents, corporate visitors, and luxury hospitality venues creates a growing market for personal chef services. Strong opportunities in high-rise residential buildings and luxury resort villas."
+      }
     ],
     "financial": [
-      {"name": "James Beard Foundation Scholarship", "note": "One of the most prestigious culinary scholarships in the US — awarded to students enrolled in accredited culinary programs.", "url": "https://www.jamesbeard.org/scholarships"},
-      {"name": "ACF Scholarship Program", "note": "The American Culinary Federation awards scholarships annually to student members pursuing culinary education and credentials.", "url": "https://www.acfchefs.org"},
-      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "National Restaurant Association Educational Foundation", "note": "The NRAEF and WIOA provide workforce training funding specifically for students entering foodservice careers.", "url": "https://www.nraef.org"}
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year. Apply via FAFSA at studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Nevada Promise Scholarship",
+        "note": "Covers CSN registration fees for up to 3 years. No GPA or income requirement. Apply by October 31 of senior year.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Epicurean Charitable Foundation (ECF) — Las Vegas",
+        "note": "Provides $33,000–$48,000 over 4 years to Clark County high school seniors majoring in hospitality or culinary at UNLV. Requires 3.0 GPA and financial need. Works with CCSD career and technical academies. Inquire through your high school counselor or apply at ecflv.org.",
+        "url": "https://www.ecflv.org"
+      },
+      {
+        "name": "Hospitality Charitable Foundation (HCF) — Las Vegas",
+        "note": "Similar to ECF; provides $38,000–$48,000 over 4 years to Clark County seniors pursuing hospitality or culinary education at UNLV, the Art Institute, or CIA. Partners with major resort properties. Apply at hcflv.org.",
+        "url": "https://www.hcflv.org"
+      },
+      {
+        "name": "NEWH Las Vegas Chapter Scholarship",
+        "note": "Open to students attending an accredited college in Nevada or Utah pursuing careers in hospitality, culinary, or hotel management. Apply through the NEWH Las Vegas chapter at newh.org.",
+        "url": "https://www.newh.org"
+      },
+      {
+        "name": "ACF Education Foundation Scholarships",
+        "note": "The American Culinary Federation awards scholarships up to $2,500 annually to student members and ACFEF-registered apprentices. Join the Chefs of Las Vegas chapter to access local mentorship and scholarship opportunities.",
+        "url": "https://www.acfchefs.org"
+      },
+      {
+        "name": "James Beard Foundation Scholarship",
+        "note": "One of the most prestigious culinary scholarships in the US, awarded annually to students in accredited culinary programs. Competitive but highly valuable for résumé and industry recognition. Apply at jamesbeard.org/scholarships.",
+        "url": "https://www.jamesbeard.org/scholarships"
+      },
+      {
+        "name": "CSN Hospitality Scholarships",
+        "note": "CSN's Department of Hospitality Management administers numerous donor-funded scholarships specific to hospitality and culinary students. Visit csn.edu/hospitality-scholarship-opportunities for the current list.",
+        "url": "https://www.csn.edu/hospitality-scholarship-opportunities"
+      },
+      {
+        "name": "Culinary Union Local 226 — Free Training Benefit",
+        "note": "Union members at signatory Las Vegas properties receive free training at the Culinary Academy of Las Vegas as a negotiated employment benefit. Once employed by a union property, training is at no cost to you.",
+        "url": "https://www.culinaryunion226.org"
+      }
     ]
   },
   "es": {
     "title": "Artes Culinarias",
     "tag": "Hospitalidad",
-    "desc": "De la mise en place a la obra maestra en el plato. Los estudiantes desarrollan técnica culinaria, conocimiento de ciencias de los alimentos y habilidades de gestión de cocina.",
-    "courses": ["Artes Culinarias I","Artes Culinarias II"],
+    "desc": "De la mise en place a la obra maestra en el plato. Los estudiantes desarrollan técnica culinaria, conocimiento de ciencias de los alimentos y habilidades de gestión de cocina con tutoría de la industria y certificación ServSafe. Las Vegas es uno de los destinos culinarios más destacados del mundo con más restaurantes AAA de Cuatro Diamantes per cápita que en cualquier otro lugar de EE. UU., y una fuerza laboral permanente de decenas de miles de profesionales culinarios durante todo el año.",
+    "courses": ["Artes Culinarias I", "Artes Culinarias II"],
     "postsec": [
-      {"type": "Instituto Culinario", "name": "CIA / Johnson & Wales / Auguste Escoffier", "note": "Títulos culinarios muy respetados con capacitación práctica intensa y sólidas redes en la industria.", "url": ""},
-      {"type": "Colegio Comunitario", "name": "AAS en Artes Culinarias", "note": "Programas de 2 años más asequibles con laboratorios de cocina profesional y asociaciones con la industria local.", "url": ""},
-      {"type": "Credencial Industrial", "name": "Certificación ServSafe Manager", "note": "Requerida para roles de gestión en servicios de alimentos en la mayoría de los estados.", "url": "https://www.servsafe.com"},
-      {"type": "Credencial Industrial", "name": "Certificación ACF (CC, CPC, CEC)", "note": "Certificaciones de la Federación Culinaria Americana desde Cocinero Certificado hasta Chef Ejecutivo.", "url": "https://www.acfchefs.org"}
+      {
+        "type": "Escuela Vocacional",
+        "name": "Culinary Academy of Las Vegas",
+        "note": "Fundada en 1993; un modelo reconocido nacionalmente de cooperación entre sindicato y empresas, entre el Sindicato Culinario Local 226 y más de 50 propiedades del Strip y el centro. Capacita en 11 clasificaciones de hospitalidad. Los graduados reciben un certificado reconocido como equivalente a un año de experiencia laboral. Los miembros del sindicato reciben capacitación GRATUITA como beneficio negociado.",
+        "url": "https://www.theculinaryacademy.org"
+      },
+      {
+        "type": "Colegio Comunitario",
+        "name": "AAS en Artes Culinarias y Gestión de Hospitalidad — CSN",
+        "note": "El departamento de Hospitalidad y Artes Culinarias de CSN ofrece títulos en Artes Culinarias, Gestión de Alimentos y Bebidas y Gestión de Casino. Sólidas asociaciones con propiedades locales. Múltiples becas disponibles específicamente para estudiantes de hospitalidad. Asequible a ~$3,000–$5,000/año.",
+        "url": "https://www.csn.edu/hosparea"
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Administración Hotelera — Facultad de Hospitalidad William F. Harrah de UNLV",
+        "note": "Clasificada entre los principales programas de hospitalidad del mundo. Concentraciones en artes culinarias y gestión de alimentos y bebidas disponibles. Canal directo de prácticas con las principales propiedades del Strip. Una de las redes de exalumnos más sólidas en la industria hotelera del sur de Nevada.",
+        "url": "https://www.unlv.edu/hospitality"
+      },
+      {
+        "type": "Instituto Culinario",
+        "name": "Auguste Escoffier School of Culinary Arts — En Línea + Boulder, CO",
+        "note": "Escuela culinaria acreditada con opciones en línea y presenciales. La escuela culinaria importante más cercana al sur de Nevada con accesibilidad en línea. Colocación en prácticas externas disponible en restaurantes y complejos del área de Las Vegas para estudiantes inscritos.",
+        "url": "https://www.escoffier.edu"
+      },
+      {
+        "type": "Credencial Industrial",
+        "name": "Certificación ServSafe Manager — Fundación Educativa NRA",
+        "note": "Requerida para roles de gestión en servicios de alimentos en Nevada. Disponible a través de CSN, la Culinary Academy of Las Vegas y examinadores independientes. Costo: aproximadamente $150–200. Se puede obtener durante la secuencia en PVHS.",
+        "url": "https://www.servsafe.com"
+      },
+      {
+        "type": "Credencial Industrial",
+        "name": "Certificación ACF — Chefs of Las Vegas / High Sierra Chefs",
+        "note": "La Federación Culinaria Americana ofrece credenciales progresivas desde Culinario Certificado (CC) hasta Chef Ejecutivo (CEC). Chefs of Las Vegas y High Sierra Chefs son los capítulos regionales de la ACF con programas activos de mentoría y becas para estudiantes culinarios de Nevada.",
+        "url": "https://www.acfchefs.org"
+      }
     ],
     "careers": [
-      {"title": "Chef / Cocinero/a Principal", "salary": "$55,000", "outlook": "+9%", "desc": "Dirige operaciones de cocina, desarrolla menús y lidera equipos culinarios en restaurantes, hoteles o catering."},
-      {"title": "Gerente de Servicios de Alimentos", "salary": "$61,000", "outlook": "+7%", "desc": "Supervisa las operaciones diarias de restaurantes, cafeterías, hoteles o programas institucionales de alimentos."},
-      {"title": "Chef de Pastelería / Panadero/a", "salary": "$42,000", "outlook": "+8%", "desc": "Se especializa en panes, pasteles, postres y confitería para restaurantes, hoteles o clientes privados."},
-      {"title": "Chef Privado/a", "salary": "$65,000+", "outlook": "+9%", "desc": "Prepara comidas personalizadas para hogares privados, ejecutivos corporativos, yates o lugares exclusivos."}
+      {
+        "title": "Cocinero/a Profesional / de Línea",
+        "salary": "$38,000–$55,000",
+        "outlook": "+9%",
+        "desc": "Prepara y emplata platos en cocinas de complejos turísticos, restaurantes y catering. Cada importante complejo de casino en el Strip y en el centro de Las Vegas mantiene grandes brigadas de cocina. MGM Resorts, Caesars Entertainment, Wynn y el Venetian emplean cada uno a cientos de cocineros. El Sindicato Culinario Local 226 representa muchos de estos puestos con escalas salariales sólidas y beneficios completos."
+      },
+      {
+        "title": "Chef / Cocinero/a Principal",
+        "salary": "$55,000–$95,000",
+        "outlook": "+9%",
+        "desc": "Dirige operaciones de cocina, desarrolla menús y lidera equipos culinarios. Los chefs certificados por ACF obtienen salarios premium en el competitivo mercado de Las Vegas. Los restaurantes de chefs famosos, los galardonados programas de comedor de complejos turísticos y las operaciones de catering buscan liderazgo culinario experimentado. Bellagio, Encore, Aria y Wynn tienen programas culinarios de reconocimiento internacional."
+      },
+      {
+        "title": "Chef de Pastelería / Panadero/a",
+        "salary": "$42,000–$70,000",
+        "outlook": "+8%",
+        "desc": "Especialización en panes, pasteles, postres y confitería. Alta demanda en los complejos turísticos de Las Vegas, panaderías de casino y pastelerías especializadas. Los galardonados programas de pastelería en el Bellagio, Encore y Aria crean altos estándares y trayectorias profesionales para hábiles profesionales de pastelería."
+      },
+      {
+        "title": "Gerente de Servicios de Alimentos",
+        "salary": "$55,000–$80,000",
+        "outlook": "+7%",
+        "desc": "Supervisa las operaciones diarias de restaurantes, cafeterías y servicios de alimentos institucionales. CCSD, UMC Hospital, la restauración corporativa de MGM Resorts y el Centro de Detención del Condado de Clark operan programas de servicios de alimentos administrados. El Centro de Convenciones de Las Vegas — el principal lugar de convenciones de EE. UU. — requiere grandes equipos de gestión de servicios de alimentos durante todo el año."
+      },
+      {
+        "title": "Coordinador/a de Catering y Eventos",
+        "salary": "$45,000–$70,000",
+        "outlook": "+8%",
+        "desc": "Coordina alimentos y bebidas para eventos corporativos, convenciones y funciones privadas. Las Vegas es el destino de convenciones #1 en EE. UU. El LVCC, el Centro de Convenciones de Mandalay Bay, Venetian Expo y Resorts World requieren grandes equipos de catering durante todo el año. El Gran Premio de Fórmula 1 agregó un nuevo evento anual importante con amplias necesidades de hospitalidad."
+      },
+      {
+        "title": "Chef Privado/a",
+        "salary": "$65,000–$120,000+",
+        "outlook": "+9%",
+        "desc": "Prepara comidas personalizadas para hogares privados, ejecutivos corporativos y lugares exclusivos. La alta concentración de residentes de alto patrimonio neto, visitantes corporativos y lugares de lujo de Las Vegas crea un mercado en crecimiento para los servicios de chef personal. Fuertes oportunidades en edificios residenciales de lujo y villas de complejos."
+      }
     ],
     "financial": [
-      {"name": "Beca de la Fundación James Beard", "note": "Una de las becas culinarias más prestigiosas en EE. UU.", "url": "https://www.jamesbeard.org/scholarships"},
-      {"name": "Programa de Becas ACF", "note": "La Federación Culinaria Americana otorga becas anualmente a estudiantes que buscan educación y credenciales culinarias.", "url": "https://www.acfchefs.org"},
-      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "Fundación Educativa NRAEF", "note": "La NRAEF y WIOA proporcionan financiamiento de capacitación para estudiantes que ingresan a carreras en servicios de alimentos.", "url": "https://www.nraef.org"}
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año. Solicitar vía FAFSA en studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Beca Nevada Promise",
+        "note": "Cubre las tarifas de inscripción en CSN por hasta 3 años. Sin requisito de GPA ni de ingresos. Solicitar antes del 31 de octubre del último año.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Epicurean Charitable Foundation (ECF) — Las Vegas",
+        "note": "Proporciona $33,000–$48,000 durante 4 años a estudiantes de último año de secundaria del Condado de Clark que estudian hospitalidad o culinaria en UNLV. Requiere un GPA de 3.0 y necesidad financiera. Solicitar en ecflv.org.",
+        "url": "https://www.ecflv.org"
+      },
+      {
+        "name": "Hospitality Charitable Foundation (HCF) — Las Vegas",
+        "note": "Similar a ECF; proporciona $38,000–$48,000 durante 4 años a estudiantes del Condado de Clark que buscan educación en hospitalidad o culinaria. Se asocia con las principales propiedades de complejos turísticos. Solicitar en hcflv.org.",
+        "url": "https://www.hcflv.org"
+      },
+      {
+        "name": "Beca del Capítulo de Las Vegas de NEWH",
+        "note": "Abierta a estudiantes que asisten a una universidad acreditada en Nevada o Utah en hospitalidad, culinaria o gestión hotelera. Solicitar a través del capítulo de Las Vegas de NEWH en newh.org.",
+        "url": "https://www.newh.org"
+      },
+      {
+        "name": "Becas de la Fundación Educativa ACF",
+        "note": "La Federación Culinaria Americana otorga becas de hasta $2,500 anualmente a estudiantes miembros y aprendices registrados en ACFEF. Unirse al capítulo Chefs of Las Vegas para acceder a mentoría local y oportunidades de becas.",
+        "url": "https://www.acfchefs.org"
+      },
+      {
+        "name": "Beca de la Fundación James Beard",
+        "note": "Una de las becas culinarias más prestigiosas de EE. UU., otorgada anualmente a estudiantes en programas culinarios acreditados. Competitiva pero muy valiosa para el currículum y el reconocimiento en la industria. Solicitar en jamesbeard.org/scholarships.",
+        "url": "https://www.jamesbeard.org/scholarships"
+      },
+      {
+        "name": "Becas de Hospitalidad de CSN",
+        "note": "El Departamento de Gestión de Hospitalidad de CSN administra numerosas becas financiadas por donantes específicas para estudiantes de hospitalidad y culinaria. Visitar csn.edu/hospitality-scholarship-opportunities para la lista actual.",
+        "url": "https://www.csn.edu/hospitality-scholarship-opportunities"
+      },
+      {
+        "name": "Sindicato Culinario Local 226 — Beneficio de Capacitación Gratuita",
+        "note": "Los miembros sindicales en propiedades signatarias de Las Vegas reciben capacitación gratuita en la Culinary Academy of Las Vegas como beneficio negociado de empleo. Una vez empleado en una propiedad sindical, la capacitación no tiene costo para ti.",
+        "url": "https://www.culinaryunion226.org"
+      }
     ]
   }
 }

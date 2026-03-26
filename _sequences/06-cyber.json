@@ -7,49 +7,249 @@
   "en": {
     "title": "Cybersecurity",
     "tag": "Security",
-    "desc": "Defend the digital world. Students learn network security, ethical hacking, and incident response — preparing for CompTIA Security+ certification and careers in one of the fastest-growing sectors in technology.",
-    "courses": ["Cybersecurity I","Cybersecurity II","AP Cybersecurity Principles"],
+    "desc": "Defend the digital world. Students learn network security, ethical hacking, and incident response — preparing for CompTIA Security+ certification and careers in one of the fastest-growing sectors in technology. Las Vegas is rapidly becoming a top cybersecurity market with over 6,000 open positions in Nevada, 35.9% projected growth by 2028, and major resort companies investing heavily in security infrastructure after high-profile incidents.",
+    "courses": ["Cybersecurity I", "Cybersecurity II", "AP Cybersecurity Principles"],
     "postsec": [
-      {"type": "University", "name": "BS in Cybersecurity / Information Assurance", "note": "NSA/DHS-designated CAE programs offer top-tier education with strong federal, defense, and private sector placement.", "url": ""},
-      {"type": "Community College", "name": "AAS in Network Security", "note": "Affordable 2-year pathway to security analyst and network admin roles; pairs naturally with CompTIA certifications.", "url": ""},
-      {"type": "Industry Credential", "name": "CompTIA A+ / Network+ / Security+", "note": "The essential certification trifecta for the field — widely required for all entry-level cybersecurity positions.", "url": "https://www.comptia.org"},
-      {"type": "Advanced Credential", "name": "EC-Council CEH / SANS GIAC", "note": "Certified Ethical Hacker and GIAC certifications are the industry standard for penetration testing and red team roles.", "url": ""}
+      {
+        "type": "University",
+        "name": "BS in Computer Science (Cybersecurity Concentration) — UNLV",
+        "note": "UNLV is an NSA/DHS-designated Center of Academic Excellence (CAE) in Cyber Defense — the highest federal designation for cybersecurity programs. Strong federal, defense, and private sector placement. Free Cyber Clinic connects students with Las Vegas industry professionals. unlv.edu/cs",
+        "url": "https://www.unlv.edu/cs"
+      },
+      {
+        "type": "Community College",
+        "name": "AAS in Network Security / Cybersecurity — CSN",
+        "note": "CSN offers AAS degrees and Certificates of Achievement in Cybersecurity and Network Security. Affordable at ~$3,000–$5,000/year. Pairs naturally with CompTIA certification prep. Transfer pathway to UNLV and NSC available.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-computing-and-information-technology"
+      },
+      {
+        "type": "Bootcamp",
+        "name": "Nucamp Cybersecurity Fundamentals Bootcamp — Las Vegas",
+        "note": "15-week program covering network defense, ethical hacking, and incident response. Cost: ~$2,100 (early bird). Monthly payment options available. 84% job placement rate within 6 months. Strong local employer partnerships with Las Vegas tech companies.",
+        "url": "https://www.nucamp.co"
+      },
+      {
+        "type": "Industry Credential",
+        "name": "CompTIA Trifecta: A+ / Network+ / Security+",
+        "note": "The standard entry-level certification pathway for cybersecurity. Security+ is required for most SOC Analyst and Information Security Analyst roles in Las Vegas. Study via Professor Messer (free), CompTIA CertMaster, or CSN coursework. Exams cost ~$350–$400 each.",
+        "url": "https://www.comptia.org"
+      },
+      {
+        "type": "Advanced Credential",
+        "name": "EC-Council CEH / SANS GIAC Certifications",
+        "note": "Certified Ethical Hacker (CEH) and GIAC certifications are the industry standard for penetration testing and red team roles. UNLV and local training centers offer CEH prep courses. SANS courses are intensive but widely recognized by federal agencies and major employers.",
+        "url": "https://www.eccouncil.org"
+      },
+      {
+        "type": "Conference / Network",
+        "name": "DEF CON & Black Hat USA — Las Vegas (Annual, August)",
+        "note": "DEF CON is the world's largest hacker conference, held in Las Vegas every August. Participating in Capture the Flag (CTF) competitions builds real skills and a verifiable portfolio. Many companies recruit directly at DEF CON. Black Hat offers student scholarships worth $4,000–$5,000 in training value.",
+        "url": "https://defcon.org"
+      }
     ],
     "careers": [
-      {"title": "Information Security Analyst", "salary": "$112,000", "outlook": "+32%", "desc": "Monitor organizational systems for security breaches, investigate incidents, and implement protective measures."},
-      {"title": "Penetration Tester", "salary": "$98,000", "outlook": "+35%", "desc": "Ethically hack systems and networks to find vulnerabilities before malicious actors can exploit them."},
-      {"title": "SOC Analyst", "salary": "$65,000", "outlook": "+32%", "desc": "Staff security operations centers monitoring networks, analyzing alerts, and responding to threats in real time."},
-      {"title": "Chief Information Security Officer", "salary": "$180,000+", "outlook": "+15%", "desc": "Lead an organization's entire information security strategy, policy, and program at the executive level."}
+      {
+        "title": "Information Security Analyst",
+        "salary": "$75,000–$120,000",
+        "outlook": "+32%",
+        "desc": "Monitor systems for security breaches, investigate incidents, and implement protective measures. Top Las Vegas employers: MGM Resorts (invested heavily post-2023 ransomware attack), Caesars Entertainment, Wynn/Encore, Venetian/Palazzo, NV Energy, Southwest Gas, and Clark County government. Starting salaries of $65,000–$85,000 for CompTIA Security+-certified candidates."
+      },
+      {
+        "title": "SOC Analyst (Tier 1–3)",
+        "salary": "$55,000–$95,000",
+        "outlook": "+32%",
+        "desc": "Staff 24/7 Security Operations Centers monitoring networks, analyzing alerts, and responding to threats in real time. MGM Resorts, Caesars, and several local Managed Security Service Providers (MSSPs) run active SOCs in Las Vegas. Entry-level Tier 1 roles accessible with CompTIA Security+ — a direct post-graduation pathway."
+      },
+      {
+        "title": "Penetration Tester / Ethical Hacker",
+        "salary": "$85,000–$140,000",
+        "outlook": "+35%",
+        "desc": "Ethically hack systems and networks to find vulnerabilities. High demand from cybersecurity consulting firms serving Las Vegas casinos, healthcare systems, and government. Remote-friendly roles available. CEH or GIAC GPEN certification is the gold standard. DEF CON connections are valuable for landing these roles."
+      },
+      {
+        "title": "Cloud Security Specialist",
+        "salary": "$100,000–$160,000",
+        "outlook": "+40%",
+        "desc": "Protect cloud environments and hybrid infrastructure. Switch (Henderson) — one of the world's largest data center campuses — and the resorts' large cloud deployments drive strong demand. AWS Security Specialty and Microsoft Azure Security Engineer certifications are highly valued by Las Vegas employers."
+      },
+      {
+        "title": "Network Security Engineer",
+        "salary": "$90,000–$140,000",
+        "outlook": "+28%",
+        "desc": "Design and maintain secure network infrastructure. Las Vegas's massive technology footprint — casino surveillance systems, resort IT networks, convention center infrastructure — requires sophisticated security engineering teams. Major employers include MGM Technology, Caesars Digital, and NV Energy."
+      },
+      {
+        "title": "Federal / Government Cybersecurity Specialist",
+        "salary": "$75,000–$130,000",
+        "outlook": "Consistent",
+        "desc": "Protect federal systems and critical infrastructure. Nellis Air Force Base, Nevada National Guard Cyber Unit, DOE Nevada Operations Office, and CISA all hire cybersecurity professionals in the Las Vegas area. Security clearance preferred or required. CyberCorps Scholarship for Service is a direct pipeline to these roles."
+      }
     ],
     "financial": [
-      {"name": "CyberCorps: Scholarship for Service", "note": "Full tuition + a living stipend from the NSA/NSF for students who commit to federal government cybersecurity roles after graduation.", "url": "https://www.sfs.opm.gov"},
-      {"name": "(ISC)² Scholarship Program", "note": "The world's largest cybersecurity organization awards scholarships to students pursuing security degrees and certifications.", "url": "https://www.isc2.org/scholarships"},
-      {"name": "DoD SkillBridge / Hiring Our Heroes", "note": "Military-connected students can access cyber training programs and direct hiring pathways into DoD and federal agencies.", "url": ""},
-      {"name": "WIOA & State Workforce Grants", "note": "Cybersecurity is a priority field for workforce development funding — contact your local workforce board.", "url": ""}
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year at CSN or UNLV. Apply via FAFSA at studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "CyberCorps: Scholarship for Service",
+        "note": "Full tuition + annual living stipend ($34,000 for undergrad / $37,000 for grad) from the NSA/NSF in exchange for post-graduation federal government cybersecurity employment (1 year of service per year of scholarship). Extremely competitive. Apply at sfs.opm.gov.",
+        "url": "https://www.sfs.opm.gov"
+      },
+      {
+        "name": "(ISC)² Cybersecurity Scholarship",
+        "note": "The world's largest cybersecurity organization awards scholarships annually to students pursuing security degrees and professional certifications. Apply at isc2.org/scholarships.",
+        "url": "https://www.isc2.org/scholarships"
+      },
+      {
+        "name": "Nevada Promise Scholarship",
+        "note": "Free community college at CSN for qualifying Nevada graduates. Apply by October 31.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Governor Guinn Millennium Scholarship",
+        "note": "Up to $10,000 for UNLV or NSC students. Automatically evaluated — no application required.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "WIOA Cybersecurity Training Grants — Workforce Connections",
+        "note": "Cybersecurity is a designated high-demand field for WIOA Individual Training Accounts (ITAs) through Workforce Connections Southern Nevada. ITAs can cover bootcamp costs and certification exam fees for eligible students. Visit nvworkforceconnections.org.",
+        "url": "https://nvworkforceconnections.org"
+      },
+      {
+        "name": "Black Hat USA Student Scholarship",
+        "note": "Black Hat USA (Las Vegas, August) awards scholarships for students to attend the conference and trainings — valued at $4,000–$5,000. Attending creates direct networking and recruiting connections with major cybersecurity employers. Apply at blackhat.com.",
+        "url": "https://www.blackhat.com"
+      },
+      {
+        "name": "Microsoft MSSA — Military-Connected Students",
+        "note": "Microsoft's Software & Systems Academy provides free cloud and cybersecurity training for veterans and military-connected individuals in Las Vegas. Multiple participants per cohort. Contact the UNLV Military Veterans Services Center for connection to local programs.",
+        "url": "https://military.microsoft.com/mssa"
+      }
     ]
   },
   "es": {
     "title": "Ciberseguridad",
     "tag": "Seguridad",
-    "desc": "Defiende el mundo digital. Los estudiantes aprenden seguridad de redes, hacking ético y respuesta a incidentes, preparándose para la certificación CompTIA Security+.",
-    "courses": ["Ciberseguridad I","Ciberseguridad II","Principios de Ciberseguridad de AP"],
+    "desc": "Defiende el mundo digital. Los estudiantes aprenden seguridad de redes, hacking ético y respuesta a incidentes, preparándose para la certificación CompTIA Security+. Las Vegas se está convirtiendo rápidamente en un mercado líder de ciberseguridad con más de 6,000 puestos vacantes en Nevada, un crecimiento proyectado del 35.9% para 2028, y grandes empresas de complejos turísticos invirtiendo fuertemente en infraestructura de seguridad.",
+    "courses": ["Ciberseguridad I", "Ciberseguridad II", "Principios de Ciberseguridad AP"],
     "postsec": [
-      {"type": "Universidad", "name": "BS en Ciberseguridad / Seguridad de la Información", "note": "Los programas CAE designados por NSA/DHS ofrecen educación de primer nivel con fuerte colocación federal y privada.", "url": ""},
-      {"type": "Colegio Comunitario", "name": "AAS en Seguridad de Redes", "note": "Camino asequible de 2 años hacia roles de analista de seguridad; combina con certificaciones CompTIA.", "url": ""},
-      {"type": "Credencial Industrial", "name": "CompTIA A+ / Network+ / Security+", "note": "La trifecta de certificaciones esenciales — ampliamente requerida para todos los puestos de ciberseguridad.", "url": "https://www.comptia.org"},
-      {"type": "Credencial Avanzada", "name": "EC-Council CEH / SANS GIAC", "note": "El Hacker Ético Certificado y las certificaciones GIAC son el estándar para roles de pruebas de penetración.", "url": ""}
+      {
+        "type": "Universidad",
+        "name": "BS en Ciencias de la Computación (Concentración en Ciberseguridad) — UNLV",
+        "note": "UNLV es un Centro de Excelencia Académica (CAE) en Ciberdefensa designado por la NSA/DHS — la designación federal más alta para programas de ciberseguridad. Fuerte colocación en los sectores federal, de defensa y privado. La Cyber Clinic gratuita conecta a los estudiantes con profesionales de la industria de Las Vegas.",
+        "url": "https://www.unlv.edu/cs"
+      },
+      {
+        "type": "Colegio Comunitario",
+        "name": "AAS en Seguridad de Redes / Ciberseguridad — CSN",
+        "note": "CSN ofrece grados AAS y Certificados de Logro en Ciberseguridad y Seguridad de Redes. Asequible a ~$3,000–$5,000/año. Se combina naturalmente con la preparación para la certificación CompTIA. Camino de transferencia a UNLV y NSC disponible.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-computing-and-information-technology"
+      },
+      {
+        "type": "Bootcamp",
+        "name": "Nucamp Cybersecurity Fundamentals Bootcamp — Las Vegas",
+        "note": "Programa de 15 semanas que cubre defensa de redes, hacking ético y respuesta a incidentes. Costo: ~$2,100 (precio anticipado). Opciones de pago mensual disponibles. Tasa de colocación laboral del 84% dentro de 6 meses.",
+        "url": "https://www.nucamp.co"
+      },
+      {
+        "type": "Credencial Industrial",
+        "name": "Trifecta CompTIA: A+ / Network+ / Security+",
+        "note": "La vía de certificación estándar de nivel inicial para ciberseguridad. Security+ es requerida para la mayoría de los roles de Analista SOC y Analista de Seguridad en Las Vegas. Estudiar a través de Professor Messer (gratuito), CompTIA CertMaster o los cursos de CSN.",
+        "url": "https://www.comptia.org"
+      },
+      {
+        "type": "Credencial Avanzada",
+        "name": "EC-Council CEH / Certificaciones SANS GIAC",
+        "note": "El Hacker Ético Certificado (CEH) y las certificaciones GIAC son el estándar de la industria para roles de pruebas de penetración y equipo rojo. UNLV y los centros de capacitación locales ofrecen cursos de preparación para CEH. Las agencias federales y los principales empleadores reconocen ampliamente los cursos SANS.",
+        "url": "https://www.eccouncil.org"
+      },
+      {
+        "type": "Conferencia / Red",
+        "name": "DEF CON & Black Hat USA — Las Vegas (Anual, Agosto)",
+        "note": "DEF CON es la conferencia de hackers más grande del mundo, celebrada en Las Vegas cada agosto. Participar en competencias Capture the Flag (CTF) desarrolla habilidades reales y un portafolio verificable. Muchas empresas reclutan directamente en DEF CON. Black Hat ofrece becas para estudiantes con un valor de $4,000–$5,000 en capacitación.",
+        "url": "https://defcon.org"
+      }
     ],
     "careers": [
-      {"title": "Analista de Seguridad de la Información", "salary": "$112,000", "outlook": "+32%", "desc": "Monitorea sistemas en busca de brechas de seguridad, investiga incidentes e implementa medidas de protección."},
-      {"title": "Probador de Penetración", "salary": "$98,000", "outlook": "+35%", "desc": "Hackea éticamente sistemas y redes para encontrar vulnerabilidades antes de que actores maliciosos las exploten."},
-      {"title": "Analista SOC", "salary": "$65,000", "outlook": "+32%", "desc": "Trabaja en centros de operaciones de seguridad, monitoreando redes y respondiendo a amenazas en tiempo real."},
-      {"title": "Director de Seguridad (CISO)", "salary": "$180,000+", "outlook": "+15%", "desc": "Dirige toda la estrategia y programa de seguridad de la información de una organización a nivel ejecutivo."}
+      {
+        "title": "Analista de Seguridad de la Información",
+        "salary": "$75,000–$120,000",
+        "outlook": "+32%",
+        "desc": "Monitorea sistemas en busca de brechas de seguridad, investiga incidentes e implementa medidas de protección. Principales empleadores en Las Vegas: MGM Resorts (invirtió fuertemente tras el ataque de ransomware de 2023), Caesars Entertainment, Wynn/Encore, Venetian/Palazzo, NV Energy, Southwest Gas y el gobierno del Condado de Clark."
+      },
+      {
+        "title": "Analista SOC (Niveles 1–3)",
+        "salary": "$55,000–$95,000",
+        "outlook": "+32%",
+        "desc": "Personal de los Centros de Operaciones de Seguridad 24/7 que monitorea redes, analiza alertas y responde a amenazas en tiempo real. MGM Resorts, Caesars y varios proveedores locales de servicios de seguridad administrados (MSSP) operan SOC activos en Las Vegas. Los roles de Nivel 1 de nivel inicial son accesibles con CompTIA Security+."
+      },
+      {
+        "title": "Probador/a de Penetración / Hacker Ético/a",
+        "salary": "$85,000–$140,000",
+        "outlook": "+35%",
+        "desc": "Hackea éticamente sistemas y redes para encontrar vulnerabilidades. Alta demanda de empresas de consultoría de ciberseguridad que sirven a casinos de Las Vegas, sistemas de salud y gobierno. Roles amigables con el trabajo remoto disponibles. La certificación CEH o GIAC GPEN es el estándar de oro."
+      },
+      {
+        "title": "Especialista en Seguridad en la Nube",
+        "salary": "$100,000–$160,000",
+        "outlook": "+40%",
+        "desc": "Protege entornos en la nube e infraestructura híbrida. Switch (Henderson) — uno de los campus de centros de datos más grandes del mundo — y las grandes implementaciones en la nube de los complejos turísticos impulsan una fuerte demanda. Las certificaciones AWS Security Specialty y Microsoft Azure Security Engineer son muy valoradas."
+      },
+      {
+        "title": "Ingeniero/a de Seguridad de Redes",
+        "salary": "$90,000–$140,000",
+        "outlook": "+28%",
+        "desc": "Diseña y mantiene infraestructura de red segura. La enorme huella tecnológica de Las Vegas — sistemas de vigilancia de casinos, redes de TI de complejos turísticos, infraestructura de centros de convenciones — requiere equipos sofisticados de ingeniería de seguridad. Empleadores principales: MGM Technology, Caesars Digital y NV Energy."
+      },
+      {
+        "title": "Especialista en Ciberseguridad Federal / Gubernamental",
+        "salary": "$75,000–$130,000",
+        "outlook": "Constante",
+        "desc": "Protege sistemas federales e infraestructura crítica. La Base Aérea de Nellis, la Unidad Cibernética de la Guardia Nacional de Nevada, la Oficina de Operaciones de Nevada del DOE y CISA contratan profesionales de ciberseguridad en el área de Las Vegas. Se prefiere o requiere habilitación de seguridad."
+      }
     ],
     "financial": [
-      {"name": "CyberCorps: Beca de Servicio", "note": "Matrícula completa + estipendio de vida de NSA/NSF para estudiantes que se comprometan a roles federales de ciberseguridad.", "url": "https://www.sfs.opm.gov"},
-      {"name": "Programa de Becas (ISC)²", "note": "La organización de ciberseguridad más grande del mundo otorga becas a estudiantes que buscan títulos de seguridad.", "url": "https://www.isc2.org/scholarships"},
-      {"name": "DoD SkillBridge / Hiring Our Heroes", "note": "Estudiantes conectados con los militares pueden acceder a programas de capacitación en ciberseguridad y vías de contratación directa.", "url": ""},
-      {"name": "WIOA y Becas Estatales", "note": "La ciberseguridad es un campo prioritario para el financiamiento del desarrollo de la fuerza laboral.", "url": ""}
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año en CSN o UNLV. Solicitar vía FAFSA en studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "CyberCorps: Beca de Servicio",
+        "note": "Matrícula completa + estipendio anual de vida ($34,000 para pregrado / $37,000 para posgrado) de la NSA/NSF a cambio de empleo federal en ciberseguridad después de la graduación (1 año de servicio por año de beca). Extremadamente competitiva. Solicitar en sfs.opm.gov.",
+        "url": "https://www.sfs.opm.gov"
+      },
+      {
+        "name": "Programa de Becas (ISC)²",
+        "note": "La organización de ciberseguridad más grande del mundo otorga becas anualmente a estudiantes que buscan títulos y certificaciones de seguridad. Solicitar en isc2.org/scholarships.",
+        "url": "https://www.isc2.org/scholarships"
+      },
+      {
+        "name": "Beca Nevada Promise",
+        "note": "Colegio comunitario gratuito en CSN para los graduados de Nevada calificados. Solicitar antes del 31 de octubre.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Beca Conmemorativa Gobernador Guinn Millennium",
+        "note": "Hasta $10,000 para estudiantes de UNLV o NSC. Se evalúa automáticamente — no se requiere solicitud.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "Becas de Capacitación en Ciberseguridad WIOA — Workforce Connections",
+        "note": "La ciberseguridad es un campo de alta demanda designado para las Cuentas de Capacitación Individual (ITA) de WIOA a través de Workforce Connections del Sur de Nevada. Las ITA pueden cubrir los costos de bootcamp y las tarifas de exámenes de certificación para estudiantes elegibles.",
+        "url": "https://nvworkforceconnections.org"
+      },
+      {
+        "name": "Beca para Estudiantes Black Hat USA",
+        "note": "Black Hat USA (Las Vegas, agosto) otorga becas para que los estudiantes asistan a la conferencia y capacitaciones — valoradas en $4,000–$5,000. Asistir crea conexiones directas de networking y reclutamiento con los principales empleadores de ciberseguridad.",
+        "url": "https://www.blackhat.com"
+      },
+      {
+        "name": "Microsoft MSSA — Estudiantes Conectados a las Fuerzas Militares",
+        "note": "La Academia de Software y Sistemas de Microsoft proporciona capacitación gratuita en nube y ciberseguridad para veteranos e individuos conectados a las fuerzas militares en Las Vegas. Contactar el Centro de Servicios para Veteranos Militares de UNLV para conectarse con programas locales.",
+        "url": "https://military.microsoft.com/mssa"
+      }
     ]
   }
 }

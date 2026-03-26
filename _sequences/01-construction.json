@@ -7,49 +7,273 @@
   "en": {
     "title": "Building Construction Technology",
     "tag": "Trades",
-    "desc": "From blueprint to build — students learn the foundational skills of the construction industry, including carpentry, framing, and project management, while earning certifications recognized by local contractors and builders.",
-    "courses": ["Building Construction Technology I","Building Construction Technology II"],
+    "desc": "From blueprint to build — students learn the foundational skills of the construction industry, including carpentry, framing, and project management, while earning certifications recognized by local contractors and builders. Southern Nevada's construction industry is one of the most active in the country, driven by continuous resort expansions, infrastructure development, and rapid residential growth across Clark and Nye counties.",
+    "courses": ["Building Construction Technology I", "Building Construction Technology II"],
     "postsec": [
-      {"type": "Community College", "name": "AAS in Construction Management", "note": "2-year degree available at regional community colleges; leads directly to supervisory and site management roles.", "url": ""},
-      {"type": "University", "name": "BS in Construction Management", "note": "4-year degree at state universities; opens doors to engineering, estimating, and project management careers.", "url": ""},
-      {"type": "Industry Credential", "name": "NCCER Certification", "note": "Nationally recognized stackable credentials in carpentry, electrical, plumbing & more — earned in modules.", "url": "https://www.nccer.org"},
-      {"type": "Apprenticeship", "name": "Registered Apprenticeship (UBC / ABC)", "note": "Earn while you learn — union and open-shop programs pay $18–28/hr while you complete 3–4 years of training.", "url": ""}
+      {
+        "type": "Community College",
+        "name": "AAS in Construction Management — College of Southern Nevada (CSN)",
+        "note": "CSN offers both a Construction Technology AAS and a Facilities Management AAS at campuses in Las Vegas, Henderson, and North Las Vegas. Approximately $3,000–$5,000/year for Nevada residents. Direct pathway to supervisory and site management roles.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-applied-technologies/construction-management-program"
+      },
+      {
+        "type": "University",
+        "name": "BS in Construction Management — UNLV",
+        "note": "UNLV's Howard R. Hughes College of Engineering offers engineering and construction management pathways. Strong alumni network throughout Southern Nevada's construction sector.",
+        "url": "https://www.unlv.edu"
+      },
+      {
+        "type": "Apprenticeship (Union)",
+        "name": "IBEW Local 357 / Electrical JATC of Southern Nevada",
+        "note": "The Electrical JATC has trained electricians since 1947. Five-year apprenticeship; apprentices earn wages from day one starting around $18–22/hr with full benefits. No tuition cost — contractors pay all training expenses.",
+        "url": "https://earnwhileyoulearn.org"
+      },
+      {
+        "type": "Apprenticeship (Union)",
+        "name": "Southwest Regional Council of Carpenters",
+        "note": "Represents 50,000 carpenters across Nevada, California, Arizona, Utah, New Mexico, and Colorado. Southern Nevada local offers structured apprenticeships for residential and commercial carpentry.",
+        "url": "https://www.swcarpenters.org"
+      },
+      {
+        "type": "Apprenticeship (Union)",
+        "name": "UA Local 525 — Plumbing, Pipefitting & HVAC",
+        "note": "Chartered in 1938, Local 525 has served Southern Nevada for over 80 years. Five-year apprenticeship covering plumbing, pipefitting, refrigeration, and HVAC. Earn while you learn with full union benefits.",
+        "url": "https://www.local525.org"
+      },
+      {
+        "type": "Apprenticeship (Non-Union)",
+        "name": "ABC Nevada — Associated Builders and Contractors",
+        "note": "State- and federally-registered programs in Electrical, Operators, Low Voltage, Sheet Metal, and Carpentry. Sponsor contractors pay tuition and college costs. Apprentices earn college credit toward an Associate's Degree at Western Nevada College. Contact: kara@abcnevada.org",
+        "url": "https://www.abcnevada.org/apprenticeship"
+      },
+      {
+        "type": "Industry Credential",
+        "name": "NCCER Certification",
+        "note": "Nationally recognized stackable credentials in carpentry, electrical, plumbing, HVAC, and more. Earned in modules and accepted by hundreds of regional contractors in Southern Nevada.",
+        "url": "https://www.nccer.org"
+      },
+      {
+        "type": "Regional Unions",
+        "name": "Additional Southern Nevada Trade Unions",
+        "note": "Southern Nevada Laborers Local 872; IUOE Local 501 (Operating Engineers); UA Sprinkler Local 669; Bricklayers & Allied Craftworkers Local 13; Sheet Metal Workers Local 88; United Union of Roofers Local 162. All offer registered apprenticeships.",
+        "url": "https://apprenticeship.ccsd.net/trades"
+      }
     ],
     "careers": [
-      {"title": "Carpenter", "salary": "$56,000", "outlook": "+2%", "desc": "Construct, install, and repair structures and fixtures made from wood and other materials."},
-      {"title": "Construction Manager", "salary": "$101,000", "outlook": "+11%", "desc": "Plan, coordinate, budget, and supervise construction projects from groundbreaking to final inspection."},
-      {"title": "Cost Estimator", "salary": "$66,000", "outlook": "+3%", "desc": "Calculate the total cost of materials, labor, and overhead for projects and bids."},
-      {"title": "Building Inspector", "salary": "$63,000", "outlook": "+2%", "desc": "Examine structures to ensure compliance with building codes, zoning, and safety standards."}
+      {
+        "title": "Carpenter",
+        "salary": "$56,000–$72,000",
+        "outlook": "+2%",
+        "desc": "Construct, install, and repair structures and fixtures. High demand in Las Vegas for residential and resort construction. Major employers include McCarthy Building Companies, Whiting-Turner, Clark County, MGM Resorts, and Wynn Resorts construction divisions."
+      },
+      {
+        "title": "Construction Manager",
+        "salary": "$90,000–$130,000",
+        "outlook": "+11%",
+        "desc": "Plan, coordinate, budget, and supervise projects from groundbreaking to final inspection. Southern Nevada employers include Holder Construction, Core Construction, NDOT, and Clark County. One of the highest-growth roles in the region."
+      },
+      {
+        "title": "Electrician (Apprentice → Journeyman)",
+        "salary": "$28–$52/hr",
+        "outlook": "+11%",
+        "desc": "Install, maintain, and repair electrical systems. IBEW Local 357 represents electricians at major projects including the MSG Sphere, Allegiant Stadium, and Strip resort expansions. Starting wages of $18–22/hr during apprenticeship."
+      },
+      {
+        "title": "Plumber / Pipefitter",
+        "salary": "$26–$48/hr",
+        "outlook": "+5%",
+        "desc": "Install and maintain pipes for water, gas, and HVAC systems. UA Local 525 serves Southern Nevada with consistent demand from new resort construction and hospitality maintenance at all major Strip properties."
+      },
+      {
+        "title": "Cost Estimator",
+        "salary": "$65,000–$90,000",
+        "outlook": "+3%",
+        "desc": "Calculate total project costs for bids and proposals. Needed at general contractors and home builders including Pulte, D.R. Horton, and Lennar — all highly active in Clark and Nye counties."
+      },
+      {
+        "title": "Building Inspector",
+        "salary": "$60,000–$80,000",
+        "outlook": "+4%",
+        "desc": "Examine structures to ensure compliance with building codes and safety standards. Public employers include Clark County, City of Las Vegas, Henderson, North Las Vegas, and the Nevada State Contractors Board."
+      }
     ],
     "financial": [
-      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students enrolled in accredited programs. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "WIOA Workforce Training Grants", "note": "Workforce Innovation & Opportunity Act funds can cover tuition and tools for eligible adults and dislocated workers through local workforce boards.", "url": ""},
-      {"name": "ABC & AGC Scholarships", "note": "The Associated Builders and Contractors and Associated General Contractors award merit-based scholarships to construction students annually.", "url": ""},
-      {"name": "Apprenticeship Wages", "note": "Registered apprenticeships pay starting wages of $18–28/hr — you earn a salary while you train and graduate with zero tuition debt.", "url": ""}
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year for eligible students enrolled in accredited programs. Apply via FAFSA at studentaid.gov. Foundation of most financial aid packages.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Nevada Promise Scholarship",
+        "note": "Last-dollar scholarship covering registration fees at CSN for up to 3 years. No GPA or income requirement. Apply by October 31 of your senior year. All Nevada high school graduates are eligible.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Governor Guinn Millennium Scholarship",
+        "note": "Up to $10,000 in tuition for high-achieving Nevada graduates attending any NSHE institution including CSN and UNLV. No application required — automatically evaluated based on GPA and coursework.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "ABC Nevada — Employer-Paid Apprenticeship",
+        "note": "Sponsor contractors pay all tuition and college costs throughout the 3–4 year program. Apprentices earn $18–28/hr from day one. Zero tuition debt upon completion. Contact kara@abcnevada.org to get on the mailing list for application dates.",
+        "url": "https://www.abcnevada.org"
+      },
+      {
+        "name": "IBEW / EJATC — Paid Apprenticeship (No Tuition Cost)",
+        "note": "Electrical apprentices are paid employees from day one — no tuition cost. Starting wages of $18–22/hr increase with every 1,000 hours of experience. Full health insurance and pension included.",
+        "url": "https://earnwhileyoulearn.org"
+      },
+      {
+        "name": "WIOA / Workforce Connections — Southern Nevada",
+        "note": "Workforce Connections (covering Clark, Lincoln, Nye, and Esmeralda counties) administers WIOA workforce training funds. Individual Training Accounts can fund CSN tuition for eligible students. Visit an EmployNV Career Hub.",
+        "url": "https://nvworkforceconnections.org"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Need-based grant for Nevada community college students. Apply via FAFSA. Designed to cover costs not met by the Pell Grant.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      },
+      {
+        "name": "ABC & AGC Merit Scholarships",
+        "note": "The Associated Builders and Contractors and Associated General Contractors both award annual merit-based scholarships to construction students. Inquire through ABCNevada.org and agcnv.org.",
+        "url": "https://www.abcnevada.org"
+      }
     ]
   },
   "es": {
-    "title": "Tecnología de Construcción",
+    "title": "Tecnología de Construcción de Edificios",
     "tag": "Oficios",
-    "desc": "Del plano a la obra — los estudiantes aprenden habilidades fundamentales de la industria de la construcción, incluyendo carpintería, estructuras y gestión de proyectos.",
-    "courses": ["Tecnología de la Construcción de Edificios I","Tecnología de la Construcción de Edificios II"],
+    "desc": "Del plano a la obra — los estudiantes aprenden habilidades fundamentales de la industria de la construcción, incluyendo carpintería, estructuras y gestión de proyectos, mientras obtienen certificaciones reconocidas por contratistas locales. La industria de la construcción en el sur de Nevada es una de las más activas del país, impulsada por la continua expansión de los complejos turísticos y el rápido crecimiento residencial en los condados de Clark y Nye.",
+    "courses": ["Tecnología de la Construcción de Edificios I", "Tecnología de la Construcción de Edificios II"],
     "postsec": [
-      {"type": "Colegio Comunitario", "name": "AAS en Gestión de la Construcción", "note": "Título de 2 años disponible en colegios comunitarios regionales; conduce directamente a roles de supervisión en obra.", "url": ""},
-      {"type": "Universidad", "name": "BS en Gestión de la Construcción", "note": "Título de 4 años en universidades estatales; abre puertas a carreras en ingeniería, estimación y gestión de proyectos.", "url": ""},
-      {"type": "Credencial Industrial", "name": "Certificación NCCER", "note": "Credenciales apilables reconocidas nacionalmente en carpintería, electricidad, plomería y más.", "url": "https://www.nccer.org"},
-      {"type": "Aprendizaje", "name": "Aprendizaje Registrado (UBC / ABC)", "note": "Gana mientras aprendes — los programas pagan $18–28/hr durante 3–4 años de capacitación.", "url": ""}
+      {
+        "type": "Colegio Comunitario",
+        "name": "AAS en Gestión de la Construcción — College of Southern Nevada (CSN)",
+        "note": "CSN ofrece un AAS en Tecnología de la Construcción y un AAS en Gestión de Instalaciones en sus campus de Las Vegas, Henderson y North Las Vegas. Aproximadamente $3,000–$5,000/año para residentes de Nevada.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-applied-technologies/construction-management-program"
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Gestión de la Construcción — UNLV",
+        "note": "La Facultad de Ingeniería Howard R. Hughes de UNLV ofrece caminos en ingeniería y gestión de la construcción. Sólida red de exalumnos en el sector de la construcción del sur de Nevada.",
+        "url": "https://www.unlv.edu"
+      },
+      {
+        "type": "Aprendizaje (Sindical)",
+        "name": "IBEW Local 357 / JATC Eléctrico del Sur de Nevada",
+        "note": "El JATC Eléctrico ha capacitado electricistas desde 1947. Aprendizaje de cinco años; los aprendices ganan salario desde el primer día, comenzando con $18–22/hr con beneficios completos. Sin costo de matrícula — los contratistas pagan todos los gastos de capacitación.",
+        "url": "https://earnwhileyoulearn.org"
+      },
+      {
+        "type": "Aprendizaje (Sindical)",
+        "name": "Southwest Regional Council of Carpenters",
+        "note": "Representa a 50,000 carpinteros en Nevada, California, Arizona, Utah, Nuevo México y Colorado. El local del sur de Nevada ofrece aprendizajes estructurados para carpintería residencial y comercial.",
+        "url": "https://www.swcarpenters.org"
+      },
+      {
+        "type": "Aprendizaje (Sindical)",
+        "name": "UA Local 525 — Plomería, Tuberías y HVAC",
+        "note": "Fundado en 1938, el Local 525 ha servido al sur de Nevada por más de 80 años. Aprendizaje de cinco años que cubre plomería, tuberías, refrigeración y HVAC. Gana mientras aprendes con beneficios sindicales completos.",
+        "url": "https://www.local525.org"
+      },
+      {
+        "type": "Aprendizaje (No Sindical)",
+        "name": "ABC Nevada — Associated Builders and Contractors",
+        "note": "Programas registrados a nivel estatal y federal en Electricidad, Operadores, Baja Tensión, Chapa Metálica y Carpintería. Los contratistas patrocinadores pagan la matrícula y los costos universitarios. Los aprendices ganan créditos universitarios para un grado asociado en Western Nevada College.",
+        "url": "https://www.abcnevada.org/apprenticeship"
+      },
+      {
+        "type": "Credencial Industrial",
+        "name": "Certificación NCCER",
+        "note": "Credenciales apilables reconocidas nacionalmente en carpintería, electricidad, plomería, HVAC y más. Ganadas en módulos y aceptadas por cientos de contratistas regionales en el sur de Nevada.",
+        "url": "https://www.nccer.org"
+      },
+      {
+        "type": "Sindicatos Regionales",
+        "name": "Sindicatos de Construcción Adicionales del Sur de Nevada",
+        "note": "Laborers Local 872; IUOE Local 501 (Operadores de Equipos); UA Sprinkler Local 669; Albañiles y Artesanos Aliados Local 13; Sheet Metal Workers Local 88; Techadores Local 162. Todos ofrecen aprendizajes registrados.",
+        "url": "https://apprenticeship.ccsd.net/trades"
+      }
     ],
     "careers": [
-      {"title": "Carpintero/a", "salary": "$56,000", "outlook": "+2%", "desc": "Construye, instala y repara estructuras y accesorios de madera y otros materiales."},
-      {"title": "Gerente de Construcción", "salary": "$101,000", "outlook": "+11%", "desc": "Planifica, coordina, presupuesta y supervisa proyectos de construcción de principio a fin."},
-      {"title": "Estimador de Costos", "salary": "$66,000", "outlook": "+3%", "desc": "Calcula el costo total de materiales, mano de obra y costos generales para proyectos y licitaciones."},
-      {"title": "Inspector de Edificios", "salary": "$63,000", "outlook": "+2%", "desc": "Examina estructuras para verificar cumplimiento con códigos de construcción y normas de seguridad."}
+      {
+        "title": "Carpintero/a",
+        "salary": "$56,000–$72,000",
+        "outlook": "+2%",
+        "desc": "Construye, instala y repara estructuras y accesorios. Alta demanda en Las Vegas para construcción residencial y de complejos turísticos. Empleadores principales: McCarthy Building Companies, Whiting-Turner, Condado de Clark, MGM Resorts y divisiones de construcción de Wynn Resorts."
+      },
+      {
+        "title": "Gerente de Construcción",
+        "salary": "$90,000–$130,000",
+        "outlook": "+11%",
+        "desc": "Planifica, coordina, presupuesta y supervisa proyectos de principio a fin. Empleadores en el sur de Nevada incluyen Holder Construction, Core Construction, NDOT y el Condado de Clark. Uno de los roles de mayor crecimiento en la región."
+      },
+      {
+        "title": "Electricista (Aprendiz → Oficial)",
+        "salary": "$28–$52/hr",
+        "outlook": "+11%",
+        "desc": "Instala, mantiene y repara sistemas eléctricos. El IBEW Local 357 representa a electricistas en proyectos importantes como MSG Sphere, Allegiant Stadium y expansiones de complejos en el Strip. Salarios iniciales de $18–22/hr durante el aprendizaje."
+      },
+      {
+        "title": "Plomero / Instalador de Tuberías",
+        "salary": "$26–$48/hr",
+        "outlook": "+5%",
+        "desc": "Instala y mantiene tuberías para agua, gas y HVAC. El UA Local 525 sirve al sur de Nevada con demanda constante de nueva construcción de complejos turísticos y mantenimiento de hospitalidad en todas las propiedades principales del Strip."
+      },
+      {
+        "title": "Estimador de Costos",
+        "salary": "$65,000–$90,000",
+        "outlook": "+3%",
+        "desc": "Calcula los costos totales del proyecto para licitaciones y propuestas. Se necesita en contratistas generales y constructores de viviendas como Pulte, D.R. Horton y Lennar, todos muy activos en los condados de Clark y Nye."
+      },
+      {
+        "title": "Inspector de Edificios",
+        "salary": "$60,000–$80,000",
+        "outlook": "+4%",
+        "desc": "Examina estructuras para verificar el cumplimiento con los códigos de construcción y las normas de seguridad. Empleadores públicos incluyen el Condado de Clark, Ciudad de Las Vegas, Henderson, North Las Vegas y la Junta Estatal de Contratistas de Nevada."
+      }
     ],
     "financial": [
-      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "Becas WIOA para Capacitación", "note": "Los fondos de WIOA pueden cubrir matrícula y herramientas para adultos elegibles y trabajadores desplazados.", "url": ""},
-      {"name": "Becas ABC y AGC", "note": "Associated Builders and Contractors y Associated General Contractors otorgan becas por mérito anualmente.", "url": ""},
-      {"name": "Salario de Aprendiz", "note": "Los aprendizajes registrados pagan $18–28/hr desde el inicio — ganas mientras aprendes, sin deuda de matrícula.", "url": ""}
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año para estudiantes elegibles inscritos en programas acreditados. Solicitar vía FAFSA en studentaid.gov. Base de la mayoría de los paquetes de ayuda financiera.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Beca Nevada Promise",
+        "note": "Beca de último dólar que cubre las tarifas de inscripción en CSN por hasta 3 años. Sin requisito de GPA ni de ingresos. Solicitar antes del 31 de octubre de tu último año. Todos los graduados de escuelas secundarias de Nevada son elegibles.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Beca Conmemorativa Gobernador Guinn Millennium",
+        "note": "Hasta $10,000 en matrícula para graduados destacados de Nevada que asistan a cualquier institución del NSHE, incluyendo CSN y UNLV. No se requiere solicitud — se evalúa automáticamente según el GPA.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "ABC Nevada — Aprendizaje Pagado por el Empleador",
+        "note": "Los contratistas patrocinadores pagan toda la matrícula y los costos universitarios durante el programa de 3–4 años. Los aprendices ganan $18–28/hr desde el primer día. Sin deuda de matrícula al completar. Contactar kara@abcnevada.org para la lista de fechas de solicitud.",
+        "url": "https://www.abcnevada.org"
+      },
+      {
+        "name": "IBEW / EJATC — Aprendizaje Pagado (Sin Costo de Matrícula)",
+        "note": "Los aprendices de electricidad son empleados remunerados desde el primer día — sin costo de matrícula. Los salarios iniciales de $18–22/hr aumentan con cada 1,000 horas de experiencia. Seguro médico y pensión incluidos.",
+        "url": "https://earnwhileyoulearn.org"
+      },
+      {
+        "name": "WIOA / Workforce Connections — Sur de Nevada",
+        "note": "Workforce Connections (que cubre los condados de Clark, Lincoln, Nye y Esmeralda) administra fondos WIOA para capacitación laboral. Las Cuentas de Capacitación Individual pueden financiar la matrícula de CSN para estudiantes elegibles.",
+        "url": "https://nvworkforceconnections.org"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Beca basada en necesidad para estudiantes de colegios comunitarios de Nevada. Solicitar vía FAFSA. Diseñada para cubrir costos no cubiertos por la Beca Pell.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      },
+      {
+        "name": "Becas por Mérito ABC y AGC",
+        "note": "Associated Builders and Contractors y Associated General Contractors otorgan becas anuales por mérito a estudiantes de construcción. Consultar a través de ABCNevada.org y agcnv.org.",
+        "url": "https://www.abcnevada.org"
+      }
     ]
   }
 }

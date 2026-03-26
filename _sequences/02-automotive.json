@@ -7,49 +7,249 @@
   "en": {
     "title": "Automotive Technology",
     "tag": "Technology",
-    "desc": "Get hands-on under the hood. Students develop diagnostic, repair, and maintenance expertise aligned with ASE certification standards — preparing for high-demand careers in the automotive service industry.",
-    "courses": ["Automotive Technology I","Automotive Technology II"],
+    "desc": "Get hands-on under the hood. Students develop diagnostic, repair, and maintenance expertise aligned with ASE certification standards. Southern Nevada's automotive service industry is substantial, supported by a large and growing population, heavy tourism traffic, a massive rental vehicle fleet, and over 80 franchised dealerships in the Las Vegas metro area.",
+    "courses": ["Automotive Technology I", "Automotive Technology II"],
     "postsec": [
-      {"type": "Community College", "name": "AAS in Automotive Technology", "note": "NATEF-accredited 2-year program with fully equipped labs; the most common pathway to ASE certification.", "url": ""},
-      {"type": "Technical School", "name": "Lincoln Tech / Universal Technical Institute", "note": "Accelerated 12–18 month programs with manufacturer-sponsored training tracks and direct dealership placement.", "url": ""},
-      {"type": "Manufacturer Program", "name": "GM ASEP / Ford FACT / Toyota T-TEN", "note": "OEM-sponsored programs at community colleges — students earn while training and graduate directly into dealership jobs.", "url": ""},
-      {"type": "Industry Credential", "name": "ASE Certification (8+ Areas)", "note": "The national gold standard for automotive professionals; certifications cover engine repair, brakes, electrical, HVAC, and more.", "url": "https://www.ase.com"}
+      {
+        "type": "Community College",
+        "name": "AAS Automotive Technology: Master Technician — CSN",
+        "note": "One of the largest automotive programs in the West. NATEF-accredited. Covers all 8 ASE certification areas. CSN also offers a Collision Repair AAS and a Motorsports Certificate — the Motorsports program is unique in the region and prepares students for careers at racing venues and performance shops. Located at CSN North Las Vegas and Charleston campuses.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-applied-technologies/automotive-technology-program"
+      },
+      {
+        "type": "Technical School",
+        "name": "Universal Technical Institute (UTI) — Phoenix / Avondale, AZ",
+        "note": "UTI's Phoenix-area campus is the closest nationally recognized automotive school to Southern Nevada. 51-week core automotive program with manufacturer-specific elective tracks for GM, Ford, Toyota, BMW, and more. Strong dealership placement network.",
+        "url": "https://www.uti.edu"
+      },
+      {
+        "type": "Technical School",
+        "name": "Lincoln Tech — Multiple Southwest Locations",
+        "note": "Accelerated programs with manufacturer-sponsored training tracks and direct dealership placement. Online pre-work options available. Financial aid and scholarships widely available.",
+        "url": "https://www.lincolntech.edu"
+      },
+      {
+        "type": "Manufacturer Program",
+        "name": "GM ASEP / Ford FACT / Toyota T-TEN — via CSN",
+        "note": "CSN participates in manufacturer-sponsored programs where students alternate between classroom instruction and working at a participating dealership. Dealer partners cover tuition in exchange for a post-graduation work commitment. Students also earn hourly wages during work rotations. Inquire through CSN's automotive department.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-applied-technologies/automotive-technology-program"
+      },
+      {
+        "type": "Industry Credential",
+        "name": "ASE Certification (8+ Areas)",
+        "note": "The national gold standard for automotive professionals. Certifications cover engine repair, brakes, electrical systems, HVAC, and more. Required for employment at all major Las Vegas dealerships. Study for and schedule ASE exams at ase.com.",
+        "url": "https://www.ase.com"
+      },
+      {
+        "type": "University",
+        "name": "BS in Applied Technology / Automotive Technology Education — ASU Online",
+        "note": "Arizona State University offers online bachelor's degrees in technology management for students targeting instruction, management, or corporate training roles in the automotive sector.",
+        "url": "https://asuonline.asu.edu"
+      }
     ],
     "careers": [
-      {"title": "Automotive Technician", "salary": "$46,000", "outlook": "+6%", "desc": "Diagnose and repair mechanical and electronic vehicle systems at dealerships, independent shops, or fleet services."},
-      {"title": "Service Advisor", "salary": "$50,000", "outlook": "+5%", "desc": "Serve as the bridge between customers and the service department, estimating costs and coordinating repairs."},
-      {"title": "Master Technician", "salary": "$72,000+", "outlook": "+6%", "desc": "Holding all ASE certifications, master techs tackle the most complex diagnostic and repair challenges in the shop."},
-      {"title": "Shop Foreman / Service Manager", "salary": "$65,000", "outlook": "+4%", "desc": "Lead a team of technicians, manage workflow, maintain quality standards, and oversee shop operations."}
+      {
+        "title": "Automotive Service Technician",
+        "salary": "$46,000–$65,000",
+        "outlook": "+6%",
+        "desc": "Diagnose and repair mechanical and electronic vehicle systems. Major Las Vegas employers include Findlay Auto Group (Nevada's largest dealer group), Gaudin Motor Company, Penske Auto, and AutoNation. All actively recruit ASE-certified technicians and offer signing bonuses for top candidates."
+      },
+      {
+        "title": "Service Advisor",
+        "salary": "$50,000–$70,000",
+        "outlook": "+5%",
+        "desc": "Bridge between customers and the service department, estimating costs and coordinating repairs. Strong earning potential with commissions. High demand at all dealership groups across Clark County, with top performers earning well above the base range."
+      },
+      {
+        "title": "Master Technician",
+        "salary": "$72,000–$100,000+",
+        "outlook": "+6%",
+        "desc": "Hold all ASE certifications and tackle the most complex diagnostic and repair challenges. Top-tier Las Vegas dealerships offer signing bonuses for Master Techs. Significant shortage of qualified Master Techs in the Las Vegas market creates strong leverage for certified professionals."
+      },
+      {
+        "title": "Heavy Equipment Mechanic",
+        "salary": "$60,000–$85,000",
+        "outlook": "+7%",
+        "desc": "Diagnose and repair heavy construction and industrial equipment. Significant demand from construction companies operating across Southern Nevada and the Southwest. Employers include NPL Construction, Aspen Earthworks, and mining operations throughout Nye County."
+      },
+      {
+        "title": "Fleet Maintenance Technician",
+        "salary": "$48,000–$68,000",
+        "outlook": "+5%",
+        "desc": "Maintain and repair large vehicle fleets. Las Vegas has an enormous fleet sector: RTC transit buses, resort shuttle fleets, Clark County government vehicles, taxi and rideshare companies, and car rental agencies at Harry Reid Airport all require full-time fleet technicians."
+      },
+      {
+        "title": "Motorsports Technician",
+        "salary": "$45,000–$70,000",
+        "outlook": "Growing",
+        "desc": "Specialize in high-performance and racing vehicle maintenance and repair. CSN's Motorsports Certificate is unique in the West. Opportunities at Las Vegas Motor Speedway, Formula 1 Grand Prix support, performance shops, and regional off-road racing teams."
+      }
     ],
     "financial": [
-      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "ASE Education Foundation Scholarships", "note": "Annual scholarships specifically for students enrolled in NATEF-accredited automotive programs across the country.", "url": "https://www.aseeducationfoundation.org"},
-      {"name": "Manufacturer Dealer Sponsorships", "note": "GM, Ford, Honda, and Toyota partner with dealerships to sponsor student tuition in exchange for a post-graduation commitment.", "url": ""},
-      {"name": "WIOA Workforce Training Grants", "note": "Career and technical training grants are available through local workforce development boards for eligible students.", "url": ""}
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year at CSN. Apply via FAFSA at studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Nevada Promise Scholarship",
+        "note": "Covers CSN registration fees for up to 3 years. No GPA or income requirement. Apply by October 31 of senior year.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Governor Guinn Millennium Scholarship",
+        "note": "Up to $10,000 for eligible Nevada graduates at CSN or other NSHE institutions. Automatically evaluated — no application required.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "ASE Education Foundation Scholarships",
+        "note": "Annual scholarships specifically for students enrolled in NATEF-accredited automotive programs. CSN's program qualifies. Apply at aseeducationfoundation.org.",
+        "url": "https://www.aseeducationfoundation.org"
+      },
+      {
+        "name": "GM ASEP / Ford FACT / Toyota T-TEN — Dealer-Sponsored Tuition",
+        "note": "Participating dealerships sponsor student tuition in exchange for a post-graduation work commitment. Students also earn hourly wages during work rotations at the dealership — effectively a paid apprenticeship. Inquire through CSN's automotive department.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-applied-technologies/automotive-technology-program"
+      },
+      {
+        "name": "WIOA / Workforce Connections — Southern Nevada",
+        "note": "Automotive technology is an approved training pathway for WIOA Individual Training Accounts. Workforce Connections can fund CSN tuition for eligible students in Clark, Nye, Lincoln, and Esmeralda counties.",
+        "url": "https://nvworkforceconnections.org"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Need-based grant for Nevada community college students. Apply via FAFSA.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      },
+      {
+        "name": "Findlay Automotive Group — Local Scholarships",
+        "note": "One of Nevada's largest dealer groups offers local scholarships and tuition support programs. Inquire directly with Findlay's HR department or through CSN's automotive department.",
+        "url": "https://www.findlayauto.com"
+      }
     ]
   },
   "es": {
     "title": "Tecnología Automotriz",
     "tag": "Tecnología",
-    "desc": "Trabaja directamente con los vehículos. Los estudiantes desarrollan experiencia en diagnóstico, reparación y mantenimiento alineada con los estándares de certificación ASE.",
-    "courses": ["Tecnología Automotriz I","Tecnología Automotriz II"],
+    "desc": "Trabaja directamente con los vehículos. Los estudiantes desarrollan experiencia en diagnóstico, reparación y mantenimiento alineada con los estándares de certificación ASE. La industria de servicios automotrices del sur de Nevada es enorme, respaldada por una población grande y en crecimiento, intenso tráfico turístico, una flota masiva de vehículos de alquiler y más de 80 concesionarias franquiciadas en el área metropolitana de Las Vegas.",
+    "courses": ["Tecnología Automotriz I", "Tecnología Automotriz II"],
     "postsec": [
-      {"type": "Colegio Comunitario", "name": "AAS en Tecnología Automotriz", "note": "Programa de 2 años acreditado por NATEF con laboratorios completamente equipados.", "url": ""},
-      {"type": "Escuela Técnica", "name": "Lincoln Tech / Universal Technical Institute", "note": "Programas acelerados de 12–18 meses con colocación directa en concesionarias.", "url": ""},
-      {"type": "Programa de Fabricante", "name": "GM ASEP / Ford FACT / Toyota T-TEN", "note": "Programas patrocinados por fabricantes — los estudiantes ganan mientras se capacitan.", "url": ""},
-      {"type": "Credencial Industrial", "name": "Certificación ASE (más de 8 áreas)", "note": "El estándar nacional de oro para profesionales automotrices.", "url": "https://www.ase.com"}
+      {
+        "type": "Colegio Comunitario",
+        "name": "AAS Tecnología Automotriz: Técnico Maestro — CSN",
+        "note": "Uno de los programas automotrices más grandes del oeste. Acreditado por NATEF. Cubre las 8 áreas de certificación ASE. CSN también ofrece un AAS en Reparación de Colisiones y un Certificado en Deportes de Motor — único en la región.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-applied-technologies/automotive-technology-program"
+      },
+      {
+        "type": "Escuela Técnica",
+        "name": "Universal Technical Institute (UTI) — Phoenix / Avondale, AZ",
+        "note": "El campus del área de Phoenix de UTI es la escuela automotriz reconocida nacionalmente más cercana al sur de Nevada. Programa central de 51 semanas con pistas de capacitación específicas del fabricante para GM, Ford, Toyota, BMW y más.",
+        "url": "https://www.uti.edu"
+      },
+      {
+        "type": "Escuela Técnica",
+        "name": "Lincoln Tech — Múltiples Ubicaciones en el Suroeste",
+        "note": "Programas acelerados con pistas de capacitación patrocinadas por fabricantes y colocación directa en concesionarias. Amplia disponibilidad de ayuda financiera y becas.",
+        "url": "https://www.lincolntech.edu"
+      },
+      {
+        "type": "Programa de Fabricante",
+        "name": "GM ASEP / Ford FACT / Toyota T-TEN — a través de CSN",
+        "note": "CSN participa en programas patrocinados por fabricantes donde los estudiantes alternan entre instrucción en el aula y trabajo en una concesionaria participante. Los socios concesionarios cubren la matrícula a cambio de un compromiso laboral posterior a la graduación.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-applied-technologies/automotive-technology-program"
+      },
+      {
+        "type": "Credencial Industrial",
+        "name": "Certificación ASE (más de 8 áreas)",
+        "note": "El estándar nacional de oro para profesionales automotrices. Las certificaciones cubren reparación de motores, frenos, sistemas eléctricos, HVAC y más. Requerida para el empleo en todas las principales concesionarias de Las Vegas.",
+        "url": "https://www.ase.com"
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Tecnología Aplicada / Educación en Tecnología Automotriz — ASU Online",
+        "note": "Arizona State University ofrece títulos de licenciatura en línea en gestión de tecnología para estudiantes que buscan roles de instrucción, gestión o capacitación corporativa en el sector automotriz.",
+        "url": "https://asuonline.asu.edu"
+      }
     ],
     "careers": [
-      {"title": "Técnico Automotriz", "salary": "$46,000", "outlook": "+6%", "desc": "Diagnostica y repara sistemas mecánicos y electrónicos en concesionarias, talleres independientes o flotas."},
-      {"title": "Asesor de Servicios", "salary": "$50,000", "outlook": "+5%", "desc": "Sirve de enlace entre los clientes y el departamento de servicio, estimando costos y coordinando reparaciones."},
-      {"title": "Técnico Maestro", "salary": "$72,000+", "outlook": "+6%", "desc": "Con todas las certificaciones ASE, los técnicos maestros abordan los desafíos más complejos del taller."},
-      {"title": "Capataz / Gerente de Servicios", "salary": "$65,000", "outlook": "+4%", "desc": "Dirige un equipo de técnicos, gestiona el flujo de trabajo y supervisa las operaciones del taller."}
+      {
+        "title": "Técnico de Servicio Automotriz",
+        "salary": "$46,000–$65,000",
+        "outlook": "+6%",
+        "desc": "Diagnostica y repara sistemas mecánicos y electrónicos de vehículos. Empleadores principales en Las Vegas: Findlay Auto Group (el mayor grupo de concesionarias de Nevada), Gaudin Motor Company, Penske Auto y AutoNation. Todos reclutan activamente técnicos certificados por ASE y ofrecen bonificaciones por contratación."
+      },
+      {
+        "title": "Asesor de Servicios",
+        "salary": "$50,000–$70,000",
+        "outlook": "+5%",
+        "desc": "Enlace entre los clientes y el departamento de servicio, estimando costos y coordinando reparaciones. Alto potencial de ingresos con comisiones. Alta demanda en todos los grupos de concesionarias del Condado de Clark."
+      },
+      {
+        "title": "Técnico Maestro",
+        "salary": "$72,000–$100,000+",
+        "outlook": "+6%",
+        "desc": "Posee todas las certificaciones ASE y aborda los desafíos de diagnóstico y reparación más complejos. Las concesionarias de primer nivel en Las Vegas ofrecen bonificaciones de contratación para Técnicos Maestros. La escasez significativa de técnicos maestros calificados crea una fuerte demanda en el mercado de Las Vegas."
+      },
+      {
+        "title": "Mecánico de Equipos Pesados",
+        "salary": "$60,000–$85,000",
+        "outlook": "+7%",
+        "desc": "Diagnostica y repara equipos de construcción e industriales pesados. Demanda significativa de empresas constructoras en el sur de Nevada y el suroeste. Empleadores incluyen NPL Construction, Aspen Earthworks y operaciones mineras en el Condado de Nye."
+      },
+      {
+        "title": "Técnico de Mantenimiento de Flota",
+        "salary": "$48,000–$68,000",
+        "outlook": "+5%",
+        "desc": "Mantiene y repara grandes flotas de vehículos. Las Vegas tiene un enorme sector de flotas: autobuses de tránsito RTC, flotas de transporte de complejos turísticos, vehículos gubernamentales del Condado de Clark, empresas de taxi y aplicaciones de transporte, y agencias de alquiler de automóviles en el aeropuerto Harry Reid."
+      },
+      {
+        "title": "Técnico en Deportes de Motor",
+        "salary": "$45,000–$70,000",
+        "outlook": "En crecimiento",
+        "desc": "Especialización en mantenimiento y reparación de vehículos de alto rendimiento y carreras. El Certificado en Deportes de Motor de CSN es único en el oeste. Oportunidades en Las Vegas Motor Speedway, soporte al Gran Premio de Fórmula 1, talleres de rendimiento y equipos de carreras todoterreno."
+      }
     ],
     "financial": [
-      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "Becas de la Fundación Educativa ASE", "note": "Becas anuales para estudiantes inscritos en programas automotrices acreditados por NATEF.", "url": "https://www.aseeducationfoundation.org"},
-      {"name": "Patrocinios de Concesionarias", "note": "GM, Ford, Honda y Toyota patrocinan la matrícula de estudiantes a cambio de un compromiso laboral post-graduación.", "url": ""},
-      {"name": "Becas WIOA para Capacitación", "note": "Las becas de capacitación técnica están disponibles a través de las juntas locales de desarrollo de la fuerza laboral.", "url": ""}
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año en CSN. Solicitar vía FAFSA en studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Beca Nevada Promise",
+        "note": "Cubre las tarifas de inscripción en CSN por hasta 3 años. Sin requisito de GPA ni de ingresos. Solicitar antes del 31 de octubre del último año.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Beca Conmemorativa Gobernador Guinn Millennium",
+        "note": "Hasta $10,000 para graduados elegibles de Nevada en CSN u otras instituciones del NSHE. Se evalúa automáticamente — no se requiere solicitud.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "Becas de la Fundación Educativa ASE",
+        "note": "Becas anuales específicamente para estudiantes inscritos en programas automotrices acreditados por NATEF. El programa de CSN califica. Solicitar en aseeducationfoundation.org.",
+        "url": "https://www.aseeducationfoundation.org"
+      },
+      {
+        "name": "GM ASEP / Ford FACT / Toyota T-TEN — Matrícula Patrocinada por Concesionaria",
+        "note": "Las concesionarias participantes patrocinan la matrícula del estudiante a cambio de un compromiso laboral posterior a la graduación. Los estudiantes también ganan salario por hora durante las rotaciones en la concesionaria — efectivamente un aprendizaje pagado.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-applied-technologies/automotive-technology-program"
+      },
+      {
+        "name": "WIOA / Workforce Connections — Sur de Nevada",
+        "note": "La tecnología automotriz es una vía de capacitación aprobada para las Cuentas de Capacitación Individual de WIOA. Workforce Connections puede financiar la matrícula de CSN para estudiantes elegibles en los condados de Clark, Nye, Lincoln y Esmeralda.",
+        "url": "https://nvworkforceconnections.org"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Beca basada en necesidad para estudiantes de colegios comunitarios de Nevada. Solicitar vía FAFSA.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      },
+      {
+        "name": "Findlay Automotive Group — Becas Locales",
+        "note": "Uno de los mayores grupos de concesionarias de Nevada ofrece becas locales y programas de apoyo a la matrícula. Consultar directamente con el departamento de recursos humanos de Findlay o a través del departamento automotriz de CSN.",
+        "url": "https://www.findlayauto.com"
+      }
     ]
   }
 }

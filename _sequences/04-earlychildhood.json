@@ -7,49 +7,249 @@
   "en": {
     "title": "Early Childhood",
     "tag": "Human Services",
-    "desc": "Explore child development from birth through age eight. Students learn to create nurturing, developmentally appropriate learning environments and graduate with credentials aligned to careers in childcare, preschool, and early intervention.",
-    "courses": ["Early Childhood I","Early Childhood II"],
+    "desc": "Explore child development from birth through age eight. Students learn to create nurturing, developmentally appropriate learning environments and graduate with credentials for careers in childcare, preschool, and early intervention. Nevada has a well-established network of state-funded scholarships specifically designed to upskill the ECE workforce, and Southern Nevada has significant ongoing demand for qualified childcare professionals.",
+    "courses": ["Early Childhood I", "Early Childhood II"],
     "postsec": [
-      {"type": "Industry Credential", "name": "Child Development Associate (CDA)", "note": "The most widely recognized credential in early childhood education; can be earned during or after completing this sequence.", "url": "https://www.cdacouncil.org"},
-      {"type": "Community College", "name": "AAS in Early Childhood Education", "note": "2-year degree that qualifies graduates to serve as lead teachers in licensed childcare centers and preschools.", "url": ""},
-      {"type": "University", "name": "BS in Child Development / Early Childhood Education", "note": "4-year degree for students pursuing preschool director, school counselor, or child life specialist roles.", "url": ""},
-      {"type": "Specialized Certification", "name": "Early Intervention Specialist", "note": "State-issued credential for working with infants and toddlers (ages 0–3) who have developmental delays or disabilities.", "url": ""}
+      {
+        "type": "Industry Credential",
+        "name": "Child Development Associate (CDA) — Council for Professional Recognition",
+        "note": "The most widely recognized ECE credential nationally. Three settings available: Preschool, Infant/Toddler, and Family Child Care. Application fee: $425 (financial assistance available through the Nevada CDA scholarship from Children's Cabinet). Nevada's T.E.A.C.H. scholarship can be used toward CDA coursework.",
+        "url": "https://www.cdacouncil.org"
+      },
+      {
+        "type": "Community College",
+        "name": "AAS in Early Childhood Education — CSN",
+        "note": "CSN offers an AAS in Early Childhood Education qualifying graduates for lead teacher roles in licensed centers and preschools. Affordable at approximately $3,000–$5,000/year. Transfer pathways available to UNLV and Nevada State College.",
+        "url": "https://www.csn.edu"
+      },
+      {
+        "type": "University",
+        "name": "BS in Early Childhood Education — UNLV College of Education",
+        "note": "UNLV offers an early childhood specialization within its education degree, including a K-3 teaching licensure pathway. Strong clinical placement network in CCSD schools.",
+        "url": "https://www.unlv.edu/education"
+      },
+      {
+        "type": "University",
+        "name": "BS in Human Development and Family Sciences — UNR",
+        "note": "University of Nevada Reno offers bachelor's and master's degrees in child development and family studies, with online options for rural Nevada students. Recognized by Nevada DHHS for professional pathway advancement.",
+        "url": "https://www.unr.edu/education"
+      },
+      {
+        "type": "Credential",
+        "name": "Early Intervention Specialist Certification — Nevada DHHS",
+        "note": "State-issued credential for working with infants and toddlers (ages 0–3) with developmental delays or disabilities. Administered through Nevada's Department of Health and Human Services. Enables work in Part C early intervention programs throughout Nevada.",
+        "url": "https://dcfs.nv.gov"
+      },
+      {
+        "type": "Professional Registry",
+        "name": "The Nevada Registry",
+        "note": "Nevada's professional development registry for ECE workers. Tracks your Career Ladder placement, provides an online training calendar, statewide job board, professional development planning, and connects you to scholarship opportunities. Essential for career advancement in Nevada ECE.",
+        "url": "https://www.nevadaregistry.org"
+      }
     ],
     "careers": [
-      {"title": "Preschool Teacher", "salary": "$33,000", "outlook": "+15%", "desc": "Plan and implement developmentally appropriate activities for children ages 3–5 in preschool or Head Start programs."},
-      {"title": "Childcare Center Director", "salary": "$50,000", "outlook": "+7%", "desc": "Manage the operations, staff, curriculum, and licensing compliance of a childcare facility."},
-      {"title": "Kindergarten Teacher", "salary": "$60,000", "outlook": "+4%", "desc": "Teach foundational literacy, numeracy, and social skills to students in K-level classrooms."},
-      {"title": "Child Life Specialist", "salary": "$52,000", "outlook": "+10%", "desc": "Support children and families in hospital or clinical settings using therapeutic play-based approaches."}
+      {
+        "title": "Preschool / Pre-K Teacher",
+        "salary": "$30,000–$45,000",
+        "outlook": "+15%",
+        "desc": "Plan and implement developmentally appropriate activities for children ages 3–5. Nevada Ready! State Pre-K (administered by United Way of Southern Nevada) serves 4-year-olds across the region. Head Start programs in Las Vegas and Pahrump actively recruit. Sunrise Children's Foundation operates multiple programs in Southern Nevada."
+      },
+      {
+        "title": "Childcare Center Director",
+        "salary": "$45,000–$65,000",
+        "outlook": "+7%",
+        "desc": "Manage the operations, staff, curriculum, and licensing compliance of a childcare facility. Licensed centers in Clark and Nye counties are regulated by the Nevada Bureau of Services for Child Care. Growing demand as Southern Nevada's population expands and childcare policy support increases."
+      },
+      {
+        "title": "Head Start / Early Head Start Teacher",
+        "salary": "$38,000–$55,000",
+        "outlook": "Growing with federal funding",
+        "desc": "Deliver federally funded early education to income-eligible families. Sunrise Children's Foundation operates Head Start and Early Head Start programs throughout Southern Nevada. Mission-driven organizations offering workforce development support and tuition assistance for staff."
+      },
+      {
+        "title": "Child Life Specialist",
+        "salary": "$50,000–$65,000",
+        "outlook": "+10%",
+        "desc": "Support children and families in hospital and clinical settings using therapeutic, play-based approaches. Sunrise Hospital and Medical Center and Summerlin Hospital in Las Vegas hire child life specialists. Requires a bachelor's degree and the CCLS certification from the Association of Child Life Professionals."
+      },
+      {
+        "title": "Family Support Specialist",
+        "salary": "$38,000–$52,000",
+        "outlook": "+8%",
+        "desc": "Provide home visiting, parenting support, and family resource navigation. Home visiting programs funded through MIECHV (federal) operate throughout Nevada. Employers include United Way of Southern Nevada, Nevada DHHS, and Sunrise Children's Foundation."
+      },
+      {
+        "title": "Kindergarten / Elementary Teacher (K-3)",
+        "salary": "$47,000–$72,000",
+        "outlook": "+4%",
+        "desc": "Teach foundational literacy, numeracy, and social skills. The Early Childhood sequence provides a direct pathway to K-3 teaching with appropriate licensure. CCSD and NCSD both have consistent demand for elementary teachers, especially in early grades."
+      }
     ],
     "financial": [
-      {"name": "T.E.A.C.H. Early Childhood Scholarship", "note": "Covers tuition, books, and travel for childcare workers pursuing ECE credentials — often includes a paid completion bonus.", "url": "https://teachecnationalcenter.org"},
-      {"name": "CDA Scholarship Program", "note": "The Council for Professional Recognition offers financial assistance specifically toward the CDA credential for qualifying candidates.", "url": "https://www.cdacouncil.org"},
-      {"name": "Head Start Training Grants", "note": "Head Start grantees receive dedicated funds for staff professional development and continuing education.", "url": "https://www.acf.hhs.gov/ohs"},
-      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"}
+      {
+        "name": "T.E.A.C.H. Early Childhood® Nevada",
+        "note": "Covers 80% of tuition, 80% of books, $50/semester for travel, and a $250–400 completion bonus with a 2% wage increase from your sponsoring employer. Open to home care providers, center teachers and aides, and directors working 30+ hours/week in a licensed facility. Funded by Nevada's Office of Early Learning & Development and administered by NevAEYC. Contact: nevaeyc.org",
+        "url": "https://nevaeyc.org/about/t-e-a-c-h-nevada"
+      },
+      {
+        "name": "CDA Scholarship — Children's Cabinet (Nevada)",
+        "note": "The Children's Cabinet can apply funds directly to the CDA applicant's account for the initial application ($425) or renewal ($125). Fill out the application at childrenscabinet.org — one of the most accessible early childhood funding sources in Nevada.",
+        "url": "https://www.childrenscabinet.org"
+      },
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year. Apply via FAFSA at studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Nevada Promise Scholarship",
+        "note": "Covers CSN registration fees for up to 3 years for graduating Nevada high school seniors. No GPA or income requirement. Apply by October 31.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Head Start / Early Head Start Staff Training Grants",
+        "note": "Head Start grantees receive dedicated federal funds for workforce development and continuing education of their staff. If you are employed by a Head Start program, inquire directly about available training and education support.",
+        "url": "https://www.acf.hhs.gov/ohs"
+      },
+      {
+        "name": "Governor Guinn Millennium Scholarship",
+        "note": "Up to $10,000 for eligible Nevada graduates at UNLV, NSC, or other NSHE institutions. Automatically evaluated — no application required.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "Child Care Development Block Grant (CCDBG) — Nevada",
+        "note": "Federal funds distributed through Nevada DHHS support training and credentialing of the childcare workforce. Contact Nevada's Office of Early Care and Education (OECE) for current workforce support programs.",
+        "url": "https://dcfs.nv.gov"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Need-based grant for Nevada community college students. Apply via FAFSA.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      }
     ]
   },
   "es": {
     "title": "Primera Infancia",
     "tag": "Servicios Humanos",
-    "desc": "Explora el desarrollo infantil desde el nacimiento hasta los ocho años. Los estudiantes aprenden a crear entornos de aprendizaje nutritivos y apropiados para el desarrollo.",
-    "courses": ["Primera Infancia I","Primera Infancia II"],
+    "desc": "Explora el desarrollo infantil desde el nacimiento hasta los ocho años. Los estudiantes aprenden a crear entornos de aprendizaje nutritivos y apropiados para el desarrollo, graduándose con credenciales para carreras en cuidado infantil, preescolar e intervención temprana. Nevada tiene una sólida red de becas estatales específicamente diseñadas para mejorar la formación de la fuerza laboral en ECE, y el sur de Nevada tiene una demanda continua significativa de profesionales calificados en cuidado infantil.",
+    "courses": ["Primera Infancia I", "Primera Infancia II"],
     "postsec": [
-      {"type": "Credencial Industrial", "name": "Asociado de Desarrollo Infantil (CDA)", "note": "La credencial más reconocida en educación de primera infancia.", "url": "https://www.cdacouncil.org"},
-      {"type": "Colegio Comunitario", "name": "AAS en Educación de Primera Infancia", "note": "Título de 2 años que califica a los graduados para ser maestros principales en centros de cuidado infantil.", "url": ""},
-      {"type": "Universidad", "name": "BS en Desarrollo Infantil", "note": "Título de 4 años para estudiantes que buscan ser directores de preescolar o especialistas en vida infantil.", "url": ""},
-      {"type": "Certificación Especializada", "name": "Especialista en Intervención Temprana", "note": "Credencial estatal para trabajar con bebés y niños pequeños (0–3 años) con retrasos del desarrollo.", "url": ""}
+      {
+        "type": "Credencial Industrial",
+        "name": "Asociado de Desarrollo Infantil (CDA) — Council for Professional Recognition",
+        "note": "La credencial de ECE más ampliamente reconocida a nivel nacional. Tres modalidades disponibles: Preescolar, Infante/Niño Pequeño y Cuidado Familiar. Tarifa de solicitud: $425 (asistencia financiera disponible a través de la beca CDA de Nevada del Children's Cabinet). La beca T.E.A.C.H. de Nevada puede usarse para los cursos del CDA.",
+        "url": "https://www.cdacouncil.org"
+      },
+      {
+        "type": "Colegio Comunitario",
+        "name": "AAS en Educación de Primera Infancia — CSN",
+        "note": "CSN ofrece un AAS en Educación de Primera Infancia que califica a los graduados para roles de maestro principal en centros autorizados y preescolares. Asequible a aproximadamente $3,000–$5,000/año. Caminos de transferencia disponibles a UNLV y Nevada State College.",
+        "url": "https://www.csn.edu"
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Educación de Primera Infancia — Facultad de Educación de UNLV",
+        "note": "UNLV ofrece una especialización en primera infancia dentro de su título de educación, incluyendo un camino de licencia docente K-3. Sólida red de colocación clínica en las escuelas del CCSD.",
+        "url": "https://www.unlv.edu/education"
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Desarrollo Humano y Ciencias Familiares — UNR",
+        "note": "La Universidad de Nevada Reno ofrece títulos de licenciatura y maestría en desarrollo infantil y estudios familiares, con opciones en línea para estudiantes rurales de Nevada. Reconocido por el DHHS de Nevada para el avance en la vía profesional.",
+        "url": "https://www.unr.edu/education"
+      },
+      {
+        "type": "Credencial",
+        "name": "Certificación de Especialista en Intervención Temprana — DHHS de Nevada",
+        "note": "Credencial emitida por el estado para trabajar con bebés y niños pequeños (0–3 años) con retrasos o discapacidades del desarrollo. Administrada a través del Departamento de Salud y Servicios Humanos de Nevada.",
+        "url": "https://dcfs.nv.gov"
+      },
+      {
+        "type": "Registro Profesional",
+        "name": "The Nevada Registry",
+        "note": "El registro de desarrollo profesional de Nevada para trabajadores de ECE. Realiza un seguimiento de tu ubicación en la Escalera de Carrera, proporciona un calendario de capacitación en línea, bolsa de trabajo estatal, planificación de desarrollo profesional y te conecta con oportunidades de becas.",
+        "url": "https://www.nevadaregistry.org"
+      }
     ],
     "careers": [
-      {"title": "Maestra de Preescolar", "salary": "$33,000", "outlook": "+15%", "desc": "Planifica e implementa actividades apropiadas para el desarrollo de niños de 3 a 5 años."},
-      {"title": "Director/a de Centro de Cuidado Infantil", "salary": "$50,000", "outlook": "+7%", "desc": "Gestiona las operaciones, el personal, el currículo y el cumplimiento de licencias de una guardería."},
-      {"title": "Maestra de Jardín de Infantes", "salary": "$60,000", "outlook": "+4%", "desc": "Enseña alfabetización, numeración y habilidades sociales fundamentales a estudiantes de nivel K."},
-      {"title": "Especialista en Vida Infantil", "salary": "$52,000", "outlook": "+10%", "desc": "Apoya a niños y familias en entornos hospitalarios usando enfoques terapéuticos basados en el juego."}
+      {
+        "title": "Maestra de Preescolar / Pre-K",
+        "salary": "$30,000–$45,000",
+        "outlook": "+15%",
+        "desc": "Planifica e implementa actividades apropiadas para el desarrollo de niños de 3 a 5 años. Nevada Ready! Pre-K estatal (administrado por United Way del Sur de Nevada) atiende a niños de 4 años en toda la región. Los programas Head Start en Las Vegas y Pahrump reclutan activamente. Sunrise Children's Foundation opera múltiples programas en el sur de Nevada."
+      },
+      {
+        "title": "Director/a de Centro de Cuidado Infantil",
+        "salary": "$45,000–$65,000",
+        "outlook": "+7%",
+        "desc": "Gestiona las operaciones, el personal, el currículo y el cumplimiento de licencias de una guardería. Los centros con licencia en los condados de Clark y Nye están regulados por la Oficina de Servicios para el Cuidado Infantil de Nevada. Demanda creciente a medida que la población del sur de Nevada se expande."
+      },
+      {
+        "title": "Maestra de Head Start / Early Head Start",
+        "salary": "$38,000–$55,000",
+        "outlook": "En crecimiento con financiamiento federal",
+        "desc": "Ofrece educación temprana financiada federalmente a familias con bajos ingresos. Sunrise Children's Foundation opera programas Head Start y Early Head Start en todo el sur de Nevada. Organizaciones con misión que ofrecen apoyo para el desarrollo de la fuerza laboral y asistencia para matrícula al personal."
+      },
+      {
+        "title": "Especialista en Vida Infantil",
+        "salary": "$50,000–$65,000",
+        "outlook": "+10%",
+        "desc": "Apoya a niños y familias en entornos hospitalarios y clínicos usando enfoques terapéuticos basados en el juego. Sunrise Hospital and Medical Center y Summerlin Hospital en Las Vegas contratan especialistas en vida infantil. Requiere una licenciatura y la certificación CCLS."
+      },
+      {
+        "title": "Especialista en Apoyo Familiar",
+        "salary": "$38,000–$52,000",
+        "outlook": "+8%",
+        "desc": "Proporciona visitas domiciliarias, apoyo para la crianza y navegación de recursos familiares. Los programas de visitas domiciliarias financiados a través del MIECHV (federal) operan en todo Nevada. Empleadores incluyen United Way del Sur de Nevada, DHHS de Nevada y Sunrise Children's Foundation."
+      },
+      {
+        "title": "Maestra de Kindergarten / Primaria (K-3)",
+        "salary": "$47,000–$72,000",
+        "outlook": "+4%",
+        "desc": "Enseña alfabetización, numeración y habilidades sociales fundamentales. La secuencia de Primera Infancia proporciona una vía directa a la enseñanza K-3 con la licencia apropiada. Tanto CCSD como NCSD tienen demanda constante de maestros de primaria, especialmente en los primeros grados."
+      }
     ],
     "financial": [
-      {"name": "Beca T.E.A.C.H. de Primera Infancia", "note": "Cubre matrícula, libros y transporte para trabajadores de cuidado infantil que buscan credenciales ECE.", "url": "https://teachecnationalcenter.org"},
-      {"name": "Programa de Becas CDA", "note": "El Consejo para el Reconocimiento Profesional ofrece asistencia financiera para la credencial CDA.", "url": "https://www.cdacouncil.org"},
-      {"name": "Becas de Capacitación Head Start", "note": "Los beneficiarios de Head Start reciben fondos para el desarrollo profesional del personal.", "url": "https://www.acf.hhs.gov/ohs"},
-      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"}
+      {
+        "name": "T.E.A.C.H. Early Childhood® Nevada",
+        "note": "Cubre el 80% de la matrícula, el 80% de los libros, $50/semestre para transporte y una bonificación de finalización de $250–400 con un aumento salarial del 2% del empleador patrocinador. Abierto a proveedores de cuidado en el hogar, maestros y asistentes de centros, y directores que trabajan 30+ horas/semana en una instalación con licencia. Administrado por NevAEYC. Contactar: nevaeyc.org",
+        "url": "https://nevaeyc.org/about/t-e-a-c-h-nevada"
+      },
+      {
+        "name": "Beca CDA — Children's Cabinet (Nevada)",
+        "note": "El Children's Cabinet puede aplicar fondos directamente a la cuenta del solicitante del CDA para la solicitud inicial ($425) o renovación ($125). Completar la solicitud en childrenscabinet.org.",
+        "url": "https://www.childrenscabinet.org"
+      },
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año. Solicitar vía FAFSA en studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Beca Nevada Promise",
+        "note": "Cubre las tarifas de inscripción en CSN por hasta 3 años para graduados de escuela secundaria de Nevada. Sin requisito de GPA ni de ingresos. Solicitar antes del 31 de octubre.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Becas de Capacitación del Personal de Head Start / Early Head Start",
+        "note": "Los beneficiarios de Head Start reciben fondos federales dedicados para el desarrollo profesional y la educación continua de su personal. Si estás empleado en un programa Head Start, consulta directamente sobre el apoyo de capacitación y educación disponible.",
+        "url": "https://www.acf.hhs.gov/ohs"
+      },
+      {
+        "name": "Beca Conmemorativa Gobernador Guinn Millennium",
+        "note": "Hasta $10,000 para graduados elegibles de Nevada en UNLV, NSC u otras instituciones del NSHE. Se evalúa automáticamente — no se requiere solicitud.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "Subvención del Bloque de Desarrollo del Cuidado Infantil (CCDBG) — Nevada",
+        "note": "Los fondos federales distribuidos a través del DHHS de Nevada apoyan la capacitación y acreditación de la fuerza laboral de cuidado infantil. Contactar la Oficina de Cuidado y Educación Temprana (OECE) de Nevada para los programas de apoyo actuales a la fuerza laboral.",
+        "url": "https://dcfs.nv.gov"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Beca basada en necesidad para estudiantes de colegios comunitarios de Nevada. Solicitar vía FAFSA.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      }
     ]
   }
 }

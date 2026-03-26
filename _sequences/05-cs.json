@@ -7,49 +7,249 @@
   "en": {
     "title": "Computer Science",
     "tag": "Technology",
-    "desc": "Think, code, create. Students build proficiency in programming, data structures, and software development through project-based learning — with pathways into web development, app design, and computer engineering.",
-    "courses": ["Computer Science and Apps","Advanced Computer Science I","AP Computer Science"],
+    "desc": "Think, code, create. Students build proficiency in programming, data structures, and software development through project-based learning. Las Vegas's technology sector is rapidly transforming — Google's $400M data center investment, a UNLV tech park projected to create 25,000 jobs, and a growing startup ecosystem mean UNLV CS graduates have a 94% employment rate within six months of graduation.",
+    "courses": ["Computer Science and Apps", "Advanced Computer Science I", "AP Computer Science"],
     "postsec": [
-      {"type": "University", "name": "BS in Computer Science", "note": "4-year degree with one of the highest return-on-investment profiles available; strong placement in tech, finance, healthcare, and more.", "url": ""},
-      {"type": "Community College", "name": "AAS in Information Technology", "note": "Affordable 2-year pathway to entry-level developer or IT analyst roles; credits often transfer to a 4-year university.", "url": ""},
-      {"type": "Bootcamp", "name": "Coding Bootcamp (App Academy, Flatiron, etc.)", "note": "Intensive 12–24 week programs focused on job-ready skills; many offer income share agreements with no upfront cost.", "url": ""},
-      {"type": "Online University", "name": "WGU — Western Governors University", "note": "Competency-based online CS and IT degrees that let you accelerate through material you already know, at lower cost.", "url": "https://www.wgu.edu"}
+      {
+        "type": "University",
+        "name": "BS in Computer Science — UNLV Howard R. Hughes College of Engineering",
+        "note": "ABET-accredited. One of the fastest-growing CS departments in the country with a 94% employment rate within 6 months of graduation. Strong industry connections with Las Vegas tech companies including Aristocrat, IGT, Switch, and Google. Approximately $8,000–$10,000/year in-state tuition.",
+        "url": "https://www.unlv.edu/cs"
+      },
+      {
+        "type": "University",
+        "name": "BS in Applied Science (Information & Computer Technology) — Nevada State College",
+        "note": "Designed for transfer students and working adults. Lower cost than UNLV. Henderson campus is convenient for Southern Nevada students. Accepts AAS articulations from CSN — a direct 2+2 pathway from CSN to NSC.",
+        "url": "https://www.nsc.edu"
+      },
+      {
+        "type": "Community College",
+        "name": "AAS / AA in Computer Science & Information Technology — CSN",
+        "note": "CSN's Computing and IT Department offers an AA in Computer Science (transfers to UNLV/NSC) and multiple AAS degrees in networking, cybersecurity, and web development. Certificates of Achievement available for specific skill areas. Approximately $3,000–$5,000/year.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-computing-and-information-technology"
+      },
+      {
+        "type": "Bootcamp",
+        "name": "Nucamp Coding Bootcamp — Las Vegas",
+        "note": "22-week full-stack web development and 15-week cybersecurity bootcamps with a Las Vegas cohort. Cost: approximately $2,100–$3,900. Scholarship options available. Strong local employer partnerships and an 84% job placement rate within 6 months.",
+        "url": "https://www.nucamp.co"
+      },
+      {
+        "type": "Online University",
+        "name": "WGU — Western Governors University (Online)",
+        "note": "Competency-based BS in Computer Science or IT. Flat-rate tuition (~$3,500 per 6-month term) means faster learners pay less. ABET-accredited and fully available to Nevada residents. Popular among working students.",
+        "url": "https://www.wgu.edu"
+      },
+      {
+        "type": "Employer Partnership",
+        "name": "UNLV × SkillStorm — Free Cloud Certification",
+        "note": "UNLV has partnered with SkillStorm to certify enrolled students in AWS and other cloud platforms at no cost. A direct pathway into cloud roles at Switch, Amazon, and Google — all of which have significant Las Vegas area operations.",
+        "url": "https://www.unlv.edu"
+      }
     ],
     "careers": [
-      {"title": "Software Developer", "salary": "$124,000", "outlook": "+25%", "desc": "Design and build software applications, websites, and systems for businesses and consumers across every industry."},
-      {"title": "Web Developer", "salary": "$78,000", "outlook": "+16%", "desc": "Build and maintain websites and web applications using front-end and back-end technologies and frameworks."},
-      {"title": "Systems Analyst", "salary": "$99,000", "outlook": "+9%", "desc": "Analyze and redesign IT systems to improve performance, security, and alignment with organizational needs."},
-      {"title": "IT Manager", "salary": "$169,000", "outlook": "+15%", "desc": "Plan, direct, and coordinate an organization's entire computer-related activities, systems, and infrastructure."}
+      {
+        "title": "Software Developer / Engineer",
+        "salary": "$80,000–$140,000",
+        "outlook": "+25%",
+        "desc": "Design and build software applications, websites, and systems. Las Vegas tech employers include Aristocrat Technologies (gaming software, Las Vegas HQ), IGT International Game Technology, Scientific Games, Switch data centers, and Amazon's local operations. UNLV alumni have landed roles at Google, Amazon, and IBM."
+      },
+      {
+        "title": "Data Scientist / Data Analyst",
+        "salary": "$85,000–$130,000",
+        "outlook": "+35%",
+        "desc": "Analyze massive datasets for valuable insights and predictions. Every major casino resort maintains substantial data science needs. MGM Resorts, Caesars Entertainment, Wynn, and Boyd Gaming all maintain analytics teams. The gaming industry is one of the most data-driven sectors in the world."
+      },
+      {
+        "title": "Web Developer",
+        "salary": "$70,000–$110,000",
+        "outlook": "+16%",
+        "desc": "Build and maintain websites and web applications. High demand from Las Vegas's digital marketing, tourism, hospitality, and gaming industries. Remote work has opened up national opportunities for locally-trained developers. Strong freelance market in the tourism sector."
+      },
+      {
+        "title": "Cloud Solutions Architect",
+        "salary": "$120,000–$180,000",
+        "outlook": "+30%",
+        "desc": "Design advanced cloud computing systems. Switch in Henderson operates one of the world's largest data center campuses and is one of the top employers in this space. AWS, Google Cloud, and Azure all have local footprints driving demand for certified architects."
+      },
+      {
+        "title": "IT Systems Analyst",
+        "salary": "$75,000–$110,000",
+        "outlook": "+9%",
+        "desc": "Analyze and redesign IT systems to improve performance and security. Clark County government, CCSD, Nevada Hospital Association members (UMC, Sunrise), NV Energy, Southwest Gas, and the major resort properties all maintain large IT departments with consistent hiring."
+      },
+      {
+        "title": "Gaming / Entertainment Software Developer",
+        "salary": "$85,000–$140,000",
+        "outlook": "Strong regional demand",
+        "desc": "Develop software for gaming machines, casino management systems, and entertainment platforms. Aristocrat Technologies (Las Vegas HQ), IGT, Scientific Games, and Konami Gaming all develop gaming software locally and actively recruit CS graduates from UNLV and CSN."
+      }
     ],
     "financial": [
-      {"name": "Federal Pell Grant", "note": "Up to $7,395/year for eligible students. Apply via FAFSA at studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "Google / Microsoft / Cisco Scholarships", "note": "Major tech companies offer annual merit and diversity-based scholarships for students pursuing CS and IT degrees.", "url": ""},
-      {"name": "NCWIT Aspirations in Computing Award", "note": "National recognition and scholarship for students who identify as women or non-binary pursuing computing careers.", "url": "https://www.ncwit.org/programs/aspirations-computing"},
-      {"name": "Income Share Agreements (ISAs)", "note": "Many coding bootcamps charge $0 upfront — you repay tuition as a percentage of your salary only after landing a qualifying job.", "url": ""}
+      {
+        "name": "Federal Pell Grant",
+        "note": "Up to $7,395/year at CSN or UNLV. Apply via FAFSA at studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Nevada Promise Scholarship",
+        "note": "Free community college at CSN for qualifying Nevada graduates — covers 3 years of registration fees. Start at CSN, then transfer to UNLV or NSC. Apply by October 31.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Governor Guinn Millennium Scholarship",
+        "note": "Up to $10,000 for eligible Nevada graduates at UNLV, NSC, or CSN. Automatically evaluated — no application required.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "NCWIT Aspirations in Computing Award",
+        "note": "Annual national recognition and scholarships for students who identify as women or non-binary pursuing computing careers. Apply at ncwit.org/programs/aspirations-computing. Nevada has an active state affiliate.",
+        "url": "https://www.ncwit.org/programs/aspirations-computing"
+      },
+      {
+        "name": "Google / Microsoft / Amazon Scholarships",
+        "note": "Major tech companies offer annual diversity and merit scholarships. Google's Generation Google Scholarship and Microsoft's Scholarship Program both target underrepresented students in CS. Check each company's careers/scholarships portal for current cycles.",
+        "url": "https://buildyourfuture.withgoogle.com/scholarships"
+      },
+      {
+        "name": "NSF S-STEM Scholarships — UNLV & CSN",
+        "note": "The National Science Foundation funds STEM scholarship grants at both UNLV and CSN for financially needy CS and IT students. Inquire at the Financial Aid office of your target institution about current NSF S-STEM awards.",
+        "url": "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5257"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Need-based grant for Nevada community college students. Apply via FAFSA.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      },
+      {
+        "name": "Nucamp Income Share Agreements (ISA)",
+        "note": "Nucamp and other bootcamps offer $0-upfront enrollment — you repay a percentage of salary only after getting a qualifying job. Lower financial risk for students uncertain about the commitment.",
+        "url": "https://www.nucamp.co"
+      }
     ]
   },
   "es": {
     "title": "Ciencias de la Computación",
     "tag": "Tecnología",
-    "desc": "Piensa, programa, crea. Los estudiantes desarrollan competencia en programación, estructuras de datos y desarrollo de software a través del aprendizaje basado en proyectos.",
+    "desc": "Piensa, programa, crea. Los estudiantes desarrollan competencia en programación, estructuras de datos y desarrollo de software a través del aprendizaje basado en proyectos. El sector tecnológico de Las Vegas se está transformando rápidamente — la inversión de $400M de Google en centros de datos, un parque tecnológico de UNLV proyectado para crear 25,000 empleos y un ecosistema de startups en crecimiento significan que los graduados de CS de UNLV tienen una tasa de empleo del 94% dentro de los seis meses posteriores a la graduación.",
     "courses": ["Informática y Aplicaciones", "Informática Avanzada I", "Informática AP"],
     "postsec": [
-      {"type": "Universidad", "name": "BS en Ciencias de la Computación", "note": "Título de 4 años con uno de los perfiles de retorno de inversión más altos.", "url": ""},
-      {"type": "Colegio Comunitario", "name": "AAS en Tecnología de la Información", "note": "Camino asequible de 2 años hacia roles de desarrollador o analista de TI de nivel inicial.", "url": ""},
-      {"type": "Bootcamp", "name": "Bootcamp de Programación", "note": "Programas intensivos de 12–24 semanas con acuerdos de participación en ingresos sin costo inicial.", "url": ""},
-      {"type": "Universidad en Línea", "name": "WGU — Western Governors University", "note": "Títulos de CS y TI en línea basados en competencias que permiten avanzar más rápido a menor costo.", "url": "https://www.wgu.edu"}
+      {
+        "type": "Universidad",
+        "name": "BS en Ciencias de la Computación — Facultad de Ingeniería Howard R. Hughes de UNLV",
+        "note": "Acreditado por ABET. Uno de los departamentos de CS de más rápido crecimiento en el país con una tasa de empleo del 94% dentro de los 6 meses de graduación. Sólidas conexiones con empresas tecnológicas de Las Vegas incluyendo Aristocrat, IGT, Switch y Google. Aproximadamente $8,000–$10,000/año en matrícula estatal.",
+        "url": "https://www.unlv.edu/cs"
+      },
+      {
+        "type": "Universidad",
+        "name": "BS en Ciencia Aplicada (Tecnología de Información y Computación) — Nevada State College",
+        "note": "Diseñado para estudiantes que se transfieren y adultos que trabajan. Costo menor que UNLV. El campus de Henderson es conveniente para estudiantes del sur de Nevada. Acepta articulaciones AAS de CSN — una vía directa 2+2 de CSN a NSC.",
+        "url": "https://www.nsc.edu"
+      },
+      {
+        "type": "Colegio Comunitario",
+        "name": "AAS / AA en Ciencias de la Computación y Tecnología de la Información — CSN",
+        "note": "El Departamento de Computación y TI de CSN ofrece un AA en Ciencias de la Computación (se transfiere a UNLV/NSC) y múltiples grados AAS en redes, ciberseguridad y desarrollo web. Certificados de Logro disponibles para áreas de habilidades específicas. Aproximadamente $3,000–$5,000/año.",
+        "url": "https://www.csn.edu/schools/school-of-advanced-and-applied-technologies/department-of-computing-and-information-technology"
+      },
+      {
+        "type": "Bootcamp",
+        "name": "Nucamp Coding Bootcamp — Las Vegas",
+        "note": "Bootcamps de desarrollo web full-stack de 22 semanas y de ciberseguridad de 15 semanas con una cohorte de Las Vegas. Costo: aproximadamente $2,100–$3,900. Opciones de becas disponibles. Tasa de colocación laboral del 84% dentro de 6 meses.",
+        "url": "https://www.nucamp.co"
+      },
+      {
+        "type": "Universidad en Línea",
+        "name": "WGU — Western Governors University (En Línea)",
+        "note": "BS en Ciencias de la Computación o TI basado en competencias. Matrícula de tarifa fija (~$3,500 por período de 6 meses) significa que los estudiantes más rápidos pagan menos. Acreditado por ABET y totalmente disponible para residentes de Nevada.",
+        "url": "https://www.wgu.edu"
+      },
+      {
+        "type": "Asociación con Empleador",
+        "name": "UNLV × SkillStorm — Certificación en la Nube Gratuita",
+        "note": "UNLV se ha asociado con SkillStorm para certificar a los estudiantes inscritos en AWS y otras plataformas en la nube sin costo. Una vía directa hacia roles en la nube en Switch, Amazon y Google, todos con operaciones significativas en el área de Las Vegas.",
+        "url": "https://www.unlv.edu"
+      }
     ],
     "careers": [
-      {"title": "Desarrollador/a de Software", "salary": "$124,000", "outlook": "+25%", "desc": "Diseña y construye aplicaciones de software, sitios web y sistemas para empresas y consumidores."},
-      {"title": "Desarrollador/a Web", "salary": "$78,000", "outlook": "+16%", "desc": "Construye y mantiene sitios web y aplicaciones web usando tecnologías de front-end y back-end."},
-      {"title": "Analista de Sistemas", "salary": "$99,000", "outlook": "+9%", "desc": "Analiza y rediseña sistemas de TI para mejorar el rendimiento, la seguridad y la alineación organizacional."},
-      {"title": "Gerente de TI", "salary": "$169,000", "outlook": "+15%", "desc": "Planifica, dirige y coordina todas las actividades informáticas y la infraestructura de una organización."}
+      {
+        "title": "Desarrollador/a de Software / Ingeniero/a",
+        "salary": "$80,000–$140,000",
+        "outlook": "+25%",
+        "desc": "Diseña y construye aplicaciones de software, sitios web y sistemas. Empleadores tecnológicos de Las Vegas incluyen Aristocrat Technologies (software de juegos, sede en Las Vegas), IGT International Game Technology, Scientific Games, centros de datos Switch y las operaciones locales de Amazon. Los egresados de UNLV han conseguido empleos en Google, Amazon e IBM."
+      },
+      {
+        "title": "Científico/a de Datos / Analista de Datos",
+        "salary": "$85,000–$130,000",
+        "outlook": "+35%",
+        "desc": "Analiza grandes conjuntos de datos para obtener información valiosa y predicciones. Cada importante complejo de casino mantiene necesidades sustanciales de ciencia de datos. MGM Resorts, Caesars Entertainment, Wynn y Boyd Gaming mantienen equipos de análisis. La industria del juego es uno de los sectores más basados en datos del mundo."
+      },
+      {
+        "title": "Desarrollador/a Web",
+        "salary": "$70,000–$110,000",
+        "outlook": "+16%",
+        "desc": "Construye y mantiene sitios web y aplicaciones web. Alta demanda de las industrias de marketing digital, turismo, hospitalidad y juegos de Las Vegas. El trabajo remoto ha abierto oportunidades nacionales para los desarrolladores capacitados localmente."
+      },
+      {
+        "title": "Arquitecto/a de Soluciones en la Nube",
+        "salary": "$120,000–$180,000",
+        "outlook": "+30%",
+        "desc": "Diseña sistemas avanzados de computación en la nube. Switch en Henderson opera uno de los campus de centros de datos más grandes del mundo y es uno de los principales empleadores en este espacio. AWS, Google Cloud y Azure tienen presencia local que impulsa la demanda de arquitectos certificados."
+      },
+      {
+        "title": "Analista de Sistemas de TI",
+        "salary": "$75,000–$110,000",
+        "outlook": "+9%",
+        "desc": "Analiza y rediseña sistemas de TI para mejorar el rendimiento y la seguridad. El gobierno del Condado de Clark, CCSD, UMC, Sunrise Hospital, NV Energy, Southwest Gas y las principales propiedades de complejos turísticos mantienen grandes departamentos de TI con contratación constante."
+      },
+      {
+        "title": "Desarrollador/a de Software para Juegos / Entretenimiento",
+        "salary": "$85,000–$140,000",
+        "outlook": "Fuerte demanda regional",
+        "desc": "Desarrolla software para máquinas de juegos, sistemas de gestión de casinos y plataformas de entretenimiento. Aristocrat Technologies (sede en Las Vegas), IGT, Scientific Games y Konami Gaming desarrollan software de juegos localmente y reclutan activamente a graduados de CS de UNLV y CSN."
+      }
     ],
     "financial": [
-      {"name": "Beca Federal Pell", "note": "Hasta $7,395/año para estudiantes elegibles. Solicitar vía FAFSA en studentaid.gov.", "url": "https://studentaid.gov"},
-      {"name": "Becas Google / Microsoft / Cisco", "note": "Las principales empresas tecnológicas ofrecen becas anuales por mérito y diversidad para estudiantes de CS y TI.", "url": ""},
-      {"name": "Premio NCWIT Aspirations in Computing", "note": "Reconocimiento nacional y beca para estudiantes que se identifican como mujeres o no binarios en computación.", "url": "https://www.ncwit.org/programs/aspirations-computing"},
-      {"name": "Acuerdos de Participación en Ingresos (ISAs)", "note": "Muchos bootcamps cobran $0 por adelantado — reembolsas la matrícula solo después de conseguir trabajo.", "url": ""}
+      {
+        "name": "Beca Federal Pell",
+        "note": "Hasta $7,395/año en CSN o UNLV. Solicitar vía FAFSA en studentaid.gov.",
+        "url": "https://studentaid.gov"
+      },
+      {
+        "name": "Beca Nevada Promise",
+        "note": "Colegio comunitario gratuito en CSN para los graduados de Nevada calificados — cubre 3 años de tarifas de inscripción. Comienza en CSN, luego transfiere a UNLV o NSC. Solicitar antes del 31 de octubre.",
+        "url": "https://www.csn.edu/promise"
+      },
+      {
+        "name": "Beca Conmemorativa Gobernador Guinn Millennium",
+        "note": "Hasta $10,000 para graduados elegibles de Nevada en UNLV, NSC o CSN. Se evalúa automáticamente — no se requiere solicitud.",
+        "url": "https://nvigate.gov/programs/governor-guinn-millennium-scholarship"
+      },
+      {
+        "name": "Premio NCWIT Aspirations in Computing",
+        "note": "Reconocimiento nacional anual y becas para estudiantes que se identifican como mujeres o no binarios que buscan carreras en computación. Solicitar en ncwit.org/programs/aspirations-computing. Nevada tiene un afiliado estatal activo.",
+        "url": "https://www.ncwit.org/programs/aspirations-computing"
+      },
+      {
+        "name": "Becas Google / Microsoft / Amazon",
+        "note": "Las principales empresas tecnológicas ofrecen becas anuales por diversidad y mérito. La Beca Generación Google y el Programa de Becas de Microsoft se dirigen a estudiantes subrepresentados en CS. Consultar el portal de carreras/becas de cada empresa para los ciclos actuales.",
+        "url": "https://buildyourfuture.withgoogle.com/scholarships"
+      },
+      {
+        "name": "Becas NSF S-STEM — UNLV y CSN",
+        "note": "La Fundación Nacional de Ciencias financia becas STEM tanto en UNLV como en CSN para estudiantes de CS y TI con necesidad económica. Consultar en la oficina de Ayuda Financiera de tu institución de destino sobre los premios NSF S-STEM actuales.",
+        "url": "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5257"
+      },
+      {
+        "name": "Silver State Opportunity Grant (SSOG)",
+        "note": "Beca basada en necesidad para estudiantes de colegios comunitarios de Nevada. Solicitar vía FAFSA.",
+        "url": "https://nshe.nevada.edu/students/financial-aid/silver-state-opportunity-grant"
+      },
+      {
+        "name": "Acuerdos de Participación en Ingresos (ISA) — Nucamp",
+        "note": "Nucamp y otros bootcamps ofrecen inscripción con $0 por adelantado — reembolsas un porcentaje del salario solo después de conseguir un trabajo calificado. Menor riesgo financiero para estudiantes indecisos sobre el compromiso.",
+        "url": "https://www.nucamp.co"
+      }
     ]
   }
 }
